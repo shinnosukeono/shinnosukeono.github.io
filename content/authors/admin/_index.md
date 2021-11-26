@@ -1,39 +1,40 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: John P. Morrissey
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Sceintist in Granular Mechanics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: University of Edinburgh
+  url: https://www.eng.ed.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include particlulate mechanics, Discrete Element Method (DEM) and other numerical simulation tools.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Mechanics of Particlualte Solids
+- Computaitonal Methods
+- Numerical Simualtion
+- Data Analytics
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: PhD in Civil Engineering
+    institution: University of Edinburgh
+    year: 2013
+  - course: MEng in Civil Engineering
+    institution: University of Edinburgh
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BEng(Ord.) in Civil Engineering
+    institution: Cork Institute of Technology
+    year: 2006
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -48,13 +49,13 @@ social:
   link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=8slL76sAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/jpmorr
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/jpmorr/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -70,8 +71,13 @@ email: ""
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+John P. Morrissey is an experienced research scientist specialising in particulate mechanics and the Discrete Element Method (DEM) simulation of particulate systems. John completed his Ph.D. at the Univeristy of Edinburgh studying in the field of granular mechanics and developed a novel DEM contact model that could capture the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code EDEM (now Altair EDEM) as the Edinburgh Elasto-Plastic Adhesion Model (EEPA).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+As an expericined DEM user with over 10 years experinece, J.P has acquired a skillset that covers both experimental and numerical fields. J.P. was heavily involved in the development of the Edinburgh Powder Tester (EPT) whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. Working the the numerical field of DEM, where datasets are typically in the 10's-100's of GBs, learning to deal with data efficiently is a necessity. Programming, data analysis and visualisation are common tasks and python, Julia and C++ are frequently used. And while mainly a DEM user, some FEM and CFD usage has also been encountered.
+
+J.P. has been invloved in many successful projects. The recent *Models for the Manufacturing of Particulate Process (Models MPP)* project focused on establishing a generic framework and core capability to improve industrial productivity. The *VELaSSco* project was an interdisciplinary project which looked at implementing Big Data technologies for scientific and engineering situations for the Exabyte era.
+
+As a member of staff at the University of Edinburgh J.P. has taken on the roles of tutor and demonstrator in the computational geomechanics and geotechnical engineering courses. J.P. has also been involved in the supervision of final year undergraduate projects as a co-supervisor. 
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
