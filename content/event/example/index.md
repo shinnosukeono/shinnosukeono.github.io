@@ -1,28 +1,29 @@
 ---
-title: Example Talk
+title: "Boundary conditions and machine interactions: overlooked aspects of a simulation"
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: UK–China International Particle Technology Forum VII
+event_url: https://www.ptf7.eng.ed.ac.uk/ 
 
-location: Wowchemy HQ
+location: John McIntyre Conference Centre
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: Pollock Halls, 18 Holyrood Park Rd
+  city: Edinburgh
+  region: Scotland
+  postcode: 'EH16 5AY'
+  country: United Kingdom
 
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Keynote lecture in Particle design, characterisation and measurement session.
+abstract: "The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by  the  significant  improvements  that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
+However, in many cases, as we strive to make our simulations as simple as possible, we often neglect the importance of complex machine interactions, simplifying their movements or shapes. For engineers  or  scientists  trying  to  understand  the  forces  and  stresses  acting  in  their  systems,  these simplifications  may  lead  to  critical  information  being  lost  or  overlooked.  Conversely,  including  a boundary where none exists in the real system may also lead to incorrect interpretation of the results. "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2019-07-30T14:00:00Z"
+date_end: "2019-07-30T14:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2019-08-05T00:00:00Z"
 
 authors: []
 tags: []
@@ -38,7 +39,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/jp_morr
 url_code: ""
 url_pdf: ""
 url_slides: ""
