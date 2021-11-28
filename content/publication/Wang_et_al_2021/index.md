@@ -1,20 +1,27 @@
 ---
-title: "Discrete Element Modelling of Iron Ore Fines to Include the Effects of Moisture and Fines"
+title: "Model driven design for twin screw granulation using mechanistic-based population balance model"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Li Ge Wang
 - admin
+- Dana Barrasso
+- David Slade
+- Sean Clifford
+- Gavin Reynolds
+- Jin Y. Ooi
+- James D. Litster
 
 # Author notes (optional)
 # author_notes:
 
-date: "2013-07-01T00:00:00Z"
+date: "2021-07-01T00:00:00Z"
 doi: "10.1016/j.ijpharm.2021.120939"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-08-01T00:00:00Z"
+publishDate: "2021-08-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
