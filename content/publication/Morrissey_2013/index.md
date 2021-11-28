@@ -23,10 +23,10 @@ publishDate: "2017-08-01T00:00:00Z"
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Ph.D.* Thesis
-publication_short: *Ph.D.* Thesis
+publication: Ph.D. Thesis
+publication_short: Ph.D. Thesis
 
-abstract: >-
+abstract: |-
   Across industry the majority of raw materials handled are particulate in nature, ranging
   in size and properties from aggregates to powders. The stress regimes experienced
   by the granular solids vary and the exhibited bulk behaviours can be complex and
