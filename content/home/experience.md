@@ -25,7 +25,7 @@ experience:
   - title: Research Associate
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: UoE_Engineering_2_colour.jpg
+    company_logo: UoE_Engineering_2_colour.svg
     location: Edinburgh, Scotland, UK
     date_start: '2013-01-07'
     date_end: ''
@@ -39,7 +39,7 @@ experience:
   - title: Consultant
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: logo_granular_def.png
+    company_logo: logo_granular_def.svg
     location: Edinburgh, Scotland, UK
     date_start: '2013-07-01'
     date_end: ''
