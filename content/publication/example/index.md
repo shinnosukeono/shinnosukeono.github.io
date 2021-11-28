@@ -26,7 +26,7 @@ publication_types: ["7"]
 publication: In *Wowchemy Conference*
 publication_short: In *ICW*
 
-abstract: >
+abstract: >-
   Across industry the majority of raw materials handled are particulate in nature, ranging
   in size and properties from aggregates to powders. The stress regimes experienced
   by the granular solids vary and the exhibited bulk behaviours can be complex and
@@ -81,7 +81,7 @@ abstract: >
   capture the major phenomena occurring in silo discharge including the various ﬂow
   zones associated with a ﬂat bottomed silo. Funnel ﬂow, the effective transition and
   mass ﬂow which are associated with a mixed ﬂow pattern were observed in the model
-  silo. The location of the effective transition height was identiﬁed: above this was mass
+  silo. The location of the effective transition height was identiﬁed&#58; above this was mass
   ﬂow. The velocity determined from the discharge rate was found to be in excellent
   agreement with the velocity proﬁles found in the zones of mass ﬂow. A high velocity
   core ﬂow zone was observed above the outlet where velocities were greater than 1.25
