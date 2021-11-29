@@ -1,40 +1,41 @@
 ---
-title: "An assessment and unification of bond models in DEM simulations"
+title: "Benchmarking large scale GPR experiments on railway ballast"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Xizhong Chen
+- R. De Bold
+- G. O' Connor 
 - admin
-- Jin Ooi
+- M.C. Force
 
 # Author notes (optional)
 # author_notes:
 
-date: "2021-11-16T00:00:00Z"
-doi: ""
+date: "2015-07-01T00:00:00Z"
+doi: "10.1016/j.conbuildmat.2014.09.036"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-12-01T00:00:00Z"
+publishDate: "2015-08-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Granular Matter*
-publication_short: In *Gran. Matt.*
+publication: In *Construction and Building Materials, Vol. 92*
+publication_short: In *Con. Build. Mat.*
 
 abstract: |-
-  Bonded contact models have been increasingly used in the discrete element method (DEM) to study cemented and sintered particulate materials in recent years. Several popular DEM bond models have been proposed in the literature; thus it is beneficial to assess the similarities and differences between the different bond models before they are used in simulations. This paper identifies and discusses two fundamental types of bond models: the Spring Bond Model where two bonded particles are joined by a set of uniform elastic springs on the bond's cross-section, and the Beam Bond Model in which a beam is used to connect the centres of two particles. A series of cantilever beam bending simulation cases were carried out to verify the findings and assess the strength and weakness of the bond models. Despite the numerous bond models described in the literature, they can all be considered as a variation of these two fundamental model types. The comparative evaluation in this paper also shows that all the bond models investigated can be unified to a general form given at a predefined contact point location.
+  Abstract The overall aim of this project was to relate ground penetrating radar (GPR) to a ballast fouling index (FI). Laboratory research aimed at characterising the electromagnetic properties has enabled researchers worldwide to determine ballast thickness using impulse ground penetrating radar (GPR) - based upon derived values of the relative electrical permittivity or dielectric constant. In this paper, a series of GPR experiments, following on from these laboratory experiments, were undertaken on a full scale track bed using a range of bowtie antennas from 500 MHz to 2.6 GHz. The key innovation reported is the use of scatter analyses of the GPR waveforms, featuring area, axis crossing and inflexion point analyses. These scatter analyses were then used to predict the Ionescu ballast fouling index. A correlation coefficient greater than 0.9 was obtained by using a 500 MHz bowtie antenna in the parallel orientation in conjunction with a scan area analysis.
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["DEM", "Beam bond model", "Bonded-particle model", "Cantilever beam", "Fracture", "Parallel bond model", "Timoshenko-Ehrenfest", "Euler-Bernoulli"]
+tags: ["Analysis", "Ballast", "Benchmarking", "GPR", "Maintenance", "Railway", "Spent", "Testing", "Track bed"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -44,7 +45,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 10.1016/j.conbuildmat.2014.09.036
 url_code: ''
 url_dataset: ''
 url_poster: ''
