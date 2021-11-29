@@ -14,7 +14,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: DEM simulation of granule formation in a TSG
   focal_point: Smart
 
 links:

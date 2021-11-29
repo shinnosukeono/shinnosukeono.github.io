@@ -32,7 +32,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**CPI**](https://www.uk-cpi.com/about/national-centres/national-formulation-centre)'
   focal_point: Right
 
 links:
