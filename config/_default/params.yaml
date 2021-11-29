@@ -7,8 +7,8 @@
 
 theme: mr_robot
 day_night: true
-font: ''
-font_size: L
+font: minimal
+font_size: M
 
 # SEO
 
@@ -122,9 +122,9 @@ comments:
   provider: ''
   commentable:
     post: true
-    book: true
-    project: true
-    publication: true
+    book: false
+    project: false
+    publication: false
     event: true
   disqus:
     shortname: ''
@@ -139,7 +139,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: 'google'
+  provider: 'mapnik'
   api_key: ''
   zoom: 16
 marketing:
