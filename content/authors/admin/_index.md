@@ -6,7 +6,7 @@ title: John P. Morrissey
 superuser: true
 
 # Role/position/tagline
-role: Research Sceintist in Granular Mechanics
+role: Research Scientist in Granular Mechanics
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -26,13 +26,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Civil Engineering
+  - course: Ph.D. in Civil Engineering
     institution: University of Edinburgh
     year: 2013
-  - course: MEng in Civil Engineering
+  - course: M.Eng. in Civil Engineering
     institution: University of Edinburgh
     year: 2009
-  - course: BEng(Ord.) in Civil Engineering
+  - course: B.Eng. (Ord.) in Civil Engineering
     institution: Cork Institute of Technology
     year: 2006
 
@@ -46,7 +46,7 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/jp_morr
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=8slL76sAAAAJ&hl=en
