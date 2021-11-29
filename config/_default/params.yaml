@@ -72,6 +72,8 @@ address_format: en-gb
 highlight: true
 highlight_languages:
   - r
+  - python
+  - latex
 math: false
 diagram: false
 privacy_pack: false
@@ -136,7 +138,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: '2'
+  provider: openstreetmap
   api_key: ''
   zoom: 15
 marketing:
