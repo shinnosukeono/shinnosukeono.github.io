@@ -59,8 +59,9 @@ social:
 - icon: orcid 
   icon_pack: fab
   link: https://orcid.org/0000-0002-2389-8146
-
-
+- icon: researchgate 
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/John-Morrissey-2
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
