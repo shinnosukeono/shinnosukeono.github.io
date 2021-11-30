@@ -41,7 +41,7 @@ gallery_item:
   caption: Screw Configuration
 - album: mmpp
   image: TSG_streamlines.png
-  caption: Streamline in full-scale TSG
+  caption: Particle streamlines in full-scale TSG
 - album: mmpp
   image: CG_solidfraction.png
   caption: Solid fraction distribution
@@ -78,5 +78,6 @@ The legacy capability established from this project will be applied to other CPI
 
 CPI was part of a highly-effective consortium that worked on the project, with key industrial contributions from Astra Zeneca, Pfizer, Procter & Gamble and Johnson Matthey, and SMEs including EDEM Simulations and Process Systems Enterprise (PSE).
 
+## Project Gallery
 {{< gallery album="mmpp" >}} 
 
