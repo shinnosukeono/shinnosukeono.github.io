@@ -64,9 +64,12 @@ The typical process of calibrating DEM contact model parameters involves tuning 
 ## The Case for Uniaxial Testers
 For example, in industry the flow function of a cohesive solid is typically measured using either a ring shear tester or Jenike shear tester but these have some drawbacks. The Jenike test, whilst appearing to be quite straight forward is time consuming and can often be highly operator sensitive, both of which are problems when you want to have a high level of confidence in the result to use for calibration. Ring shear testers remove the operator sensitivity and repeatability problem by being highly automated, computer controlled devices but these can be very expensive to purchase and maintain. They also have particle size restrictions due to their small volume and may be limited to relatively low stress ranges which may not cover the range of interest. 
 
-Uniaxial testers offer an alternative method for characterising the flowability of powders and fine granular materials in industrial situations. Uniaxial testers apply a consolidation stress vertically and also apply the failure load vertically. This is appealing for two reasons: firstly it’s a mechanically simple device that’s easy to operate and secondly it’s physical similarity to the stress path associated with arching and the unconfined yield strength [^2]. One of the challenges with uniaxial testers is achieving a uniform level of consolidation throughout the depth of the sample, as wall friction can mean that the vertical stress in the sample at the bottom is significantly lower than the vertical stress applied at the top surface. To combat this there have been many designs considered over the years to deal this, each with their own strengths [^3]<sup>,</sup>[^4]<sup>,</sup>[^5]. 
+Uniaxial testers offer an alternative method for characterising the flowability of powders and fine granular materials in industrial situations. Uniaxial testers apply a consolidation stress vertically and also apply the failure load vertically. This is appealing for two reasons: firstly it’s a mechanically simple device that’s easy to operate and secondly it’s physical similarity to the stress path associated with arching and the unconfined yield strength [^2]. 
+One of the challenges with uniaxial testers is achieving a uniform level of consolidation throughout the depth of the sample, as wall friction can mean that the vertical stress in the sample at the bottom is significantly lower than the vertical stress applied at the top surface. To combat this there have been many designs considered over the years to deal this, each with their own strengths [^3]<sup>,</sup>[^4]<sup>,</sup>[^5]. 
 
-The University of Edinburgh had previous experience of developing successful uniaxial testers for large diameter particles [^6]. From this experience the **Edinburgh Powder Tester (EPT)** was developed for measuring the flowability of highly compressible, high value powders. While many previous efforts have focussed heavily on accurate laboratory measurement of unconfined yield strength, the Edinburgh testers aimed at speed, robustness and high repeatability for industrial use, with a close match to a Jenike cell being a secondary objective [^2]. The key differences between the Edinburgh Powder Tester and some previous devices lie in the attention to mechanical details for both the consolidation and failure load application and the strategic intent [^2], which means the EPT offers repeatability results in the range of 5-10% relative standard deviation (RSD) for a vast range of materials [^7]<sup>,</sup> [^8].
+The University of Edinburgh had previous experience of developing successful uniaxial testers for large diameter particles [^6]. From this experience the **Edinburgh Powder Tester (EPT)** was developed for measuring the flowability of highly compressible, high value powders. 
+While many previous efforts have focussed heavily on accurate laboratory measurement of unconfined yield strength, the Edinburgh testers aimed at speed, robustness and high repeatability for industrial use, with a close match to a Jenike cell being a secondary objective [^2]. 
+The key differences between the Edinburgh Powder Tester and some previous devices lie in the attention to mechanical details for both the consolidation and failure load application and the strategic intent [^2], which means the EPT offers repeatability results in the range of 5-10% relative standard deviation (RSD) for a vast range of materials [^7]<sup>,</sup> [^8].
 
 <!-- <p align="center">
   <img alt="Light" src="https://...light.png" width="45%">
@@ -75,11 +78,11 @@ The University of Edinburgh had previous experience of developing successful uni
 </p> -->
 
 <p float="left">
-  <img src="fig_1.jpg" width="30%" />
+  <img src="fig_1.jpg" width="25%" title="**Fig. 1 - EPT**"/>
   &nbsp; &nbsp;
-  <img src="fig_2.jpg" width="30%" /> 
+  <img src="fig_2.jpg" width="25%" /> 
   &nbsp; &nbsp;
-  <img src="fig_3.jpg" width="30%" />
+  <img src="fig_3.jpg" width="25%" />
 </p>
 
 
@@ -94,7 +97,7 @@ Recently, [Freeman Technology](https://www.freemantech.co.uk/); which has many y
 </p>
 
 ## A DEM Example Case
-At the University of Edinburgh, we have used uniaxial testers (EPT/UPT) extensively for calibrating DEM parameters for the Edinburgh Cohesion Model in EDEM [^7]<sup>,</sup>[^8]<sup>,</sup>[^9],^[^10]<sup>,</sup>[^11]<sup>,</sup>[^12] (which is currently available on the EDEM User forum and will be part of future versions of EDEM) due to the high level of repeatability and the flexibility to measure key properties quickly and easily in the laboratory. 
+At the University of Edinburgh, we have used uniaxial testers (EPT/UPT) extensively for calibrating DEM parameters for the Edinburgh Cohesion Model in EDEM [^7]<sup>,</sup>[^8]<sup>,</sup>[^9]<sup>,</sup>[^10]<sup>,</sup>[^11]<sup>,</sup>[^12] (which is currently available on the EDEM User forum and will be part of future versions of EDEM) due to the high level of repeatability and the flexibility to measure key properties quickly and easily in the laboratory. 
 
 As an example, the measured stress-strain curves from the EPT for an iron ore solid at varying moisture contents (levels of cohesion) are shown in **Figure 6** and **Figure 7**. A typical set of unconfined test results that make up a single uniaxial flow function (the peak strength vs. the consolidation stress) are shown for the same iron ore fines in **Figure 8** for a single moisture content. 
 
@@ -104,7 +107,7 @@ As an example, the measured stress-strain curves from the EPT for an iron ore so
 
 {{< figure src="fig_8.png" title="**Figure 8 - Measured bulk density variation of iron ore fines**" >}}
 
-These measured values provide the range of various properties to be captured within the DEM simulation. A typical DEM simulation of a cohesive solid in the EPT is shown in **Figure 9**. The DEM simulation consists of the filling, confined compression, unloading of the sample and the crushing to failire of the unconfined sample.
+These measured values provide the range of various properties to be captured within the DEM simulation. A typical DEM simulation of a cohesive solid in the EPT is shown in **Figure 9**. The DEM simulation consists of the filling, confined compression, unloading of the sample and the crushing to failure of the unconfined sample.
 
 {{< figure src="fig_9.png" title="**Figure 9 - DEM simulation of cohesive solid in the EPT:** a) Filling b) Confined consolidation c) Unloading and removal of confining sleeve d) Loading to Unconfined failure (uUYS)" >}}
 
