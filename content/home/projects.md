@@ -31,16 +31,14 @@ content:
     tag: DEM
   - name: Coupled Models
     tag: Coupled Models
-  - name: PBM
-    tag: PBM
   - name: Calibration
     tag: Calibration
   - name: Characterisation
     tag: Characterisation
   - name: Analysis
     tag: Analysis
-  - name: Deep Learning
-    tag: Deep Learning
+  - name: Data Anlaytics
+    tag: Data Anlaytics
   - name: Other
     tag: Other
 
@@ -54,7 +52,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 2
+  view: 3
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
