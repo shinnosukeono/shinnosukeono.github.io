@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of Ground Penetrating Radar (GPR) responses from full-scale model railway track under variable conditions."
+title: "Evaluation of Ground Penetrating Radar (GPR) responses from full-scale model railway track under variable conditions"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
