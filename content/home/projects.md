@@ -30,7 +30,7 @@ content:
   - name: DEM
     tag: DEM
   - name: Coupled Models
-    tag: ["Coupling", "Coupled Models"]
+    tag: Coupled Models
   - name: PBM
     tag: PBM
   - name: Calibration
@@ -42,7 +42,7 @@ content:
   - name: Deep Learning
     tag: Deep Learning
   - name: Other
-    tag: ["FEM", "CFD", "Other"]
+    tag: Other
 
 
 design:
