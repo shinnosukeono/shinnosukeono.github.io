@@ -27,10 +27,23 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: DEM
+    tag: DEM
+  - name: Coupled Models
+    tag: ["Coupling", "Coupled Models"]
+  - name: PBM
+    tag: PBM
+  - name: Calibration
+    tag: Calibration
+  - name: Characterisation
+    tag: Characterisation
+  - name: Analysis
+    tag: Analysis
   - name: Deep Learning
     tag: Deep Learning
   - name: Other
-    tag: Demo
+    tag: ["FEM", "CFD", "Other"]
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
