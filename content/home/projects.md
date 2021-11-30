@@ -35,10 +35,8 @@ content:
     tag: Calibration
   - name: Characterisation
     tag: Characterisation
-  - name: Analysis
-    tag: Analysis
-  - name: Data Anlaytics
-    tag: Data Anlaytics
+  - name: Analytics
+    tag: Analytics
   - name: Other
     tag: Other
 
