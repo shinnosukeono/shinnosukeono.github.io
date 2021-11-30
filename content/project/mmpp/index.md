@@ -4,10 +4,10 @@ summary: A project focused on establishing a generic framework and core capabili
 tags:
 - Model Driven Design (MDD) Framewrok
 - DEM
+- PBM
 - DEM-PBM
-- Coupling
-- accelerate
-- deploy
+- Coupled Models
+
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
