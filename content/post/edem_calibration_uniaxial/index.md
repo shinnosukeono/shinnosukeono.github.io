@@ -60,6 +60,13 @@ The simplicity and flexibility of uniaxial testers, coupled with a high level of
 
 {{< figure src="upt_consolidation_station.jpg" title="**Offline consolidation station for time consolidation and temperature & humidity testing**" >}}
 
+
+## License
+
+Copyright 2019-present [J.P. Morrissey](https://johnpmorrissey.com).
+Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+
+
 ## References
 [^1]:	T.A. Bell, E.J. Catalano, Z. Zhong, J.Y. Ooi, J.M. Rotter, *Evaluation of the Edinburgh powder tester*, in: PARTEC 2007 - Congr. Part. Technol., Nürnberg, 2007: pp. 1–6. http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Evaluation+of+the+Edinburgh+Powder+Tester#0 (accessed October 5, 2019).
 
@@ -78,7 +85,3 @@ The simplicity and flexibility of uniaxial testers, coupled with a high level of
 
 
 
-## License
-
-Copyright 2019-present [J.P. Morrissey](https://johnpmorrissey.com).
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
