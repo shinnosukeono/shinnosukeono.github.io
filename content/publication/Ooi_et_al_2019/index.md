@@ -28,8 +28,8 @@ publishDate: "2019-08-01T00:00:00Z"
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: * Proceedings of the 7th UK–China International Particle Technology Forum*
-publication_short: * PTF7 Proceedings*
+publication: "*Proceedings of the 7th UK–China International Particle Technology Forum*"
+publication_short: "*PTF7 Proceedings*"
 
 abstract: |-
 
