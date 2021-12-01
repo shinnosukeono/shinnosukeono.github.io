@@ -107,7 +107,7 @@ summary: ""
 tags: ["DEM", "Cohesion", "Silo", "Silo Discharge", "Contact model", "Iron ore", "Granular solid", "fines", "EEPA"]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -126,7 +126,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: '**Silo Discharge:** Cohesionless vs. Cohesive comparison'
+  caption: '**DEM Silo Discharge**'
   focal_point: "Center"
   preview_only: false
 

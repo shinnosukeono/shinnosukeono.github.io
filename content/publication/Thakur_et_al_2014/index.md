@@ -39,7 +39,7 @@ summary: ""
 tags: ["cohesive material", "contact model", "discrete element method", "DEM", "plasticity", "powder flow", "uniaxial test"]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
