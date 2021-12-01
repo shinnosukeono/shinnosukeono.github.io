@@ -39,7 +39,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: " VELaSSCo (Visualization for Extremely Large-Scale Scientific Computing) is a platform developed to provide new visual analysis methods for large-scale simulations serving the petabyte era. The platform adopts Big Data tools/architectures to enable in-situ processing for analytics of engineering and scientific data and hardware-accelerated interactive visualization."
 
 tags: ["Apache Hadoop", "DEM", "Discrete element method", "HBase", "data analytics", "discrete-to-continuum", "visualization"]
 

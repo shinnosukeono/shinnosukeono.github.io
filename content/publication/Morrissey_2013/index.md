@@ -102,7 +102,7 @@ abstract: |-
   cohesive arches over the silo outlet were also observed with stopped ﬂow from the silo.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Experimental characterisation and numerical modelling of iron ore fines. A new adhesive contact model (**EEPA model**) is developed and used to simulate cohesive iron ore fines and numerically investigate cohesive silo discharge."
 
 tags: ["DEM", "Cohesion", "Silo", "Silo Discharge", "Contact model", "Iron ore", "Granular solid", "fines", "EEPA"]
 
