@@ -104,7 +104,7 @@ abstract: |-
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["DEM", "Cohesion", "Silo", "Contact model", "Iron ore", "Granular solid", "fines"]
+tags: ["DEM", "Cohesion", "Silo", "Silo Discharge", "Contact model", "Iron ore", "Granular solid", "fines", "EEPA"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -126,8 +126,8 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
+  caption: '**Silo Discharge:** Cohesionless vs. Cohesive comparison'
+  focal_point: "Center"
   preview_only: false
 
 # Associated Projects (optional).
@@ -135,7 +135,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: ''
+projects: 
+ - phd
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -146,12 +147,10 @@ slides: ""
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the *Cite* button above to get publication metadata for your reference management software in *.bib* format.
 {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 

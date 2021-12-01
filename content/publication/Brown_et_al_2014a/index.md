@@ -46,12 +46,12 @@ featured: false
 
 # Custom links (uncomment lines below)
 links:
-- name: WIN x64
+- name: win_x64
   url: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EdinburghBondedParticleModel_win_x64.zip
-- name: WIN x64
+- name: linux_x64
   url: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EdinburghBondedParticleModel_Linux_x64.zip
 
-url_pdf: ''
+url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EBPM_ReferenceManual.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
