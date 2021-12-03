@@ -77,18 +77,18 @@ The key differences between the Edinburgh Powder Tester and some previous device
   <img alt="Dark" src="https://...dark.png" width="45%">
 </p> -->
 
-<p float="left">
+<!-- <p float="left">
   <img src="fig_1.jpg" width="25%" title="**Fig. 1 - EPT**"/>
   &nbsp; &nbsp;
   <img src="fig_2.jpg" width="25%" /> 
   &nbsp; &nbsp;
   <img src="fig_3.jpg" width="25%" />
-</p>
+</p> -->
 
 <div class="row">
-<img src=fig_1.jpg alt="Github stars" title="Github stars"/>
-<img src=fig_2.jpg alt="Language" title="Language"/>
-<img src=fig_3.jpg alt="Last Tag" title="Last Tag"/>
+<img src=fig_1.jpg alt="Github stars" width="25%" title="Github stars"/>
+<img src=fig_2.jpg alt="Language" width="25%" title="Language"/>
+<img src=fig_3.jpg alt="Last Tag" width="25%" title="Last Tag"/>
 </div>
 
 It is the simplicity and flexibility of uniaxial testers, coupled with a high level of repeatability, that make uniaxial testers ideal tools for calibrating DEM simulations of cohesive solids. For example, the EPT, which is a semi-automated uniaxial tester, can provide rapid measurements of various bulk mechanical properties of powders, including the stress–strain and the stress–porosity response during confined compression, the stress–strain response during unconfined compression including the peak unconfined strength and the caking strength over time consolidation, all of which can be utilised for calibrating you DEM simulation of a cohesive solid. 
