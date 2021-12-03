@@ -22,13 +22,13 @@ feature:
   name: Python
 
 - description: 80%
-  icon: chart-line
-  icon_pack: fas
+  icon: icons8-matlab
+  icon_pack: "custom"
   name: MATLAB
 
 - description: 100%
-  icon: chart-line
-  icon_pack: fas
+  icon: icons8-solidworks-flow-simulation
+  icon_pack: "custom"
   name: Numerical Simulations
 
 - description: 80%
