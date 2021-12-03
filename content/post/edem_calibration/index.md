@@ -38,12 +38,17 @@ tags:
 - EPT
 - UPT
 - Calibration
+- Freeman Technology
 
 categories:
 - Numerical Methods
 - Calibration
 
 ---
+
+{{% callout note %}}
+This post was originally published on [www.edemsimulation.com](www.edemsimulation.com).
+{{% /callout %}}
 
 ## Introduction
 Over the years, as the popularity of the Discrete Element Method (DEM) has continued to grow, it has been increasingly used as a design tool. The accuracy of these models largely depends on the chosen DEM model and its parameters, and as pointed out in a post by David Curry (What numbers should I put in? The perennial question for DEM users) the adage of “*garbage in – garbage out*” holds true when carrying out DEM simulations. For cohesionless materials we have a range of parameters to account for - size, shape, stiffness and friction being some of the more commonly considered. But how many materials are truly cohesionless? Not many, so we end up having to add some additional parameters to our DEM simulations to account for the additional cohesive forces in the material. The origin of these cohesive forces and their respective mechanics vary from long and short range non-contact interaction forces, mechanical interlock, electrostatic forces, solid bridges and liquid bridges to name but a few.  
@@ -86,9 +91,9 @@ The key differences between the Edinburgh Powder Tester and some previous device
 </p> -->
 
 <div class="row">
-<img src=fig_1.jpg alt="Figure 1 - Edinburgh Powder Tester (EPT)" width="31%" title="**Figure 1 - Edinburgh Powder Tester (EPT)**"/>
-<img src=fig_2.jpg alt="Figure 2 - Consolidated sample exposed prior to failure" width="31%" title="**Figure 2 - Consolidated sample exposed prior to failure**"/>
-<img src=fig_3.jpg alt="Figure 3 - Failed sample" width="31%" title="**Figure 3 - Failed sample**"/>
+<img src=fig_1.jpg alt="Figure 1 - Edinburgh Powder Tester (EPT)" width="31%" title="Figure 1 - Edinburgh Powder Tester (EPT)"/>
+<img src=fig_2.jpg alt="Figure 2 - Consolidated sample exposed prior to failure" width="31%" title="Figure 2 - Consolidated sample exposed prior to failure"/>
+<img src=fig_3.jpg alt="Figure 3 - Failed sample" width="31%" title="Figure 3 - Failed sample"/>
 </div>
 
 It is the simplicity and flexibility of uniaxial testers, coupled with a high level of repeatability, that make uniaxial testers ideal tools for calibrating DEM simulations of cohesive solids. For example, the EPT, which is a semi-automated uniaxial tester, can provide rapid measurements of various bulk mechanical properties of powders, including the stress–strain and the stress–porosity response during confined compression, the stress–strain response during unconfined compression including the peak unconfined strength and the caking strength over time consolidation, all of which can be utilised for calibrating you DEM simulation of a cohesive solid. 
@@ -96,8 +101,9 @@ It is the simplicity and flexibility of uniaxial testers, coupled with a high le
 Recently, [Freeman Technology](https://www.freemantech.co.uk/); which has many years of experience of both powder testing and development of testing apparatus, including extensive knowledge of shear cells; entered into a highly productive collaboration with the *University of Edinburgh*, *DuPont* and *The Chemours Company* to develop a uniaxial powder tester for the commercial market that incorporates the key design elements of the EPT. The result of this collaboration is **‘The New Uniaxial Powder Tester from Freeman Technology’** which is a standalone uniaxial shear tester for powders, capable of testing a stress range of up to 100 kPa. The UPT comes in two versions: a manual version, which is ideally suited for quality control measurement in industrial situations and the advanced version with increased automation and reduction in operator inputs and advanced data logging capabilities which makes it very suitable as a DEM calibration tool for cohesive powders. 
 
 <div class="row">
-<img src=fig_4.jpg alt="Figure 4 - Freeman UPT" width="46%" title="**Figure 4 - Freeman UPT**"/>
-<img src=fig_5.jpg alt="Figure 5 - Consolidation Station" width="46%" title="**Figure 5 - Consolidation Station**"/>
+<img src=fig_4.jpg alt="Figure 4 - Freeman UPT" width="55%" title="Figure 4 - Freeman UPT"/>
+&nbsp;
+<img src=fig_5.jpg alt="Figure 5 - Consolidation Station" width="40%" title="Figure 5 - Consolidation Station"/>
 </div>
 
 ## A DEM Example Case
