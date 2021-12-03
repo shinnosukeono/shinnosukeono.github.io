@@ -34,9 +34,16 @@ slides: ''
 ---
 
 **Date:** 12-13 December, 2013
+
 **Event:** Telford-UKIERI workshop on Anisotropic, heterogeneous and cellular materials: From microarchitecture to macro-level response
+
 **Location:** University of Edinburgh, Edinburgh, UK
 
 Powders and bulk solids are stored and handled in large quantities in many industries. The materials can differ greatly in size, shape and type but are commonly affected by handling and storage difficulties, such as the blockage of silo outlets or transfer points, which occur as a result of the development of cohesion.
 
 Adhesive forces between particles in a granular material are known to be dependent on the external forces previously exerted on the bulk solid. As a result, the previous stress states of a bulk solid need to be considered when evaluating the adhesive strength of a bulk material.
+
+{{% callout note %}}
+Click the *Cite* button above to get publication metadata for your reference management software in *.bib* format.
+{{% /callout %}}
+
