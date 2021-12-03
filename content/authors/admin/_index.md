@@ -14,13 +14,13 @@ organizations:
   url: https://www.eng.ed.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include particlulate mechanics, Discrete Element Method (DEM) and other numerical simulation tools.
+bio: My research interests include particulate mechanics, the Discrete Element Method (DEM) and other numerical simulation tools. I'ma also interested in all things data and how to extract meaningful information from it.
 
 # Interests to show in About widget
 interests:
-- Mechanics of Particlualte Solids
-- Computaitonal Methods
-- Numerical Simualtion
+- Mechanics of Particulate Solids
+- Computational Methods
+- Numerical Simulation
 - Data Analytics
 
 # Education to show in About widget
@@ -77,11 +77,13 @@ email: ""
 highlight_name: true
 ---
 
-John P. Morrissey is an experienced research scientist specialising in particulate mechanics and the Discrete Element Method (DEM) simulation of particulate systems. John completed his Ph.D. at the Univeristy of Edinburgh studying in the field of granular mechanics and developed a novel DEM contact model that could capture the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code EDEM (now Altair EDEM) as the Edinburgh Elasto-Plastic Adhesion Model (EEPA).
+John P. Morrissey is an experienced research scientist specialising in particulate mechanics and the Discrete Element Method (DEM) simulation of particulate systems. J.P. completed his Ph.D. at the University of Edinburgh studying in the field of granular mechanics and developed a novel DEM contact model that could capture the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code **EDEM** (now Altair EDEM) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
 
-As an expericined DEM user with over 10 years experinece, J.P has acquired a skillset that covers both experimental and numerical fields. J.P. was heavily involved in the development of the Edinburgh Powder Tester (EPT) whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. Working the the numerical field of DEM, where datasets are typically in the 10's-100's of GBs, learning to deal with data efficiently is a necessity. Programming, data analysis and visualisation are common tasks and python, Julia and C++ are frequently used. And while mainly a DEM user, some FEM and CFD usage has also been encountered.
+With over 10 years research experience, J.P has acquired a skillset that covers both the experimental and numerical fields. 
+J.P. was heavily involved in the development of the **Edinburgh Powder Tester (EPT)** whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. 
+Working the the numerical field of DEM, where datasets are typically in the 10-100's of GBs, learning to deal with data efficiently is a necessity. Programming, data analysis and visualisation are common tasks and *python*, *Julia* and *C++* are frequently used. And while mainly a DEM user, FEM and CFD are also used.
 
-J.P. has been invloved in many successful projects. The recent *Models for the Manufacturing of Particulate Process (Models MPP)* project focused on establishing a generic framework and core capability to improve industrial productivity. The *VELaSSco* project was an interdisciplinary project which looked at implementing Big Data technologies for scientific and engineering situations for the Exabyte era.
+J.P. has been involved in many successful projects. The recent *Models for the Manufacturing of Particulate Process (Models MPP)* project focused on establishing a generic modelling framework and core capability to improve industrial productivity. The *VELaSSCo* project was an interdisciplinary project which looked at implementing *Big Data* technologies for scientific and engineering situations for the Exabyte era.
 
 As a member of staff at the University of Edinburgh J.P. has taken on the roles of tutor and demonstrator in the computational geomechanics and geotechnical engineering courses. J.P. has also been involved in the supervision of final year undergraduate projects as a co-supervisor. 
 
