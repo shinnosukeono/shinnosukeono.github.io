@@ -1,7 +1,7 @@
 ---
 title: "Multiscale Modelling of a Twin Screw Granulator"
 summary: "Poster at *Royal Society of Chemistry Formative Formulation Workshop, Maxwell Centre, University of Cambridge*"
-tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
+tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 
 date: "2019-03-18T00:00:00Z"
 doi: "10.13140/RG.2.2.35252.58240"

@@ -1,7 +1,7 @@
 ---
 title: "Dealing with a sticky situation: Modelling cohesive frictional granular solids"
 summary: "Poster at *Telford-UKIERI workshop on Anisotropic, heterogeneous and cellular materials: From microarchitecture to macro-level response*"
-tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
+tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 
 date: "2013-12-12T00:00:00Z"
 

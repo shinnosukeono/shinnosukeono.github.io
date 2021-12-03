@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Multiscale Modelling of a Twin Screw Granulator"
 summary: "Poster at *8th World Congress on Particle Technology, Orlando, FL., USA*"
-tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
+tags: ["Conference", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 
 date: "2018-04-24T00:00:00Z"
 doi: "10.13140/RG.2.2.16645.17123/1"

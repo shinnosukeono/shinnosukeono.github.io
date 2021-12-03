@@ -1,7 +1,7 @@
 ---
 title: "Modelling a Twin Screw Granulator using the Discrete Element Method"
 summary: "Poster at *8th World Congress on Particle Technology, Orlando, FL., USA*"
-tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
+tags: ["Conference", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 
 date: "2018-04-24T00:00:00Z"
 doi: "10.13140/RG.2.2.18480.17926"
