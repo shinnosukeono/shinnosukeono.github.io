@@ -17,19 +17,19 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 90%
+  icon: icons8-solidworks-flow-simulation
+  icon_pack: "custom"
+  name: Numerical Simulations
+  
+- description: 90%
   icon: python
   icon_pack: fab
   name: Python
 
-- description: 80%
+- description: 75%
   icon: icons8-matlab
   icon_pack: "custom"
   name: MATLAB
-
-- description: 100%
-  icon: icons8-solidworks-flow-simulation
-  icon_pack: "custom"
-  name: Numerical Simulations
 
 - description: 80%
   icon: chart-line
@@ -40,6 +40,11 @@ feature:
   icon: r-project
   icon_pack: fab
   name: R
+
+- description: 25%
+  icon: file-code
+  icon_pack: fas 
+  name: Programming
 
 - description: 10%
   icon: camera-retro
