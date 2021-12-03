@@ -91,6 +91,13 @@ The key differences between the Edinburgh Powder Tester and some previous device
 <img src=fig_3.jpg alt="Last Tag" width="25%" title="Last Tag"/>
 </div>
 
+<div class="row">
+{{< figure src="fig_1.png" width="30%" title="**Figure 1 - Edinburgh Powder Tester (EPT)**" >}}
+{{< figure src="fig_2.png" width="30%" title="**Figure 2 - Consolidated sample exposed prior to failure**" >}}
+{{< figure src="fig_3.png" width="30%" title="**Figure 3 - Failed sample**" >}}
+</div>
+
+
 It is the simplicity and flexibility of uniaxial testers, coupled with a high level of repeatability, that make uniaxial testers ideal tools for calibrating DEM simulations of cohesive solids. For example, the EPT, which is a semi-automated uniaxial tester, can provide rapid measurements of various bulk mechanical properties of powders, including the stress–strain and the stress–porosity response during confined compression, the stress–strain response during unconfined compression including the peak unconfined strength and the caking strength over time consolidation, all of which can be utilised for calibrating you DEM simulation of a cohesive solid. 
 
 Recently, [Freeman Technology](https://www.freemantech.co.uk/); which has many years of experience of both powder testing and development of testing apparatus, including extensive knowledge of shear cells; entered into a highly productive collaboration with the *University of Edinburgh*, *DuPont* and *The Chemours Company* to develop a uniaxial powder tester for the commercial market that incorporates the key design elements of the EPT. The result of this collaboration is **‘The New Uniaxial Powder Tester from Freeman Technology’** which is a standalone uniaxial shear tester for powders, capable of testing a stress range of up to 100 kPa. The UPT comes in two versions: a manual version, which is ideally suited for quality control measurement in industrial situations and the advanced version with increased automation and reduction in operator inputs and advanced data logging capabilities which makes it very suitable as a DEM calibration tool for cohesive powders. 
