@@ -35,7 +35,7 @@ tags: ["EDEM", "API", "MBD", "Coupling"]
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: **EDEM**'
   focal_point: Right
 
 links:
@@ -61,7 +61,8 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- example
+- phd
+
 ---
 
 {{% callout note %}}

@@ -40,8 +40,8 @@ tags: ["DEM", "Cohesion", "Wall Pressure", "Silo Discharge"]
 featured: false
 
 image:
-  caption: 'Image credit: [**CPI**](https://www.uk-cpi.com/about/national-centres/national-formulation-centre)'
-  focal_point: Right
+  caption: 
+  focal_point: smart
 
 links:
 - icon: twitter
