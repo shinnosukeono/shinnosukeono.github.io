@@ -15,7 +15,7 @@ address:
 summary: Invited talk at the Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, China.
 
 abstract: |-
-  The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by the significant improvements that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
+  The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by the significant improvements that  have  been made in computing  hardware, particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
   
   This has lead to the application of DEM in fields such as geotechnical engineering and rock mechanics as a means to solve challenging problems that other numerical methods are not suited to.
 
@@ -28,8 +28,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-10-22T00:00:00Z"
 
-authors: 
- - admin
+authors: []
 
 tags: ["DEM", "Geotechnics", "Cohesion", "Soil" "Rock", "Bonded"]
 
