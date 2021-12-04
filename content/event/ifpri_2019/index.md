@@ -7,11 +7,11 @@ event_url: https://ifpri.net/events/2019-ifpri-winter-meeting
 
 location: Van der Valk Hotel Schipol Airport
 address:
-  street: Riksweg A4 3 
+  street: "Riksweg A4 3" 
   city: Amsterdam
   region: Hoofddorp
   postcode: '2132 MA'
-  country: The Netherlands
+  country: "The Netherlands"
 
 summary: "Presentation on the Model Driven Design framework at **IFPRI Invited Session** on the outcomes of the Model Driven Design in Particulate Products Manufacturing Project".
 
