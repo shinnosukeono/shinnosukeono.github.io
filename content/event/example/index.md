@@ -12,7 +12,8 @@ address:
   postcode: 'EH16 5AY'
   country: United Kingdom
 
-summary: Keynote lecture in Particle design, characterisation and measurement session.
+summary: Keynote lecture in Particle design, characterisation and measurement session at the UK–China International Particle Technology Forum VII.
+
 abstract: "The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by  the  significant  improvements  that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
 However, in many cases, as we strive to make our simulations as simple as possible, we often neglect the importance of complex machine interactions, simplifying their movements or shapes. For engineers  or  scientists  trying  to  understand  the  forces  and  stresses  acting  in  their  systems,  these simplifications  may  lead  to  critical  information  being  lost  or  overlooked.  Conversely,  including  a boundary where none exists in the real system may also lead to incorrect interpretation of the results. "
 

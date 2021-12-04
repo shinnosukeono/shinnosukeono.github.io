@@ -13,7 +13,8 @@ address:
   postcode: 'EH9 3DW'
   country: United Kingdom
 
-summary: Keynote lecture in Particle design, characterisation and measurement session.
+summary: "Presented at the Discrete Methods in Geotechnical Engineering for Transport Workshop held at the University of Edinburgh."
+
 abstract: |-
   Railway is one of the most important transportation modes for population and freight and plays an increasingly vital role in economic development around the world. High-speed railways are undergoing rapid development in many countries in recent decades, but there are many unsolved challenges for fundamental science and innovation in developing sustainable railway trackbed. Achieving a deeper understanding of the fundamental mechanism of the trackbed deformation under dynamic train loads, and thus developing effective design is a pressing problem, but major scientific challenges remain. In this study, the discrete element method (DEM), which simulates individual particles and their interactions, is used to investigate the fundamental mechanism of a full scale ballasted trackbed that will be constructed at Zhejiang University.
 

@@ -1,41 +1,50 @@
 ---
-title: "Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces"
+title: "Models for Manufacturing of Particulate Products Project Dissemination"
 
-event: EDEM Academic workshop
-event_url: https://www.ptf7.eng.ed.ac.uk/ 
+event: EDEM's "DEM Powder Calibration Meeting" at the University of Edinburgh.
 
-location: Alexander Graham Bell Building, School of Engineering
+event_url: ""
+
+location: Sanderson Building, School of Engineering
 address:
-  street: Thomas Bayes rd., The King's Buildings
+  street: Robert Stevenson Road, King's Buildings
   city: Edinburgh
   region: Scotland
-  postcode: 'EH9 3JL'
+  postcode: 'EH9 3FB'
   country: United Kingdom
 
-summary: An overview of the extensibility and capabilities provided through the EDEM API presented at the EDEM Academic Workshop.
+summary: Invited session at EDEM's "DEM Powder Calibration Meeting" to present the outcomes of the Models for Manufacturing of Particulate Products Project.
 
-abstract: "EDEM simulations can be customised and extended using the EDEM Application Programming Interface (API). THE API allows users to create custom contact model, particle body force models and particle factories. There are also various coupling options that allow CFD and rigid body dynamics to be included.
- "
+abstract: |-
+  Powders are at the core of numerous applications in the pharmaceutical, additive manufacturing, chemicals and other process manufacturing industries. 
+  
+  The Discrete Element Method (DEM) has proven to be a great predictive tool for simulating processes in the powder handling industries and powder calibration is an important step towards realistic DEM simulations. However, it is also a genuine barrier for DEM applications. At EDEM we are keen to support our customers and bring together the experience and know-how on powder calibration techniques for various powder applications. 
+
+  This first DEM Powder Calibration meeting will allow participants to discuss their key challenges and identify methods to address them. The focus of this meeting is on how to calibrate and develop appropriate DEM models for modelling powders. 
+
+  Leading organizations and experts from industry and academia from around the world will be attending as well as special guests from leading powder testing equipment providers. 
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2016-05-04T12:25:00Z"
-date_end: "2016-05-04T13:00:00Z"
+date: "2018-06-21T15:30:00Z"
+date_end: "2018-06-11T16:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2016-04-21T00:00:00Z"
+publishDate: "2019-06-20T00:00:00Z"
 
 authors: 
  - admin
+ - Jin Y. Ooi
 
-tags: ["EDEM", "API", "MBD", "Coupling"]
+tags: ["DEM", "Powder", "Calibration", "MMPP"]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: **EDEM**'
   focal_point: Right
 
 links:
@@ -61,7 +70,8 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- example
+- mmpp
+
 ---
 
 {{% callout note %}}

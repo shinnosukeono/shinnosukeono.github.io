@@ -1,42 +1,40 @@
 ---
-title: "DEM Modelling of Cohesionless, Cohesive and Cementitious Materials "
+title: "Model Driven Design in Particulate Products Manufacturing"
 
-event: Invited Lecture
-event_url: http://www.whrsm.cas.cn/xwdt2020/xsjl_168100/202007/t20200718_5634549.html
+event: Integrated Control in Powder Formulations
+event_url: https://www.uk-cpi.com/events/integrated-control-in-powder-formulations
 
-location: Institute of Rock and Soil Mechanics, Chinese Academy of Sciences
+location: CPI National Formulation Centre
 address:
-  street: Xiaohongshan, Wuchang
-  city: Wuhan 
-  region: Hubei
-  postcode: '430071'
-  country: P.R. China
+  street: John Walker Road
+  city: Sedgefield
+  region: County Durham
+  postcode: 'TS21 3FE'
+  country: United Kingdom
 
-summary: Invited talk at the Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, China.
+summary: Invited talk on the Model Driven Design framework from the Models MPP project at CPI's Integrated Control in Powder Formulations event.
 
 abstract: "The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by  the  significant  improvements  that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
-This has lead to the application of DEM in fields such as geotechnical engineering and rock mechanics as a means to solve challenging problems that other numerical methods are not suited to. "
+However, in many cases, as we strive to make our simulations as simple as possible, we often neglect the importance of complex machine interactions, simplifying their movements or shapes. For engineers  or  scientists  trying  to  understand  the  forces  and  stresses  acting  in  their  systems,  these simplifications  may  lead  to  critical  information  being  lost  or  overlooked.  Conversely,  including  a boundary where none exists in the real system may also lead to incorrect interpretation of the results. "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2017-10-24T11:00:00Z"
-date_end: "2017-10-24T12:30:00Z"
+date: "2019-01-17T14:00:00Z"
+date_end: "2019-01-17T14:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-10-22T00:00:00Z"
+publishDate: "2019-01-05T00:00:00Z"
 
-authors:
- - admin
-
-tags: ["DEM", "Geotechnics", "Cohesion", "Soil" "Rock", "Bonded" ]
+authors: []
+tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: ''
-  focal_point: center
+  caption: 'Image credit: [**CPI**](https://www.uk-cpi.com/about/national-centres/national-formulation-centre)'
+  focal_point: Right
 
 links:
 - icon: twitter
@@ -60,8 +58,8 @@ slides: example
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
-
+projects:
+- mmpp
 ---
 
 {{% callout note %}}
