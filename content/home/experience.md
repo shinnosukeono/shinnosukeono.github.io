@@ -45,6 +45,24 @@ experience:
     date_end: ''
     description: Consultant in the field of particulate mechanics
 
+  - title: Ph.D. Candidate
+    company: University of Edinburgh
+    company_url: 'https://www.ed.ac.uk/'
+    company_logo: UoE_Engineering_2_colour
+    location: Edinburgh, Scotland, UK
+    date_start: '2009-10-01'
+    date_end: '2013-06-15'
+    description: "Ph.D. Candidate studying the topic of granular materials. "
+
+  - title: Engineering Technician
+    company: MHL & Associates Consulting Engineers
+    company_url: https://www.mhl.ie
+    company_logo: ''
+    location: Cork, Ireland
+    date_start: '2005-09-01'
+    date_end: '2006-08-30'
+    description: Engineering Technician responsible for the prepartion of technical drawings, design calculations and project documents.
+
 design:
   columns: '2'
 ---
