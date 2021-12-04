@@ -7,20 +7,18 @@ event_url: https://ifpri.net/events/2019-ifpri-winter-meeting
 
 location: Van der Valk Hotel Schipol Airport
 address:
-  street: "Riksweg A4 3" 
+  street: Riksweg A4 3
   city: Amsterdam
   region: Hoofddorp
   postcode: '2132 MA'
-  country: "The Netherlands"
+  country: The Netherlands
 
-summary: "Presentation on the Model Driven Design framework at **IFPRI Invited Session** on the outcomes of the Model Driven Design in Particulate Products Manufacturing Project".
+summary: "Presentation on the Model Driven Design framework at **IFPRI Invited Session** on the outcomes of the Model Driven Design in Particulate Products Manufacturing Project."
 
 abstract: |-
   This project aims to create a generally applicable framework for transferring academic innovations in the modelling of particulate materials into industrial practice in the UK. Even though some models are available in the literature which describe particle processes, these tend to be inadequate to meet the requirements of industry. Industry requires robust models which contain the key relevant physics, which are user-friendly and which are focused on delivering the output product specifications given a limited number of measured input parameters.
   
   The process of twin-screw granulation has been selected as an exemplar industrial process which is simulated across multiple scales using the coupled methods of population balance modelling and the discrete element method, where the discrete element method is employed to provide particle-level physics and inform the large-scale population balance model. 
-
-
 
 
 # Talk start and end times.
