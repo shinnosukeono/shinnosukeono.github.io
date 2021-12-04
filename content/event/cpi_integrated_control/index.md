@@ -12,9 +12,12 @@ address:
   postcode: 'TS21 3FE'
   country: United Kingdom
 
-summary: Invited talk on the Model Driven Design framework from the Models MPP project.
-abstract: "The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by  the  significant  improvements  that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
-However, in many cases, as we strive to make our simulations as simple as possible, we often neglect the importance of complex machine interactions, simplifying their movements or shapes. For engineers  or  scientists  trying  to  understand  the  forces  and  stresses  acting  in  their  systems,  these simplifications  may  lead  to  critical  information  being  lost  or  overlooked.  Conversely,  including  a boundary where none exists in the real system may also lead to incorrect interpretation of the results. "
+summary: Invited talk on the Model Driven Design framework from the Models MPP project at CPI's Integrated Control in Powder Formulations event.
+
+abstract: |-
+  This project aims to create a generally applicable framework for transferring academic innovations in the modelling of particulate materials into industrial practice in the UK. Even though some models are available in the literature which describe particle processes, these tend to be inadequate to meet the requirements of industry. Industry requires robust models which contain the key relevant physics, which are user-friendly and which are focused on delivering the output product specifications given a limited number of measured input parameters.
+  
+  The process of twin-screw granulation has been selected as an exemplar industrial process which is simulated across multiple scales using the coupled methods of population balance modelling and the discrete element method, where the discrete element method is employed to provide particle-level physics and inform the large-scale population balance model. 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -27,11 +30,14 @@ publishDate: "2019-01-05T00:00:00Z"
 
 authors:
  - admin
+ - Li Ge Wang
+ - James D. Litster
+ - Jin Y. Ooi
 
-tags: ["MMPP", "DEM", "PBM", "Coupling", "Model Driven Design", "MDD"]
+tags: ["MMPP", "DEM", "PBM", "Coupling", "Model Driven Design", "MDD", "Twin screw", "Granulation"]
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**CPI**](https://www.uk-cpi.com/about/national-centres/national-formulation-centre)'
@@ -61,6 +67,7 @@ slides: example
 #   Otherwise, set `projects = []`.
 projects:
 - mmpp
+
 ---
 
 {{% callout note %}}
