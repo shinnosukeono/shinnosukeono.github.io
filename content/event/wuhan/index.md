@@ -28,7 +28,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-10-22T00:00:00Z"
 
-authors:
+authors: 
  - admin
 
 tags: ["DEM", "Geotechnics", "Cohesion", "Soil" "Rock", "Bonded"]
