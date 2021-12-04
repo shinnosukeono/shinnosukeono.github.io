@@ -1,5 +1,5 @@
 ---
-title: "DEM Modelling of Cohesionless, Cohesive and Cementitious Materials "
+title: "DEM Modelling of Cohesionless, Cohesive and Cementitious Materials"
 
 event: Invited Lecture
 event_url: http://www.whrsm.cas.cn/xwdt2020/xsjl_168100/202007/t20200718_5634549.html
@@ -10,12 +10,14 @@ address:
   city: Wuhan 
   region: Hubei
   postcode: '430071'
-  country: P.R. China
+  country: "P.R. China"
 
 summary: Invited talk at the Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, China.
 
-abstract: "The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by  the  significant  improvements  that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
-This has lead to the application of DEM in fields such as geotechnical engineering and rock mechanics as a means to solve challenging problems that other numerical methods are not suited to. "
+abstract: |-
+  The popularity of the Discrete Element Method (DEM) has grown significantly in the past decade, driven by the significant improvements that  have  been  made  in  computing  hardware,  particularly  with  the recent developments in the use of GPUs for scientific computation. Simulations of millions of particles are now commonplace as people seek to extract more detailed information from them. 
+  
+  This has lead to the application of DEM in fields such as geotechnical engineering and rock mechanics as a means to solve challenging problems that other numerical methods are not suited to.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -29,14 +31,14 @@ publishDate: "2017-10-22T00:00:00Z"
 authors:
  - admin
 
-tags: ["DEM", "Geotechnics", "Cohesion", "Soil" "Rock", "Bonded" ]
+tags: ["DEM", "Geotechnics", "Cohesion", "Soil" "Rock", "Bonded"]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
   caption: ''
-  focal_point: center
+  focal_point: ''
 
 links:
 - icon: twitter
