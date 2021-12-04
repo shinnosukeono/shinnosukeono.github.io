@@ -26,14 +26,16 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2019-08-05T00:00:00Z"
 
-authors: []
-tags: []
+authors: 
+ - admin
+
+tags: ["DEM", "MBD", "Coupling", "Boundary Conditions", "Machine Interaction"]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**University of Edinburgh**](https://www.ed.ac.uk)'
   focal_point: Right
 
 links:
