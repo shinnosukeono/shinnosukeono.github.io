@@ -24,7 +24,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: University of Edinburgh / Freeman Technology'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -70,7 +70,7 @@ The simplicity and flexibility of uniaxial testers, coupled with a high level of
 <div class="row">
 <img src=upt.jpg alt="Figure 1 - Freeman UPT" width="55%" title="Figure 1 - Freeman UPT"/>
 &nbsp;
-<img src=upt_consolidation_station.jpg alt="Figure 2 - Consolidation Station" width="40%" title="Figure 2 - Consolidation Station"/>
+<img src=upt_consolidation_station.jpg alt="Figure 2 - Consolidation Station" height="100%" width="40%" title="Figure 2 - Consolidation Station"/>
 </div>
 
 
