@@ -2,7 +2,7 @@
 title: Models for the Manufacturing of Particulate Process (Models MPP)
 summary: A project focused on establishing a generic framework and core capability to improve industrial productivity.
 tags:
-- Model Driven Design (MDD) Framewrok
+- Model Driven Design (MDD) Framework
 - DEM
 - PBM
 - DEM-PBM
