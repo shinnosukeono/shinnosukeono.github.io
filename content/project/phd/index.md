@@ -1,13 +1,12 @@
 ---
-title: "VDiscrete Element Modelling of Iron Ore Pellets to Include the Effects of Moisture and Fines"
+title: "Discrete Element Modelling of Iron Ore Pellets to Include the Effects of Moisture and Fines"
 summary: The Vision of VELaSSCo is to provide new approaches for visual analysis of large-scale simulations for the Exabyte era. 
 tags:
 - DEM
-- FEM
-- CFD
-- Data Visualisation
 - Data Analytics
-- Big Data
+- Calibration
+- Characterisation
+
 date: "2009-09-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -69,4 +68,6 @@ Cohesive granular solids such as powders can have a very loose, highly porous st
 
 # Related publications
 
-{{< cite page="/publication/phd" view="4" >}}
+{{< cite page="/publication/Morrissey_2013" view="4" >}}
+
+{{< cite page="/publication/Thakur_et_al_2014" view="4" >}}
