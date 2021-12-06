@@ -77,11 +77,11 @@ email: ""
 highlight_name: true
 ---
 
-John P. Morrissey is an experienced research scientist specialising in particulate mechanics and the Discrete Element Method (DEM) simulation of particulate systems. J.P. completed his Ph.D. at the University of Edinburgh studying in the field of granular mechanics and developed a novel DEM contact model that could capture the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code **EDEM** (now Altair EDEM) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
+John P. Morrissey is an experienced research scientist specialising in **particulate mechanics** and the **Discrete Element Method (DEM)**. J.P. completed his Ph.D. at the University of Edinburgh studying in the field of granular mechanics and developed a novel DEM contact model that could capture the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code **EDEM** (now *Altair EDEM*) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
 
-With over 10 years research experience, J.P has acquired a skillset that covers both the experimental and numerical fields. 
+J.P. has over 10 years research experience covering both the experimental and numerical fields. 
 J.P. was heavily involved in the development of the **Edinburgh Powder Tester (EPT)** whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. 
-Working the the numerical field of DEM, where datasets are typically in the 10-100's of GBs, learning to deal with data efficiently is a necessity. Programming, data analysis and visualisation are common tasks and *python*, *Julia* and *C++* are frequently used. And while mainly a DEM user, FEM and CFD are also used.
+Working the the numerical field of DEM, programming, data analysis and visualisation are common tasks and *python*, *Julia* and *C++* are often the tools of choice. 
 
 J.P. has been involved in many successful projects. The recent *Models for the Manufacturing of Particulate Process (Models MPP)* project focused on establishing a generic modelling framework and core capability to improve industrial productivity. The *VELaSSCo* project was an interdisciplinary project which looked at implementing *Big Data* technologies for scientific and engineering situations for the Exabyte era.
 
