@@ -36,7 +36,7 @@ content:
   - name: Characterisation
     tag: Characterisation
   - name: Analytics
-    tag: Analytics
+    tag: Data Analytics
   - name: Other
     tag: Other
 

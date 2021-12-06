@@ -3,11 +3,11 @@ title: "Transporting, handling and storing behaviour of iron ore fines"
 
 summary: This project attempts to deal with the challenges associated with handling and storage of cohesive solids in the mining industry. An adhesive-frictional model has been recently developed for DEM simulation of cohesive particles at the University of Edinburgh. This project will exploit the new method for modelling cohesive particulates for specific problems, such as effect of fines in silo discharge and the effect of time consolidation.
 
-. 
+
 tags:
 - DEM
 - Data Analytics
-- Temperature depedent
+- Temperature dependent
 - Time dependent
 
 date: "2013-07-27T00:00:00Z"
