@@ -1,6 +1,7 @@
 ---
 title: "VELaSSCo: Visualization for Extremely Large-scale Scientific Computing"
 summary: The Vision of VELaSSCo is to provide new approaches for visual analysis of large-scale simulations for the Exabyte era. 
+
 tags:
 - DEM
 - FEM
@@ -8,6 +9,8 @@ tags:
 - Data Visualisation
 - Data Analytics
 - Big Data
+- Analytics
+
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
