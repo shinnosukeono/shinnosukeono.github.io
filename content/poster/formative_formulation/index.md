@@ -6,7 +6,10 @@ tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete elem
 date: "2019-03-18T00:00:00Z"
 doi: "10.13140/RG.2.2.35252.58240"
 
+project:
+ - mmpp
 
+ 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
