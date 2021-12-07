@@ -57,9 +57,19 @@ gallery_item:
   
 ---
 
+
+# Introduction
+---
+This project aims to create a generally applicable framework for transferring academic innovations in the modelling of particulate materials into industrial practice in the UK. The process of twin-screw granulation has been selected as an exemplar industrial process which is simulated across multiple scales using the coupled methods of population balance modelling and the discrete element method.
+
+## Project Members
+The project involves **two academic partners**, the [University of Edinburgh](https://www.ed.ac.uk/) and the [University of Sheffield](https://www.sheffield.ac.uk/), and **six industrial partners**: [Pfizer](https://www.pfizer.co.uk/), [AstraZeneca](https://www.astrazeneca.co.uk/), [Procter and Gamble](https://www.pg.co.uk/), [Johnson Matthey](https://matthey.com/en), [Process Systems Enterprise](https://www.psenterprise.com/) and [DEM Solutions](https://www.altair.com/edem/) (*Now Altair EDEM*). The project is led by the [Centre for Process Innovation](https://www.uk-cpi.com/): the major project funder.
+
+
+## Project Summary
 The two-year Models for the **Manufacturing of Particulate Process (Models MPP)** project focused on establishing a generic framework and core capability to improve industrial productivity.
 
-As part of the drive to provide more leverage and integration of the wealth of formulations expertise in the UK, the £700,000 project, funded by Innovate UK as part of CPI’s National Formulation Centre Strategic Projects Programme, has facilitated the translation of the UK’s world-leading expertise in computational modelling and simulation for the manufacturing of particulate processes. 
+As part of the drive to provide more leverage and integration of the wealth of formulations expertise in the UK, the £700,000 project, funded by **Innovate UK** as part of CPI’s National Formulation Centre Strategic Projects Programme, has facilitated the translation of the UK’s world-leading expertise in computational modelling and simulation for the manufacturing of particulate processes. 
 
 Connecting industry and university research groups with state-of-the-art technology has resulted in the development of a generic framework for translating particle models of industrial relevance into industrial practice. The developed framework incorporates a decision support methodology/​tool for models development that will allow easier access and adoption by leading UK-based industrial organisations. 
 
@@ -74,10 +84,13 @@ The academic partners at the Universities of Edinburgh and Sheffield conducted a
 
 While granulation is an important process in many industries, including pharmaceuticals, foods and agrochemicals, the framework provided by Models MPP means it can be broadly re-applied to other manufacturing operations and industries.
 
-The legacy capability established from this project will be applied to other CPI strategic projects, e.g. in the development of a digital twin with a sister National Formulation Centre strategic project focused on a fully PAT enabled twin screw extruder (‘PROSPECT CP’).
+The legacy capability established from this project will be applied to other CPI strategic projects, e.g. in the **development of a digital twin** with a sister National Formulation Centre strategic project focused on a fully PAT enabled twin screw extruder (***‘PROSPECT CP’***).
 
-CPI was part of a highly-effective consortium that worked on the project, with key industrial contributions from Astra Zeneca, Pfizer, Procter & Gamble and Johnson Matthey, and SMEs including EDEM Simulations and Process Systems Enterprise (PSE).
 
-## Project Gallery
-{{< gallery album="mmpp" >}} 
+
+
+# Project Gallery
+---
+
+{{< gallery album="mmpp" thumb="-small">}} 
 
