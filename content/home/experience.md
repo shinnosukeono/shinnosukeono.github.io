@@ -45,14 +45,18 @@ experience:
     date_end: ''
     description: Consultant in the field of particulate mechanics
 
-  - title: Ph.D. Candidate
+  - title: Tutor & Demonstrator
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
     company_logo: UoE_Engineering_2_colour
     location: Edinburgh, Scotland, UK
     date_start: '2009-10-01'
-    date_end: '2013-06-15'
-    description: "Ph.D. Candidate studying the topic of granular materials. "
+    date_end: '2014-05-31'
+    description: |2-
+        Tutor & Demonstrator for several undergraduate courses including:
+          * Soil Mechanics 2
+          * Geotechnical Engineering 3
+          * Computational Geomechanics 5
 
   - title: Engineering Technician
     company: MHL & Associates Consulting Engineers
