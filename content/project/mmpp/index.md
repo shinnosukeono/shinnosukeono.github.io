@@ -1,6 +1,4 @@
 ---
-type: "widget_page"  # Page type is a Widget Page
-
 title: Models for the Manufacturing of Particulate Process (Models MPP)
 summary: A project focused on establishing a generic framework and core capability to improve industrial productivity.
 tags:
@@ -94,5 +92,5 @@ The legacy capability established from this project will be applied to other CPI
 # Project Gallery
 ---
 
-<!-- {{< gallery album="mmpp" thumb="-small">}}  -->
+{{< gallery album="mmpp" thumb="-small">}} 
 
