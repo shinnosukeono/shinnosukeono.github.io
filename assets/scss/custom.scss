@@ -1,0 +1,16 @@
+.article-tags a[href='/tag/dem/'] {
+    background: deeppink;
+    color: white;
+}
+
+.dark .article-tags a[href='/tag/dem/'] {
+    background: deeppink;
+    color: white;
+}
+
+.gallery a[data-fancybox] img {
+    height: 120px;
+    max-width: 40%;
+    display: inherit;
+    padding: 2px;
+  }
