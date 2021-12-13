@@ -92,5 +92,5 @@ The legacy capability established from this project will be applied to other CPI
 # Project Gallery
 ---
 
-{{< gallery album="mmpp" thumb="-small">}} 
+<!-- {{< gallery album="mmpp" thumb="-small">}}  -->
 
