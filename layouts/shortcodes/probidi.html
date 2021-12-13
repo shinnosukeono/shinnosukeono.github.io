@@ -1,0 +1,9 @@
+{{ if .Get "style" | eq "grid" }}
+	<div data-prodibi='{"type":"grid","settings":{"container":"{{ .Get "containerID" }}","account":"{{ .Get "username" }}"}}'>
+		<script>;!function() {if (window.prodibiAsync == null) { var s = document.createElement('script'); s.async = !0; s.src = 'https://max1.prodibicdn.com/libraries/pages/prodibi.embed.2.0.min.js'; document.body.appendChild(s); }window.prodibiAsync = window.prodibiAsync || [];prodibiAsync.push({ type: "settings", settings: { account: "{{ .Get "username" }}" } });}();</script>
+	</div>
+{{ else if .Get "style" | eq "album" }}
+	<canvas data-prodibi='{"type":"thumbnailMediaView","settings":{"cover":{"heightMode":"aspectRatio"},"container":"{{ .Get "containerID" }}","account":"{{ .Get "username" }}"}}'>
+		<script>;!function() {if (window.prodibiAsync == null) { var s = document.createElement('script'); s.async = !0; s.src = 'https://max1.prodibicdn.com/libraries/pages/prodibi.embed.2.0.min.js'; document.body.appendChild(s); }window.prodibiAsync = window.prodibiAsync || [];prodibiAsync.push({ type: "settings", settings: { account: "{{ .Get "username" }}" } });}();</script>
+	</canvas>
+{{ end }}
