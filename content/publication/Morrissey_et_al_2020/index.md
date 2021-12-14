@@ -63,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Coarse-grained results of DEM simulation of railway embankment'
   focal_point: ""
   preview_only: false
 
@@ -73,7 +73,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- VELaSSCo
+- velassco
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

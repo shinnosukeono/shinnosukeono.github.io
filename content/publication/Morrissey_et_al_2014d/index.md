@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Simulation of Edinburgh Powder Tester'
   focal_point: ""
   preview_only: false
 
@@ -68,6 +68,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - phd
+- post_doc
+- gran_ed
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

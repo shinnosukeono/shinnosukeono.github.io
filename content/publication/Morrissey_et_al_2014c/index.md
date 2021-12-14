@@ -71,6 +71,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - phd
+- post_doc
+- gran_ed
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
