@@ -61,7 +61,9 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- example
+- phd
+- gran_ed
+
 ---
 
 {{% callout note %}}
