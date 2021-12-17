@@ -48,7 +48,7 @@ experience:
   - title: Tutor & Demonstrator
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: UoE_Engineering_2_colour
+    company_logo: University_of_Edinburgh-Logo
     location: Edinburgh, Scotland, UK
     date_start: '2009-10-01'
     date_end: '2014-05-31'
