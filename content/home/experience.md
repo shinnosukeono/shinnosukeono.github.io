@@ -25,7 +25,7 @@ experience:
   - title: Research Associate
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: UoE_Engineering_2_colour
+    company_logo: University_of_Edinburgh-Logo
     location: Edinburgh, Scotland, UK
     date_start: '2013-01-07'
     date_end: ''
@@ -54,7 +54,7 @@ experience:
     date_end: '2014-05-31'
     description: |2-
         Tutor & Demonstrator for several undergraduate courses including:
-        
+
           * Soil Mechanics 2
           * Geotechnical Engineering 3
           * Computational Geomechanics 5
