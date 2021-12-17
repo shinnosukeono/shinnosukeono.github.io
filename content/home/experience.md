@@ -55,9 +55,9 @@ experience:
     description: |2-
         Tutor & Demonstrator for several undergraduate courses including:
 
-          * Soil Mechanics 2
-          * Geotechnical Engineering 3
-          * Computational Geomechanics 5
+        * Soil Mechanics 2
+        * Geotechnical Engineering 3
+        * Computational Geomechanics 5
 
   - title: Engineering Technician
     company: MHL & Associates Consulting Engineers

@@ -81,11 +81,7 @@ John P. Morrissey is an experienced research scientist specialising in **particu
 
 J.P. has over 10 years research experience covering both the experimental and numerical fields. 
 J.P. was heavily involved in the development of the **Edinburgh Powder Tester (EPT)** whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. 
-Working the the numerical field of DEM, programming, data analysis and visualisation are common tasks and *python*, *Julia* and *C++* are often the tools of choice. 
-
-J.P. has been involved in many successful projects. The recent *Models for the Manufacturing of Particulate Process (Models MPP)* project focused on establishing a generic modelling framework and core capability to improve industrial productivity. The *VELaSSCo* project was an interdisciplinary project which looked at implementing *Big Data* technologies for scientific and engineering situations for the Exabyte era.
-
-As a member of staff at the University of Edinburgh J.P. has taken on the roles of tutor and demonstrator in the computational geomechanics and geotechnical engineering courses. J.P. has also been involved in the supervision of final year undergraduate projects as a co-supervisor. 
+Working the the numerical field of *DEM*, *programming*, *data analysis* and *visualisation* are common tasks and *python*, *Julia* and *C++* are often the tools of choice. 
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
