@@ -61,7 +61,7 @@ url_source: ''
 url_video: ''
 
 # add Almetric adn dimensions badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
