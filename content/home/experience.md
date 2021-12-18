@@ -48,7 +48,7 @@ experience:
   - title: Tutor & Demonstrator
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: University_of_Edinburgh-Logo
+    company_logo: University_of_Edinburgh-Logo_2
     location: Edinburgh, Scotland, UK
     date_start: '2009-10-01'
     date_end: '2014-05-31'
@@ -62,7 +62,7 @@ experience:
   - title: Engineering Technician
     company: MHL & Associates Consulting Engineers
     company_url: https://www.mhl.ie
-    company_logo: ''
+    company_logo: mhl_logo
     location: Cork, Ireland
     date_start: '2005-09-01'
     date_end: '2006-08-30'
