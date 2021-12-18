@@ -53,10 +53,13 @@
     <div class="ml-3">
     {{ if and .Params.add_badge .Params.doi }}
       <div data-badge-popover="left" data-badge-type="donut" data-doi="{{ .Params.doi }}" data-condensed="true" class="altmetric-embed"></div>
-      <div class="__dimensions_badge_embed__" data-doi="{{ .Params.doi }}" data-legend="hover-right" data-style="small_circle" data-hide-zero-citations="true"></div>
+      <div class="__dimensions_badge_embed__" data-doi="{{ .Params.doi }}" data-legend="hover-left" data-style="small_circle" data-hide-zero-citations="true"></div>
 
-      <a href="https://plu.mx/plum/a/?doi=".{{ .Params.doi }} class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium" data-popup="right"></a>
+      <!-- <a href="https://plu.mx/plum/a/?doi=".{{ .Params.doi }} class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium" data-popup="right"></a> -->
 
+
+      <a href="https://plu.mx/plum/a/?doi=10.1007%2Fs10035-014-0506-4" data-popup="bottom" data-size="medium" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true">Micromechanical analysis of cohesive granular materials using the discrete element method with an adhesive elasto-plastic contact model</a>
+      
     {{ end }}
     </div>
   </div>
