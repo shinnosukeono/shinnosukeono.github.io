@@ -24,10 +24,14 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/jp_morr
-url_code: ""
-url_pdf: ""
+
+url_pdf: https://cordis.europa.eu/docs/projects/cnect/9/619439/080/reports/001-VELaSSCoFinalReport1summary.pdf
 url_slides: ""
 url_video: ""
+url_poster: ''
+url_project: http://www.cimne.com/projects/velassco/index.html
+url_source: ''
+url_code: https://github.com/velassco/VELASSCO
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
