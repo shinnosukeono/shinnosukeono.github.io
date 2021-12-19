@@ -100,10 +100,10 @@ List of partners:
 {{< gallery album="velassco" >}} 
 
 
-{{ <youtube kG3St1mDlLw> }}
+{{< youtube kG3St1mDlLw >}}
 
-{{ <youtube U9LxMexQCBg> }}
+{{< youtube U9LxMexQCBg >}}
 
-{{ <youtube sqvzmdp-k-U> }}
+{{< youtube sqvzmdp-k-U >}}
 
-{{ <youtube ZnUl35qK3No> }}
+{{< youtube ZnUl35qK3No >}}
