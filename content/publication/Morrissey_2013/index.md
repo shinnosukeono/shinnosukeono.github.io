@@ -123,8 +123,8 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# add Altmetric and dimensions badges
-add_badge: false
+# add Altmetric, dimensions and plumx badges
+add_badge: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
