@@ -88,12 +88,12 @@ DEM simulations will be calibrated from experimental tests such as triaxial test
 
 # Photo Gallery
 
-{{< gallery album="hs_rail" >}} 
+{{< gallery album="hs_rail" >}}\
 
 
-{{< youtube B3rX9n2rlCE >}}
+{{< youtube B3rX9n2rlCE >}}\
 
 
-{{< youtube psk77DoCn9I >}}
+{{< youtube psk77DoCn9I >}}\
 
 
