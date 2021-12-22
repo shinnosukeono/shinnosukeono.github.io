@@ -8,12 +8,13 @@ tags:
 - Characterisation
 
 date: "2009-09-27T00:00:00Z"
+date_end: "2013-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: VELaSSCo
+  caption: ""
   focal_point: Smart
 
 links:
@@ -31,7 +32,28 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
+
+
+# gallery captions
+gallery_item:
+- album: phd
+  image: DEM_speed_comaprison.png
+  caption: Particles velocities in a railway embankment under various test speeds
+- album: phd
+  image: embankment_density.png
+  caption: Coarse-grained bulk density in railway embankment
+- album: phd
+  image: EmbankmentSzz.jpg
+  caption: Coarse-grained vertical stress in railway embankment
+- album: phd
+  image: frame.png
+  caption: Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: sleepers.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+
+
 ---
 
 # Introduction
@@ -66,8 +88,6 @@ evaluated.
 Cohesive granular solids such as powders can have a very loose, highly porous structure under very low stresses. While it is possible to generate similar initial packing structures in a DEM simulation, it is not feasible to attempt to match all stress states. In this study, stress states larger than 5-10 kPa are of interest and as such all packing structures will aim to match the experimental results from this stress level. As hardware capabilities continue to improve and the price of computing power continues to decrease, the use of the normally computationally intensive discrete element method will become more common in both research and design. It is hoped that the work presented in this thesis will provide a valuable insight into simulation the complex behaviour of cohesive granular solids.
 
 
-# Related publications
+# Gallery
 
-{{< cite page="/publication/Morrissey_2013" view="4" >}}
-
-{{< cite page="/publication/Thakur_et_al_2014" view="4" >}}
+{{< gallery album="phd" >}}
