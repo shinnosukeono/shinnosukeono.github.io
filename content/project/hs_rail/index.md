@@ -44,7 +44,7 @@ slides: ""
 gallery_item:
 - album: hs_rail
   image: DEM_speed_comaprison.png
-  caption: Railway embankment test case
+  caption: Particles velocities in a railway embankment under various test speeds
 - album: hs_rail
   image: embankment_density.png
   caption: Coarse-grained bulk density in railway embankment
@@ -53,10 +53,10 @@ gallery_item:
   caption: Coarse-grained vertical stress in railway embankment
 - album: hs_rail
   image: frame.png
-  caption: Coarse-grained bulk density in railway embankment
+  caption: Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 - album: hs_rail
   image: sleepers.png
-  caption: Temporal and spatial averaging of fluidised bed
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 
 
 ---
@@ -91,4 +91,9 @@ DEM simulations will be calibrated from experimental tests such as triaxial test
 {{< gallery album="hs_rail" >}} 
 
 
-{{< youtube kG3St1mDlLw >}}
+{{< youtube B3rX9n2rlCE >}}
+
+
+{{< youtube psk77DoCn9I >}}
+
+
