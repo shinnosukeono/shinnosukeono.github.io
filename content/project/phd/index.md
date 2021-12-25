@@ -68,10 +68,10 @@ gallery_item:
   image: uuys_vs_moisture.png
   caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 - album: phd
-  youtube_video : https://youtu.be/1ImEki7yguQ
+  youtube_video = "https://youtu.be/1ImEki7yguQ"
   # caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 - album: phd
-  youtube_video : https://youtu.be/-q4zcXTXgM4
+  youtube_video = "https://youtu.be/-q4zcXTXgM4"
   # caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 
 
