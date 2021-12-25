@@ -104,4 +104,4 @@ Cohesive granular solids such as powders can have a very loose, highly porous st
 
 # Gallery
 
-{{< gallery album="phd" "resize_options"="x150" >}}
+{{< gallery album="phd" resize_options="x150" >}}
