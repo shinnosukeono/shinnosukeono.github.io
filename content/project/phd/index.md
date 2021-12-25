@@ -38,20 +38,42 @@ slides: ""
 # gallery captions
 gallery_item:
 - album: phd
-  image: DEM_speed_comaprison.png
+  image: bulkdensity_vs_moisture.png
   caption: Particles velocities in a railway embankment under various test speeds
 - album: phd
-  image: embankment_density.png
-  caption: Coarse-grained bulk density in railway embankment
+  image: EEPA.png
+  caption: Edinburgh Elasto-Plastic Adhesion contact model force-overlap relationship
 - album: phd
-  image: EmbankmentSzz.jpg
+  image: EPT.jpg
   caption: Coarse-grained vertical stress in railway embankment
 - album: phd
-  image: frame.png
+  image: EPT_Sim.png
   caption: Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
 - album: phd
-  image: sleepers.png
+  image: EPT_DEM_comp.png
   caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: exp_ff_kprs.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: exp_uc_stress_strain.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: ff_comp.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: jenike_cell.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: jenike_stresses.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: planar_shearband.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+- album: phd
+  image: uuys_vs_moisture.png
+  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+
 
 
 ---
