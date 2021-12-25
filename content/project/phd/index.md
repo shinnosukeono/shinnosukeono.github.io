@@ -67,13 +67,6 @@ gallery_item:
 - album: phd
   image: uuys_vs_moisture.png
   caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
-- album: phd
-  youtube_video: "https://youtu.be/1ImEki7yguQ"
-  # caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
-- album: phd
-  youtube_video: "https://youtu.be/-q4zcXTXgM4"
-  # caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
-
 
 ---
 
@@ -111,4 +104,4 @@ Cohesive granular solids such as powders can have a very loose, highly porous st
 
 # Gallery
 
-{{< gallery album="phd" >}}
+{{< gallery album="phd" "resize_options"="x150" >}}
