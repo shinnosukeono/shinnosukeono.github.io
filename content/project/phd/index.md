@@ -48,25 +48,25 @@ gallery_item:
   caption: "The Edinburgh Powder Tester **(EPT)**. a) the EPT b) Confined consolidation of sample in EPT c) Unconfined compression to failure in EPT d) Typical Failed sample"
 - album: phd
   image: EPT_Sim.png
-  caption: Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: DEM simulation of EPT consisting of confined consolidation and unconfined compression
 - album: phd
   image: EPT_DEM_comp.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Comparison of DEM flow function with experimentally measured flow function at various moisture contents
 - album: phd
   image: exp_ff_kprs.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Uniaxial flow function from multiple uniaxial tests for iron ore fines at various mositure contents
 - album: phd
   image: exp_uc_stress_strain.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Stress-strain curves for iron or fines at various consolidation stresses
 - album: phd
   image: ff_comp.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Flow function comparison from uniaxial tests for different types of iron ore fines at varying moisture contents
 - album: phd
   image: planar_shearband.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Shear band development in unconfined compression of numerical sample
 - album: phd
   image: uuys_vs_moisture.png
-  caption: Sleepers in Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
+  caption: Unconfined yield strength comparison from uniaxial tests for different types of iron ore fines at varying moisture contents
 
 ---
 
