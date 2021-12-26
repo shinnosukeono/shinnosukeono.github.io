@@ -40,7 +40,7 @@ gallery_item:
 - album: phd
   image: EEPA.png
   caption: Edinburgh Elasto-Plastic Adhesion contact model force-overlap relationship
-  - album: phd
+- album: phd
   image: bulkdensity_vs_moisture.png
   caption: Bulk density comparison from uniaxial tests for different types of iron ore fines at varying moisture contents
 - album: phd
