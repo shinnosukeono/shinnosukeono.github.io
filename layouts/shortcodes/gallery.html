@@ -25,10 +25,10 @@
     {{ end }}
     <a data-fancybox="gallery-{{$album}}" href="{{ .RelPermalink }}" {{ with $caption }}data-caption="{{.|markdownify|emojify|safeHTMLAttr}}"{{ end }}>
       <img src="{{ $image.RelPermalink }}" loading="lazy" alt="{{ plainify $caption | default $filename }}" width="{{ $image.Width }}" height="{{ $image.Height }}">{{/* Width & height (or low res src) required for lazy loading. */}}
-    
+<!--     
       {{ with .youtube_video }}
         <iframe src="{{ . }}" />
-      {{ end }}
+      {{ end }} -->
     </a>
   {{else}}
     {{ errorf "Unable to load gallery `%s` in `%s`." $album_path .Page.File.Filename }}
