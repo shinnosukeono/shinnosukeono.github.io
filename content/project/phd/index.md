@@ -38,14 +38,14 @@ slides: ""
 # gallery captions
 gallery_item:
 - album: phd
-  image: bulkdensity_vs_moisture.png
-  caption: Particles velocities in a railway embankment under various test speeds
-- album: phd
   image: EEPA.png
   caption: Edinburgh Elasto-Plastic Adhesion contact model force-overlap relationship
+  - album: phd
+  image: bulkdensity_vs_moisture.png
+  caption: Bulk density comparison from uniaxial tests for different types of iron ore fines at varying moisture contents
 - album: phd
   image: EPT.jpg
-  caption: Coarse-grained vertical stress in railway embankment
+  caption: "The Edinburgh Powder Tester **(EPT)**. a) the EPT b) Confined consolidation of sample in EPT c) Unconfined compression to failure in EPT d) Typical Failed sample"
 - album: phd
   image: EPT_Sim.png
   caption: Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)
@@ -99,9 +99,15 @@ were also found to achieve a significantly looser initial packing at much lower 
 content when compared to the KPRS fines. The lateral pressure ratio has also been
 evaluated.
 
-Cohesive granular solids such as powders can have a very loose, highly porous structure under very low stresses. While it is possible to generate similar initial packing structures in a DEM simulation, it is not feasible to attempt to match all stress states. In this study, stress states larger than 5-10 kPa are of interest and as such all packing structures will aim to match the experimental results from this stress level. As hardware capabilities continue to improve and the price of computing power continues to decrease, the use of the normally computationally intensive discrete element method will become more common in both research and design. It is hoped that the work presented in this thesis will provide a valuable insight into simulation the complex behaviour of cohesive granular solids.
+Cohesive granular solids such as powders can have a very loose, highly porous structure under very low stresses. While it is possible to generate similar initial packing structures in a DEM simulation, it is not feasible to attempt to match all stress states. In this study, stress states larger than 5-10 kPa are of interest and as such all packing structures will aim to match the experimental results from this stress level. 
+As hardware capabilities continue to improve and the price of computing power continues to decrease, the use of the normally computationally intensive discrete element method will become more common in both research and design. It is hoped that the work presented in this thesis will provide a valuable insight into simulation the complex behaviour of cohesive granular solids.
 
 
-# Gallery
+# Image Gallery
+---
 
 {{< gallery album="phd" resize_options="x150" >}}
+
+# Video Gallery
+---
+
