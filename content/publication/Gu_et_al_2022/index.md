@@ -18,7 +18,7 @@ date: "2022-02-01T00:00:00Z"
 doi: "10.1016/j.soildyn.2021.107109"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-12-28T00:00:00Z"
+publishDate: "2021-12-27T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -39,7 +39,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "trying summary"
 
 tags: ["DEM", "Ballast", "High-speed Rail", "Railway Embankment", "Moving Load", "Trackbed settlement"]
 
