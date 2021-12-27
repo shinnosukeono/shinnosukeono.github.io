@@ -36,7 +36,7 @@ abstract: |-
   All DEM simulations considered a GEA ConsiGma&trade; 1 twin-screw granulator with a 60&deg; rearward configuration for kneading elements. Periodic simulations yielded similar results to a full-scale simulation at significantly reduced computational cost. If the level of cohesion in the contact model is calibrated using laboratory testing, valid results can be obtained without fluid coupling. Friction between granules and the internal surfaces of the granulator is a very influential parameter because the response of this system is dominated by interactions with the geometry.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Discrete Element Method (DEM) simulations have the potential to provide particle-scale understanding of twin-screw granulators. This is difficult to obtain experimentally because of the closed, tightly confined geometry. An essential prerequisite for successful DEM modelling of a twin-screw granulator is making the simulations tractable, i.e., reducing the significant computational cost while retaining the key physics."
 
 tags: ["powder agglomeration", "Discrete Element Method", "DEM", "cohesion", "wet granulation", "twin-screw granulation"]
 
