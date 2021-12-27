@@ -30,7 +30,9 @@ publication: In *Granular Matter, Vol. 24*
 publication_short: In *Granular Matter*
 
 abstract: |-
-    Bonded contact models have been increasingly used in the discrete element method (DEM) to study cemented and sintered particulate materials in recent years. Several popular DEM bond models have been proposed in the literature; thus it is beneficial to assess the similarities and differences between the different bond models before they are used in simulations. This paper identifies and discusses two fundamental types of bond models: the Spring Bond Model where two bonded particles are joined by a set of uniform elastic springs on the bond's cross-section, and the Beam Bond Model in which a beam is used to connect the centres of two particles. A series of cantilever beam bending simulation cases were carried out to verify the findings and assess the strength and weakness of the bond models. Despite the numerous bond models described in the literature, they can all be considered as a variation of these two fundamental model types. The comparative evaluation in this paper also shows that all the bond models investigated can be unified to a general form given at a predefined contact point location.
+    Bonded contact models have been increasingly used in the discrete element method (DEM) to study cemented and sintered particulate materials in recent years. Several popular DEM bond models have been proposed in the literature; thus it is beneficial to assess the similarities and differences between the different bond models before they are used in simulations. This paper identifies and discusses two fundamental types of bond models: the Spring Bond Model where two bonded particles are joined by a set of uniform elastic springs on the bond's cross-section, and the Beam Bond Model in which a beam is used to connect the centres of two particles. 
+    
+    A series of cantilever beam bending simulation cases were carried out to verify the findings and assess the strength and weakness of the bond models. Despite the numerous bond models described in the literature, they can all be considered as a variation of these two fundamental model types. The comparative evaluation in this paper also shows that all the bond models investigated can be unified to a general form given at a predefined contact point location.
 
 
 # Summary. An optional shortened abstract.
@@ -61,7 +63,7 @@ add_badge: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Generic Model Driven Design Framework'
+  caption: 'Bonded Test Cases'
   focal_point: ""
   preview_only: false
 
