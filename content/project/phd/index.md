@@ -45,7 +45,7 @@ gallery_item:
   caption: Bulk density comparison from uniaxial tests for different types of iron ore fines at varying moisture contents
 - album: phd
   image: EPT.jpg
-  caption: "The Edinburgh Powder Tester **(EPT)**: a) the EPT b) Confined consolidation of sample in EPT c) Unconfined compression to failure in EPT d) Typical Failed sample"
+  caption: The Edinburgh Powder Tester **(EPT)**: a) the EPT b) Confined consolidation of sample in EPT c) Unconfined compression to failure in EPT d) Typical Failed sample
 - album: phd
   image: EPT_Sim.png
   caption: DEM simulation of EPT consisting of confined consolidation and unconfined compression

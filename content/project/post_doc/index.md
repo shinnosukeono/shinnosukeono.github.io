@@ -18,7 +18,7 @@ date: "2013-07-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: VELaSSCo
+  caption: Fully coupled Jenike Shear Cell (left) and Simple Vertical Stress Only Control (right)
   focal_point: Smart
 
 links:
@@ -42,13 +42,13 @@ slides: ""
 gallery_item:
 - album: post_doc
   image: jenike_cell.png
-  caption: Comparison in simulations (force netwrok, geometry positions and particle velocities) of fully coupled (with rotation) MBD simulation of Jenike cell against simplified vertical stress application only
+  caption: Comparison in simulations (force network, geometry positions and particle velocities) of fully coupled (with rotation) MBD simulation of Jenike cell against simplified vertical stress application only
 - album: post_doc
   image: jenike_stresses.png
   caption: Comparison in stress fields for fully coupled (with rotation) MBD simulation of Jenike cell against simplified vertical stress application only
 - album: post_doc
   image: temporally_scaled_uniaxial.jpg
-  caption: "Comparison of DEM Consolidation Time against experimental dataset"
+  caption: Comparison of DEM Consolidation Time against experimental dataset
 
 ---
 
