@@ -1,7 +1,7 @@
 ---
 title: "Transporting, handling and storing behaviour of iron ore fines"
 
-summary: This project attempts to deal with the challenges associated with handling and storage of cohesive solids in the mining industry. An adhesive-frictional model has been recently developed for DEM simulation of cohesive particles at the University of Edinburgh. This project will exploit the new method for modelling cohesive particulates for specific problems, such as effect of fines in silo discharge and the effect of time consolidation.
+summary: This project attempts to deal with the challenges associated with handling and storage of cohesive solids in the mining industry.
 
 
 tags:
@@ -9,6 +9,8 @@ tags:
 - Data Analytics
 - Temperature dependent
 - Time dependent
+- Coupling
+- MBD
 
 date: "2013-07-27T00:00:00Z"
 
@@ -34,36 +36,51 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
+
+# gallery captions
+gallery_item:
+- album: post_doc
+  image: jenike_cell.png
+  caption: Comparison in simulations (force netwrok, geometry positions and particle velocities) of fully coupled (with rotation) MBD simulation of Jenike cell against simplified vertical stress application only
+- album: post_doc
+  image: jenike_stresses.png
+  caption: Comparison in stress fields for fully coupled (with rotation) MBD simulation of Jenike cell against simplified vertical stress application only
+- album: post_doc
+  image: temporally_scaled_uniaxial.jpg
+  caption: "Comparison of DEM Consolidation Time against experimental dataset"
+
 ---
 
 # Introduction
 ---
 
-Across industry the majority of raw materials handled are particulate in nature, ranging in size and properties from aggregates to powders. The stress regimes experienced by the granular solids vary and the exhibited bulk behaviours can be complex and unexpected. The prevalence of granular solids makes them an area of interest for industry and researchers alike as many challenges still remain, such as dealing with complex cohesive behaviour in materials, which often gives rise to handling difficulties.
-Storage and transportation are an important part of the process chain for industries where particulate solids are commonplace. Failure to properly account for the cohesive nature of a particulate solid can be costly as it can easily lead to blockages in a silo such as ratholing or arching near the outlet during discharge. The cohesive strength of a bulk material depends on the consolidation stress it has experienced. As a result, the
-stress history in the material leading up to a handling scenario needs to be considered when evaluating its handling behaviour.
+This project attempts to deal with the challenges associated with handling and storage of cohesive solids in the mining industry. An adhesive-frictional model has been recently developed for DEM simulation of cohesive particles at the University of Edinburgh. This project will exploit the new method for modelling cohesive particulates for specific problems, such as effect of fines in silo discharge and the effect of time consolidation. 
 
 
-# Research Goals
-## Numerical
-The main aim of the research is to develop an improved contact model to better capture the behaviour of cohesive granular solids, particularly iron ore fines, which are significantly affected by the presence of moisture. In order for numerical simulations to be successfully used for more efficient design and management of industrial equipment and structures, the transition from qualitative to quantitative prediction needs to be made. 
+Fines are produced during transportation, handling and storing of iron pellets. 
+The presence of fines can significantly affect the behaviour of iron ore pellets during these processes. In addition, increased volumes of sinter fines are being produced and handled and their behaviour can also be significantly affected.  
+Silos and other equipment handling the fines can experience such phenomena as caking, arching and alteration of flow pattern, leading to operational difficulties. 
 
-In this study a mesoscopic adhesive contact model that accounts for contact plasticity and stress history dependency in the bulk solid, the Edinburgh Elasto-Plastic Adhesion (EEPA) mode, has been presented and mathematically verified. A parametric study of the DEM contact model parameters was conducted to gain a deeper understating of the effect of input parameters on the simulated cohesive bulk behaviour.
 
-The EEPA contact model has been used to predict an experimental flow function of KPRS iron ore fines. The contact model has demonstrated the ability to capture the stress history dependent behaviour that exists in cohesive granular solids. The DEM simulations provide a very close match to the experimental flow functions, with the predicted unconfined strengths found to be within the standard deviations of the experimental results. Investigations into the failure mode predicted by the DEM simulations show that the samples are failing from the development of shear planes similar to those observed experimentally.
+The behaviour of fines is extremely complex, affected by numerous factors such as particle size, size distribution, stress level (e.g. the maximum vertical stress in a silo), stress state (i.e. the stresses in different directions), stress history, temperature, moisture content, time and chemical bond/fusion. Different combinations of these factors can lead to different behaviours, such as caking with different strength and size, which in turn result in different effects on the solids flow in silos and other handling scenarios in the mining industry.
 
-## Experimental
-To help achieve this a secondary aim is to rigorously characterise the properties of the material that are required for calibration of a numerical model. A study of the effect of the parameters of the adhesive contact model is also carried out. In this study a particular focus is paid to the two types of iron ore fines: KPBO and KPRS, with the purpose of characterising the different materials types and assessing the distinct
-behaviour exhibited by the different fines.
+DEM simulations can also be affected by the prescribed boundary conditions and as such the effect of oversimplification of the degrees of freedom for a Jenike cell are explored in detail, through the use of fully coupled multi-body dynamics for all geometry movements.
 
-A comprehensive study on the effect of cohesion arising from the addition of moisture
-on the behaviour of two types of LKAB iron ore fines (KPBO and KPRS) has been carried out. The addition of moisture to the sample has been found to have a significant
-effect on both kinds of fines. KPRS fines were found to have a much higher unconfined strength and flow function at higher moisture contents, and also show a greater
-increase in cohesion with the addition of moisture, while at moisture contents of less
-than 2% the KPBO fines demonstrate higher unconfined yield strength. The KPBO fines
-were also found to achieve a significantly looser initial packing at much lower moisture
-content when compared to the KPRS fines. The lateral pressure ratio has also been
-evaluated.
+# Image Gallery
+---
 
-Cohesive granular solids such as powders can have a very loose, highly porous structure under very low stresses. While it is possible to generate similar initial packing structures in a DEM simulation, it is not feasible to attempt to match all stress states. In this study, stress states larger than 5-10 kPa are of interest and as such all packing structures will aim to match the experimental results from this stress level. As hardware capabilities continue to improve and the price of computing power continues to decrease, the use of the normally computationally intensive discrete element method will become more common in both research and design. It is hoped that the work presented in this thesis will provide a valuable insight into simulation the complex behaviour of cohesive granular solids.
+{{< gallery album="post_doc" resize_options="x150" >}}
+
+
+
+# Video Gallery
+---
+
+{{< youtube E9fa6P68QDs >}}
+
+
+{{< youtube SvEnSW8LemE >}}
+
+
+---
