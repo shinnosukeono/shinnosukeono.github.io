@@ -105,7 +105,7 @@ The DEM simulations provide a very close match to the experimental flow function
 
 Investigations into the failure mode predicted by the DEM simulations show that the samples are failing from the development of shear planes similar to those observed experimentally.
 
-{{< figure src="albums/phd/planar_shearband.png" title="**Shear Failure mode in DEM Simulations**"  >}}
+{{< figure src="albums/phd/planar_shearband.png" title="**Shear Failure mode in DEM Simulations:** a) DEM Simulation b) Coarse-grained angular velocity in sample c) Coarse-grained solid fraction in sample"  >}}
 
 
 ## Experimental
@@ -114,6 +114,9 @@ A study of the effect of the parameters of the adhesive contact model is also ca
 In this study a particular focus is paid to the two types of iron ore fines: **KPBO** and **KPRS**, with the purpose of characterising the different materials types and assessing the distinct behaviour exhibited by the different fines.
 
 A comprehensive study on the effect of cohesion arising from the addition of moisture on the behaviour of two types of LKAB iron ore fines (KPBO and KPRS) has been carried out using a uniaxial tester, the **Edinburgh Powder Tester (EPT)**. 
+
+{{< figure src="albums/phd/EPT.png" title="**Edinburgh Powder Tester (EPT)**"  >}}
+
 The addition of moisture to the sample has been found to have a significant effect on both kinds of fines. 
 KPRS fines were found to have a much higher unconfined strength and flow function at higher moisture contents, and also show a greater
 increase in cohesion with the addition of moisture, while at moisture contents of less than 2% the KPBO fines demonstrate higher unconfined yield strength. 

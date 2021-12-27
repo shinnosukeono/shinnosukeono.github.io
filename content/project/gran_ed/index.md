@@ -1,6 +1,6 @@
 ---
 title: "Granular Mechanics and Industrial Infrastructure Research Group "
-summary: "The Granular Mechanics and Industrial Infrastructure group is part of the School of Engineering at the University of Edinburgh. This group contains more than 20 members who use a combination of experimental testing, analytical methods and simulations (with appropriate verification and validation) to investigate the behaviour of a diverse range of granular materials."
+summary: "The Granular Mechanics and Industrial Infrastructure group is part of the School of Engineering at the University of Edinburgh. This research group uses a  combination of experimental testing, analytical methods and simulations to investigate the behaviour of a diverse range of granular materials."
 
  
 tags:
@@ -12,6 +12,7 @@ tags:
 - Silo Flow
 - Rheology
 - Simulation
+- other
 
 date: "2009-09-27T00:00:00Z"
 
@@ -80,3 +81,4 @@ Furthermore, the group have a strong track record of research commercialisation.
 
 {{< figure src="EPT.png" title="**Edinburgh Powder Tester**"  >}}
 
+---

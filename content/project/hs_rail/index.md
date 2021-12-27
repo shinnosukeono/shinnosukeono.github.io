@@ -65,7 +65,7 @@ gallery_item:
 
 Ever greater demands are being placed on rail networks around the world. Lack of funding for additional infrastructure means that growing traffic on existing infrastructure pushes the operating limits of the existing infrastructure – the extra traffic is included through a combination of higher train speeds to run more services and higher axle loads to carry more per train. 
 
-In recent decades high speed rail has seen rapid growth around the world, particluarly with 1#tens of thousands of kilometers of new track being built. In the UK HS2, the first new line in almost a century, is being built for high speed rail.
+In recent decades high speed rail has seen rapid growth around the world, particularly with 1#tens of thousands of kilometres of new track being built. In the UK HS2, the first new line in almost a century, is being built for high speed rail.
 In many cases High Speed Rail (HSR) utilises embankments that are of the ballasted type – this is particularly true in the case of mixed use track. **DEM** is ideally suited to use to study the ballasted railway infrastructure considering the naturally discrete inhomogeneous structure.
 
 This project is being carried out in collaboration with Zhejiang University funded by the Royal Newton Fund.
@@ -79,7 +79,7 @@ Full-scale experiments will be carried out on Zhejiang University Physical Model
 
 {{< figure src="albums/hs_rail/frame.png" title="**Zhejiang University High Speed Rail Physical Model (ZJU-iHSRT)**" >}}
 
-DEM simulations will be calibrated from experimental tests such as triaxial tests and direct shear tests. Calibrated DEM simulations of the full embankment are carried out and comapred to the full-scale experimental results.
+DEM simulations will be calibrated from experimental tests such as triaxial tests and direct shear tests. Calibrated DEM simulations of the full embankment are carried out and compared to the full-scale experimental results.
 
 {{< figure src="ShearTest.png" title="**Bulk friction calibration via Direct Shear tests**" >}}
 
@@ -87,13 +87,14 @@ DEM simulations will be calibrated from experimental tests such as triaxial test
 
 
 # Photo Gallery
+---
 
-{{< gallery album="hs_rail" >}}\
-
-
-{{< youtube B3rX9n2rlCE >}}\
+{{< gallery album="hs_rail" >}}
 
 
-{{< youtube psk77DoCn9I >}}\
+{{< youtube B3rX9n2rlCE >}}
 
 
+{{< youtube psk77DoCn9I >}}
+
+---
