@@ -12,7 +12,7 @@ tags:
 - Silo Flow
 - Rheology
 - Simulation
-- other
+- Other
 
 date: "2009-09-27T00:00:00Z"
 
