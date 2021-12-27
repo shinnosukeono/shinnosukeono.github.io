@@ -14,7 +14,7 @@ organizations:
   url: https://www.eng.ed.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include particulate mechanics, the Discrete Element Method (DEM) and other numerical simulation tools. I'ma also interested in all things data and how to extract meaningful information from it.
+bio: My research interests include particulate mechanics, the Discrete Element Method (DEM) and other numerical simulation tools. I'm also interested in all things data and how to extract meaningful information from it.
 
 # Interests to show in About widget
 interests:
