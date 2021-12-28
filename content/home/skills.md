@@ -48,17 +48,17 @@ feature:
 
 - description: 80%
   icon: git
-  icon_pack: fas
+  icon_pack: fab
   name: Git
 
 - description: 50%
   icon: gitlab
-  icon_pack: fas
+  icon_pack: fab
   name: GitLab
 
 - description: 30%
   icon: github
-  icon_pack: fas
+  icon_pack: fab
   name: GitHub
 
 
