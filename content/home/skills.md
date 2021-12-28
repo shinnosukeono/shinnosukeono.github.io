@@ -47,7 +47,7 @@ feature:
   name: Programming
 
 - description: 80%
-  icon: git
+  icon: git-alt
   icon_pack: fab
   name: Git
 
