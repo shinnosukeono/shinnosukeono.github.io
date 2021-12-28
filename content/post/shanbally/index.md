@@ -100,7 +100,8 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
-<iframe width="850" height="720" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/vuz8X"></iframe>
+Thecastle location can be seen in the follwing historical maps from the OSI.
+<iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/uGa8e0"></iframe>
 
 The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
 Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar. It had numerous machicolations, towers and battlements. 
@@ -113,8 +114,8 @@ Both of these rooms had fan-vaulted ceilings, while the ceilings in the other ma
 
 It has been noted that Shanbally bore a considerable resemblance to Nash and Repton's joint venture, Luscombe Castle in Devon, all though Shanbally Castle was considerably larger. There is a stronger resembalnce to [**Caerhays Castle**](https://www.visitcornwall.com/things-to-do/arts-and-heritage/south-coast/mevagissey/caerhays-castle-and-gardens) - You can judge for yourself here.
 
-{{< figure src="albums/shanbally/caerhays-3-1000x500caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" width="400px">}}
-{{< figure src="albums/shanbally/Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" width="400px">}}
+{{< figure src="albums/shanbally/caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" width="350px">}}
+{{< figure src="albums/shanbally/Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" width="350px">}}
 
 
 Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. the woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there….even a reigning king and queen of England were entertained at Shanbally Castle. 
