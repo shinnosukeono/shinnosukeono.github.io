@@ -39,7 +39,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: "  With increasing train speed and wheel axle load, severe vibrations can occur in a ballasted trackbed, thereby accelerating the degradation of the ballast particles and ultimately causing excessive settlement. To gain insights into the long-term trackbed behavior and the ballast degradation evolution, a full-scale ballasted track experiment with eight sleepers was designed and tested on a validated physical model test platform (ZJU-iHSRT). Sieving analysis together with computer-aided ballast morphology analysis were adopted to quantify the ballast degradation in terms of both the ballast particle size and morphological evolution, after every 100,000 train carriages."
+summary: "  With increasing train speed and wheel axle load, severe vibrations can occur in a ballasted trackbed, thereby accelerating the degradation of the ballast particles and ultimately causing excessive settlement. To gain insights into the long-term trackbed behavior and the ballast degradation evolution, a full-scale ballasted track experiment with eight sleepers was designed and tested on a validated physical model test platform (ZJU-iHSRT)."
 
 tags: ["DEM", "Ballast", "High-speed Rail", "Railway Embankment", "Moving Load", "Trackbed settlement"]
 
