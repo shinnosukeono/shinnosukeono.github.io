@@ -44,28 +44,52 @@ categories:
 
 # gallery captions
 gallery_item:
-- album: shanbally
+- album: shanbally_plans
   image: Basement_plan.jpg
   caption: Plan of basement floor
-- album: shanbally
+- album: shanbally_plans
   image: Groundfloor_plan.jpg
   caption: Plan of ground floor
-- album: shanbally
+- album: shanbally_plans
   image: ChamberStorey_plan.jpg
   caption: Plan of chamber floor
-- album: shanbally
+- album: shanbally_plans
   image: ChamberStorey_TimberPlan.jpg
   caption: Timber plan for chamber floor
-- album: shanbally
+- album: shanbally_plans
   image: Entrance_South_Elevations.jpg
   caption: Elevations of the Entrance front and south (garden) front 
-- album: shanbally
+- album: shanbally_plans
   image: PorchSection_WestFront.jpg
   caption: Section through entrance porch, hall and gallery and west elevation
-- album: shanbally
+- album: shanbally_plans
   image: Kitchen_NorthElevation.jpg
   caption: North elevation of the kitchen and offices
-  
+- album: shanbally
+  image: WL_3450.png
+  caption: Plan of basement floor
+- album: shanbally
+  image: WL_3451.png
+  caption: Plan of ground floor
+- album: shanbally
+  image: WL_3452.png
+  caption: Plan of chamber floor
+- album: shanbally
+  image: WL_5167.png
+  caption: Timber plan for chamber floor
+- album: shanbally
+  image: WL_5168.png
+  caption: Elevations of the Entrance front and south (garden) front 
+- album: shanbally
+  image: WL_5169.png
+  caption: Section through entrance porch, hall and gallery and west elevation
+- album: shanbally
+  image: WL_6909.png
+  caption: View of Shanbally Castle across the southern gardens 
+- album: shanbally
+  image: WL_6910.png
+  caption: Approach to Shanbally Castle with Porche-Cochere visible at left
+ 
 
 
 
@@ -101,7 +125,8 @@ As a building designed by the famous architect of the Prince Regent, one of only
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
 The castle location can be seen in the following historical maps (need to select as the historic map is not the default) from the OSI.
-<iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/1HiyiT0"></iframe>
+<!-- <iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/1HiyiT0"></iframe> -->
+<iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1zWevn0"></iframe>
 
 The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
 Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar. It had numerous machicolations, towers and battlements. 
@@ -115,8 +140,8 @@ Both of these rooms had fan-vaulted ceilings, while the ceilings in the other ma
 It has been noted that Shanbally bore a considerable resemblance to Nash and Repton's joint venture, Luscombe Castle in Devon, all though Shanbally Castle was considerably larger. There is a stronger resembalnce to [**Caerhays Castle**](https://www.visitcornwall.com/things-to-do/arts-and-heritage/south-coast/mevagissey/caerhays-castle-and-gardens) - You can judge for yourself here.
 
 
-{{< figure src="albums/shanbally/caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignleft">}} 
-{{< figure src="albums/shanbally/Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignright">}}
+{{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignleft">}} 
+{{< figure src="Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignright">}}
 
 
 
@@ -150,12 +175,16 @@ Their heir was Cornelius O’Callaghan, and Baron Lismore, who was raised to a v
 
 In 1807, Cornelius made an unsuccessful attempt to be elected as a Representative Peer of Ireland. He eventually got to parliament in 1838, when he was created ***Baron Lismore of Shanbally Castle*** in the peerage of the United Kingdom — one of Queen Victoria’s coronation peerages. Cornelius was also Lord Lieutenant of County Tipperary but scandal followed in 1826 when he divorced his wife Lady Eleanor Butler, the daughter of the Earl of Ormond and Ossory. Cornelius died at Shanbally Castle, the house he had commissioned.
  
-His son, George Ponsonby O’Callaghan, 2<sup>nd</sup> Viscount Lismore, married Mary Norbury in 1839. He was Sheriff of County Tipperary in 1853 and Lord Lieutenant of the county between 1857 and 1885. His only son, the Honourable George Cornelius O’Callaghan, married Rosina, the widow of Edward Follett, at Umballa in India in 1874, but died childless at only 39. The 2<sup>nd</sup> Viscount was a Liberal until 1886 in which year, and in opposition to Gladstone’s attempts to introduce Home Rule for Ireland, he left the party, but he remained a Unionist. The Government offered him the Order of Saint Patrick in 1864 but he declined the honour and the peerages died with him in 1898 as both his sons pre-deceased him. His will was proved at £20,000. 
+His son, George Ponsonby O’Callaghan, 2<sup>nd</sup> Viscount Lismore, married Mary Norbury in 1839. He was Sheriff of County Tipperary in 1853 and Lord Lieutenant of the county between 1857 and 1885. His only son, the Honourable George Cornelius O’Callaghan, married Rosina, the widow of Edward Follett, at Umballa in India in 1874, but died childless at only 39. 
+The 2<sup>nd</sup> Viscount was a Liberal until 1886 in which year, and in opposition to Gladstone’s attempts to introduce Home Rule for Ireland, he left the party, but he remained a Unionist. The Government offered him the Order of Saint Patrick in 1864 but he declined the honour and the peerages died with him in 1898 as both his sons pre-deceased him. His will was proved at £20,000. 
 
 His lordship was a victim of the Land War that took place during the 1880s, and he had a lot of land to be worried about. In 1883, his estates comprised 34,945 acres in County Tipperary, together with Shanbally Castle (1000 acres were all that was left in 1954 to be sold to the Land Commission), 6067 acres in County Cork and 1194 acres in County Limerick — making a total of 42,206 acres with an annual rent roll of £16,354.
  
-After the last of the O’ Callaghan male heirs had deceased the castle then passed through the female line. It escaped the phase of house burnings that took place during the War of Independence, although the IRA did use it in 1921 as a training centre. When peace returned, two daughters of the 3<sup>rd</sup> Marquess of Ormonde, Lady Constance Butler and her sister, Lady Beatrice Pole-Carew, occupied the castle almost until the time of its destruction. After the death of Lady Beatrice Pole-Carew in 1952, there was a five-day sale of the contents of the house.  Lady Constance continued to live in a wing of Shanbally until her death 1949, well after World War II.
- 
+After the last of the O’ Callaghan male heirs had deceased the castle then passed through the female line. It escaped the phase of house burnings that took place during the War of Independence, although the IRA did use it in 1921 as a training centre. When peace returned, two daughters of the 3<sup>rd</sup> Marquess of Ormonde, **Lady Constance Butler** and her sister, **Lady Beatrice Pole-Carew**, occupied the castle almost until the time of its destruction. 
+Lady Constance continued to live in a wing of Shanbally until her death 1949, well after World War II.
+After the death of Lady Beatrice Pole-Carew in 1952, there was a five-day sale of the contents of the house. 
+
+
 ##	A questionable decision
 
 As time passed by the influence and wealth of the family declined and in 1954, Major Pole-Carew sold the estate to the Land Commission, which acquired 750 acres of arable land and 250 acres of woodland, as well as Shanbally Castle. For a short period it appeared that a buyer could be found for the castle and despite the attempts of a religious community and of Edward Sackville, 5<sup>th</sup> Lord Sackville of Knole to buy it, by 1957 however, it had been decided that Nash’s fine house should be levelled to the ground. The castle was still in good condition, having been lived in up until quite close to the sale. 
@@ -231,6 +260,12 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
 ---
 
 {{< gallery album="shanbally" resize_options="x150">}} 
+
+
+{{< gallery album="shanbally_plans" resize_options="x150">}} 
+
+
+<!-- {{< gallery album="shanbally_demo" resize_options="x150">}}  -->
 
 ---
 
