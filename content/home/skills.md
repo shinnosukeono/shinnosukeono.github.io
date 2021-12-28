@@ -46,10 +46,26 @@ feature:
   icon_pack: fas 
   name: Programming
 
-- description: 10%
-  icon: camera-retro
+- description: 80%
+  icon: git
   icon_pack: fas
-  name: Photography
+  name: Git
+
+  - description: 50%
+  icon: gitlab
+  icon_pack: fas
+  name: GitLab
+
+  - description: 30%
+  icon: github
+  icon_pack: fas
+  name: GitHub
+
+
+# - description: 10%
+#   icon: camera-retro
+#   icon_pack: fas
+#   name: Photography
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
