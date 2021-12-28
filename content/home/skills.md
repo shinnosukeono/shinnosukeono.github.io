@@ -51,12 +51,12 @@ feature:
   icon_pack: fas
   name: Git
 
-  - description: 50%
+- description: 50%
   icon: gitlab
   icon_pack: fas
   name: GitLab
 
-  - description: 30%
+- description: 30%
   icon: github
   icon_pack: fas
   name: GitHub
