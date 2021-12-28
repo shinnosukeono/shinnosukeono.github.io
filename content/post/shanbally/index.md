@@ -61,7 +61,7 @@ gallery_item:
   caption: Elevations of the Entrance front and south (garden) front 
 - album: shanbally
   image: PorchSection_WestFront.jpg
-  caption: Section though entrance porch, hall and gallery and west elevation
+  caption: Section through entrance porch, hall and gallery and west elevation
 - album: shanbally
   image: Kitchen_NorthElevation.jpg
   caption: North elevation of the kitchen and offices
@@ -88,7 +88,8 @@ The [Swiss Cottage](https://heritageireland.ie/places-to-visit/swiss-cottage/) i
 Nash was also responsible for the design of the school which I attended, which was originally the **Erasmus Smith School** when it was constructed and the nearby **St. Paul's church** which is one of only two known churches by the Royal Architect in Ireland, and the only one with a nearly complete interior.
 
 
-But these are all just the side story to the main act. Shanbally Castle. Or at least they would be if it wasn’t for some abysmal decision making. Shanbally Castle is situated just about 1km from my family home, which itself and the neighbouring houses were all once part of the Shanbally Estate and were constructed to provide accommodation for the staff of the Estate. But the castle is no more, and that is a huge loss, both for the local community and Ireland at large.
+But these are all just the side story to the main act. **Shanbally Castle**. Or at least they would be if it wasn’t for some abysmal decision making. 
+Shanbally Castle is situated just about 1km from my family home, which itself and the neighbouring houses were all once part of the Shanbally Estate and were constructed to provide accommodation for the staff of the Estate. But the castle is no more, and that is a huge loss, both for the local community and Ireland at large.
 As a building designed by the famous architect of the Prince Regent, one of only a handful of castles he built in Ireland, this was the largest of all those. Nash’s other famous castles were Ravensworth and Caerhays in England, with Shanbally being the last of his fine country homes to be built. 
 
 > “Shanbally also had the distinction that it was built, not for the descendant of some Cromwellian carpetbagger, but for the scion of an old Irish family, Cornelius O’Callaghan.” [^1]
@@ -99,15 +100,21 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
-<iframe width="1080" height="720" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/vuz8X"></iframe>
+<iframe width="850" height="720" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/vuz8X"></iframe>
 
-The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by An Oige for hikers. There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
+The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
 Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar. It had numerous machicolations, towers and battlements. 
-In its heyday, Shanbally Castle was entered under a *porte-cochère* (carriage porch) into the main entrance hall. This was divided from the billiard room by a gothic arch. Directly beyond was a large top-lit gallery, at one end of which was an imperial staircase. Both of these rooms had fan-vaulted ceilings, while the ceilings in the other main rooms of the castle had excellent gothic plasterwork. 
+
+
+In its heyday, Shanbally Castle was entered under a *porte-cochère* (carriage porch) into the main entrance hall. This was divided from the billiard room by a gothic arch. Directly beyond was a large top-lit gallery, at one end of which was an imperial staircase. 
+Both of these rooms had fan-vaulted ceilings, while the ceilings in the other main rooms of the castle had excellent gothic plasterwork. 
 
 > “To the right of the entrance hail was the dining room, while the garden front of the castle had, from left to right, the following; a dining room in the great round tower, lit by three lancet windows; a library, which occupied the central section of this front (also lit by three gothic windows); and, farther on, there was a conservatory of six bays with pointed windows.”
 
 It has been noted that Shanbally bore a considerable resemblance to Nash and Repton's joint venture, Luscombe Castle in Devon, all though Shanbally Castle was considerably larger. There is a stronger resembalnce to [**Caerhays Castle**](https://www.visitcornwall.com/things-to-do/arts-and-heritage/south-coast/mevagissey/caerhays-castle-and-gardens) - You can judge for yourself here.
+
+{{< figure src="albums/shanbally/caerhays-3-1000x500caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" width="400px">}}
+{{< figure src="albums/shanbally/Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" width="400px">}}
 
 
 Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. the woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there….even a reigning king and queen of England were entertained at Shanbally Castle. 
@@ -123,7 +130,8 @@ The Estate was completely self-sufficient. Water for the castle and estate prope
  
 To the side of the castle on a slight rise of ground there stood a round, stone building called the Observatory. Also, on the grounds, there was a dogs’ and horses’ cemetery, complete with memorial headstones. 
 
-Many fine hunters were bred at Shanbally, including Cottage, ancestor of the famous *‘Cottage’* line of race horses, the most well-known of which was Sheila’s Cottage, winner of the Grand National in the 1940’s. Also, Cottage Rake, which won the King George VI chase in 1948 at Kempton. Cottage Rake won the Cheltenham Gold Cup in 1948, 1949 and 1950. This horse was trained by Vincent O’Brien at Ballydoyle.
+Many fine hunters were bred at Shanbally, including Cottage, ancestor of the famous *‘Cottage’* line of race horses, the most well-known of which was Sheila’s Cottage, winner of the Grand National in the 1940’s. 
+Also, Cottage Rake, which won the King George VI chase in 1948 at Kempton. Cottage Rake won the Cheltenham Gold Cup in 1948, 1949 and 1950. This horse was trained by Vincent O’Brien at Ballydoyle.
 
 With the passing of years the estate experienced difficult times and was eventually acquired by the Land Commission. All workers were given their houses to purchase for very little money, and some of these houses are still occupied by their descendants. 
 
@@ -134,7 +142,7 @@ The following information about the family that built and lived in Shanbally Cas
 The O’ Callaghan’s held the lands at Shanbally (*Seanbhaile* or *‘the old town’*) for many generations. Thomas O’Callaghan of Shanbally married Sarah, the daughter of John Davis and his wife, the Honourable Ann Caulfield, daughter of the 2<sup>nd</sup> Viscount Caulfield. Thomas and Sarah’s son, Cornelius O’Callaghan was the member for Fethard in four parliaments in Dublin from 1761. In 1785, he was raised to the peerage as Baron Lismore of Shanbally. He married Frances Ponsonby, daughter of the Right Honourable John Ponsonby, who was Speaker of the Irish House of Commons in Grattan’s parliament, and died in 1797.
  
 Their heir was Cornelius O’Callaghan, and Baron Lismore, who was raised to a viscountcy in 1806. 
-<iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.uk/books?id=ufJBAAAAcAAJ&lpg=PA317&ots=4VkdQD-Izt&dq=Baron+Lismore+of+Shanbally+Castle&pg=PA317&output=embed&hl=en" width=500 height=500></iframe>
+<iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.uk/books?id=ufJBAAAAcAAJ&lpg=PA317&ots=4VkdQD-Izt&dq=Baron+Lismore+of+Shanbally+Castle&pg=PA317&output=embed&hl=en" width=600 height=800></iframe>
 
 
 In 1807, Cornelius made an unsuccessful attempt to be elected as a Representative Peer of Ireland. He eventually got to parliament in 1838, when he was created ***Baron Lismore of Shanbally Castle*** in the peerage of the United Kingdom — one of Queen Victoria’s coronation peerages. Cornelius was also Lord Lieutenant of County Tipperary but scandal followed in 1826 when he divorced his wife Lady Eleanor Butler, the daughter of the Earl of Ormond and Ossory. Cornelius died at Shanbally Castle, the house he had commissioned.
@@ -194,7 +202,8 @@ The Cork Examiner commented, in 1957 that:
  
 All of this has gone, a victim of an ignorant mentality. A two-storey summerhouse down by the lake is all that remains of a house and a demesne which, if the government had allowed it to survive, would today be one of the treasures of Ireland’s heritage.
 
-##	Sources
+#	Sources
+---
 
 http://lordbelmontinnorthernireland.blogspot.ie/2011/10/shanbally-castle.html
 
@@ -203,8 +212,6 @@ http://www.clogheen.net/history/shanbally/
 Landed Estates Database, NUI Galway , http://landedestates.nuigalway.ie:8080/LandedEstates/jsp/property-show.jsp?id=3873
 
 Landed Estates Database, NUI Galway, http://landedestates.nuigalway.ie/LandedEstates/jsp/family-show.jsp?id=2283
-
-National Library of Ireland, http://catalogue.nli.ie/Record/L_CAB_06907
 
 The Peerage of the British Empire as at present existing, Edmund Lodge, 1840
 
@@ -215,8 +222,6 @@ The Peerage of the British Empire as at present existing, Edmund Lodge, 1840
 Copyright 2017-present [J.P. Morrissey](https://johnpmorrissey.com).
 Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
 
-# References
-[^1]: Randall MacDonnell, "The Lost Houses Of Ireland: A Chronicle of the Great Houses and the Families Who Lived There", 2002. Weidenfeld & Nicolson,  ISBN: 029784301X.
 
 
 # Project Gallery
@@ -224,3 +229,10 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
 
 {{< gallery album="shanbally" resize_options="x150">}} 
 
+---
+
+
+# References
+---
+
+[^1]: Randall MacDonnell, "The Lost Houses Of Ireland: A Chronicle of the Great Houses and the Families Who Lived There", 2002. Weidenfeld & Nicolson,  ISBN: 029784301X.
