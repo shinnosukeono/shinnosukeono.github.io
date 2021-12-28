@@ -28,6 +28,7 @@ content:
     publication_type: ''
     author: ''
     exclude_featured: true
+    
 design:
   # Choose a view for the listings:
   #   1 = List
