@@ -25,7 +25,7 @@ experience:
   - title: Research Associate
     company: University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: University_of_Edinburgh-Logo
+    company_logo: University_of_Edinburgh-Logo_2
     location: Edinburgh, Scotland, UK
     date_start: '2013-01-07'
     date_end: ''
