@@ -144,22 +144,22 @@ Both of these rooms had fan-vaulted ceilings, while the ceilings in the other ma
 
 <div class="row">
   <div class="column_3">
-    {{< figure src="albums/shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
+      {{< figure src="albums/shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}}
   </div>
   <div class="column_3">
-    {{< figure src="albums/shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}}
+      {{< figure src="albums/shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
   </div>
   <div class="column_3">
-    {{< figure src="albums/shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}}
+      {{< figure src="albums/shanbally_demo/Image_009_28122012.jpg" title="**Main library**" >}}
   </div>
 </div>
 
 <div class="row">
   <div class="column_3">
-    {{< figure src="albums/shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
+        {{< figure src="albums/shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
   </div>
   <div class="column_3">
-    {{< figure src="albums/shanbally_demo/Image_009_28122012.jpg" title="**Main groundfloor gallery**" >}}
+      {{< figure src="albums/shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}}
   </div>
   <div class="column_3">
     {{< figure src="albums/shanbally_demo/Image_003_28122012.jpg" title="**Octagonal tea room**" >}}
@@ -298,11 +298,9 @@ All of this has gone, a victim of an ignorant mentality. A two-storey summerhous
 
 <!-- {{< gallery album="shanbally_demo" resize_options="x150">}}  -->
 
----
-
 
 # References
----
+
 
 [^1]: Randall MacDonnell, "The Lost Houses Of Ireland: A Chronicle of the Great Houses and the Families Who Lived There", 2002. Weidenfeld & Nicolson,  ISBN: 029784301X.
 
