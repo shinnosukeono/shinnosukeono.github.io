@@ -1,5 +1,5 @@
 ---
-title: A Lost Treasure
+title: "Shanbally Castle: A Lost Treasure"
 
 subtitle: A brief overview of the history of Shanbally Castle
 
@@ -19,7 +19,7 @@ lastmod: "2021-12-01T00:00:00Z"
 draft: false
 
 # Show this page in the Featured widget?
-featured: false
+featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
