@@ -104,7 +104,8 @@ This post was originally published on [Jp's Blog](blog.johnpmorrissey.com) in 20
 For those of you who are familiar with your history or architecture the name of **John Nash** will sound quite familiar. Nash is a famous British architect who was responsible for much of the design of Regency London. From 1810 onwards he was mainly employed by the then Prince Regent, who would later become King George IV, and worked on very few private projects in this time. His first task for the Prince was the development of **Regent Street** and the surrounding area. Some of his most famous work include the Royal Pavilion in Brighton and the development of Buckingham House in to **Buckingham palace**, the **Royal Mews** and the **Marble Arch**, which would later become the entrance to Hyde Park. 
 
 
-Anyway I’m talking about John Nash now as I’m at home for the Christmas period and was recently passing through my local town (*Cahir, Co. Tipperary*) which owes quite a bit of its heritage to a certain John Nash. He was responsible for one of the towns most visited attractions, the [Swiss Cottage](https://heritageireland.ie/places-to-visit/swiss-cottage/) and several other buildings (*Erasmus Smith School* and *St. Paul's Church of Ireland*) in the town.
+Anyway I’m talking about John Nash now as I’m at home for the Christmas period and was recently passing through my local town (*Cahir, Co. Tipperary*) which owes quite a bit of its heritage to a certain John Nash. 
+He was responsible for one of the towns most visited attractions, the [Swiss Cottage](https://heritageireland.ie/places-to-visit/swiss-cottage/) and several other buildings (*Erasmus Smith School* and *St. Paul's Church of Ireland*) in the town.
 The [Swiss Cottage](https://heritageireland.ie/places-to-visit/swiss-cottage/) is an ornamental cottage that was built for the Baron of Cahir in 1810. The cottage has a thatched roof and includes rooms full of fancy furniture and hand-painted wallpapers. The cottage was fully restored in 1989 and is now open to the public and is a major tourist attraction for the town along with the stunning medieval castle in the town centre.
 Nash was also responsible for the design of the school which I attended, which was originally the **Erasmus Smith School** when it was constructed and the nearby **St. Paul's church** which is one of only two known churches by the Royal Architect in Ireland, and the only one with a nearly complete interior.
 
@@ -117,16 +118,17 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 ##	The Castle
 
-**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle in 1810, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. The castle and estate was the property of the Earls of Ormonde (the Butlers: a powerful Norman ruling family) and whose principal residence was [**Kilkenny Castle**](https://kilkennycastle.ie/). 
+**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle in 1810, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. 
+The castle and estate was the property of the Earls of Ormonde (the Butlers: a powerful Norman ruling family) and whose principal residence was [**Kilkenny Castle**](https://kilkennycastle.ie/). 
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
-The castle location can be seen in the following historical maps (*Note: need to select as the historic map is not the default*) from the OSI.
+The castle location can be seen in the following historical maps from the OSI (*Note: need to select historic map layer as the historic map is not the default*).
 <!-- <iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/1HiyiT0"></iframe> -->
-<iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1zWevn0"></iframe>
+<iframe width="800" height="600" frameborder="0" scrolling="no" src="https://arcg.is/1zWevn0"></iframe>
 
 The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. 
-To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. 
+To facilitate this a hunting lodge ([Mountain Lodge](https://www.buildingsofireland.ie/buildings-search/building/22208001/mountain-lodge-cullenagh-shanrahan-pr-tipperary-south)) was erected there in the 1830’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. 
 There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
 
 
