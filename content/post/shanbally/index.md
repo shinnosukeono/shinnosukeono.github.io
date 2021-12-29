@@ -139,11 +139,24 @@ Both of these rooms had fan-vaulted ceilings, while the ceilings in the other ma
 
 It has been noted that Shanbally bore a considerable resemblance to Nash and Repton's joint venture, Luscombe Castle in Devon, all though Shanbally Castle was considerably larger. There is a stronger resembalnce to [**Caerhays Castle**](https://www.visitcornwall.com/things-to-do/arts-and-heritage/south-coast/mevagissey/caerhays-castle-and-gardens) - You can judge for yourself here.
 
-
+<!-- <div>
 {{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignleft">}} 
 {{< figure src="Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" class="alignright">}}
 
+</div> -->
 
+
+<div class="row">
+  <div class="column">
+    {{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" >}} 
+  </div>
+  <div class="column">
+    {{< figure src="Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" >}}
+  </div>
+  <div class="column">
+    {{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" >}} 
+  </div>
+</div>
 
 Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. the woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there….even a reigning king and queen of England were entertained at Shanbally Castle. 
 When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1915, they stayed in Shanbally Castle on their tour (This was due to the Earls of Ormonde connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Pole-Carews attended the coronation of Edward VII and Alexandra in 1912).
