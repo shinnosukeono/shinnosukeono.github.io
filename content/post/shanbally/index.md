@@ -67,28 +67,25 @@ gallery_item:
   caption: North elevation of the kitchen and offices
 - album: shanbally
   image: WL_3450.png
-  caption: Plan of basement floor
+  caption: View of Shanbally Castle from front elevation with porte-cochère 
 - album: shanbally
   image: WL_3451.png
-  caption: Plan of ground floor
+  caption: View of Shanbally Castle across the southern gardens 
 - album: shanbally
   image: WL_3452.png
-  caption: Plan of chamber floor
+  caption: End Elevation of Shanbally castle showing towers containing the oval drawing room (right) and dining room (left)
 - album: shanbally
   image: WL_5167.png
-  caption: Timber plan for chamber floor
-- album: shanbally
-  image: WL_5168.png
-  caption: Elevations of the Entrance front and south (garden) front 
+  caption: View of Shanbally Castle from front elevation with porte-cochère
 - album: shanbally
   image: WL_5169.png
-  caption: Section through entrance porch, hall and gallery and west elevation
+  caption: View of Shanbally Castle across the southern gardens. Main Library is visible in centre of facade with single storey conservatory to the right.
 - album: shanbally
   image: WL_6909.png
   caption: View of Shanbally Castle across the southern gardens 
 - album: shanbally
   image: WL_6910.png
-  caption: Approach to Shanbally Castle with Porche-Cochere visible at left
+  caption: Approach to Shanbally Castle with porte-cochère visible at left
  
 
 
@@ -120,7 +117,7 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 ##	The Castle
 
-**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. The castle and estate was the property of the Earls of Ormonde (the Butlers: a powerful Norman ruling family) and whose principal residence was [**Kilkenny Castle**](https://kilkennycastle.ie/). 
+**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle in 1810, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. The castle and estate was the property of the Earls of Ormonde (the Butlers: a powerful Norman ruling family) and whose principal residence was [**Kilkenny Castle**](https://kilkennycastle.ie/). 
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
@@ -132,7 +129,8 @@ The nearby Galtee Mountains also formed part of the Shanbally Estate and guests 
 To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. 
 There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
 
-Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar. It had numerous machicolations, towers and battlements. 
+
+Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar and built in a *Gothic Revival* style. It had numerous machicolations, towers and battlements. The magnificent building can be seen in the following photos taken circa 1865.
 
 {{< gallery album="shanbally" resize_options="x150">}} 
 
@@ -143,6 +141,30 @@ Directly beyond was a large top-lit gallery, at one end of which was an imperial
 Both of these rooms had fan-vaulted ceilings, while the ceilings in the other main rooms of the castle had excellent gothic plasterwork. 
 
 > “To the right of the entrance hail was the dining room, while the garden front of the castle had, from left to right, the following; a dining room in the great round tower, lit by three lancet windows; a library, which occupied the central section of this front (also lit by three gothic windows); and, farther on, there was a conservatory of six bays with pointed windows.”
+
+<div class="row">
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
+  </div>
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}}
+  </div>
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
+  </div>
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_009_28122012.jpg" title="**Main groundfloor gallery**" >}}
+  </div>
+  <div class="column_3">
+    {{< figure src="albums/shanbally_demo/Image_003_28122012.jpg" title="**Octagonal tea room**" >}}
+  </div>
+</div>
 
 It has been noted that Shanbally bore a considerable resemblance to Nash and Repton's joint venture, Luscombe Castle in Devon, all though Shanbally Castle was considerably larger. There is a stronger resembalnce to [**Caerhays Castle**](https://www.visitcornwall.com/things-to-do/arts-and-heritage/south-coast/mevagissey/caerhays-castle-and-gardens) - You can judge for yourself here.
 
@@ -164,6 +186,9 @@ It has been noted that Shanbally bore a considerable resemblance to Nash and Rep
 
 Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. 
 The woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there.
+
+  {{< figure src="shanbally_castle_aerial.jpg" title="**Aerial view of Shanbally Castle, in early 20th century**" >}} 
+
 Even a reigning king and queen of England were entertained at Shanbally Castle. 
 When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1904 on a private trip to Kilkenny Castle (the seat of the Ormonde's), Waterford and Lismore, they visited Shanbally Castle on their tour. 
 This was likely due to the Marquess of Ormonde's connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Ormonde's attended the coronation of King George V and Queen Mary in 1911 [^2].
@@ -187,13 +212,16 @@ With the passing of years the estate experienced difficult times and was eventua
 ## Family History
 
 The following information about the family that built and lived in Shanbally Castle can be found in *“The Lost Houses of Ireland: A Chronicle of the Great Houses and the Families who Lived There”*[^1].
-The O’ Callaghan’s held the lands at Shanbally (*Seanbhaile* or *‘the old town’*) for many generations. Thomas O’Callaghan of Shanbally married Sarah, the daughter of John Davis and his wife, the Honourable Ann Caulfield, daughter of the 2<sup>nd</sup> Viscount Caulfield. Thomas and Sarah’s son, Cornelius O’Callaghan was the member for Fethard in four parliaments in Dublin from 1761. In 1785, he was raised to the peerage as Baron Lismore of Shanbally. He married Frances Ponsonby, daughter of the Right Honourable John Ponsonby, who was Speaker of the Irish House of Commons in Grattan’s parliament, and died in 1797.
+The O’ Callaghan’s held the lands at Shanbally (*Seanbhaile* or *‘the old town’*) for many generations. Thomas O’Callaghan of Shanbally married Sarah, the daughter of John Davis and his wife, the Honourable Ann Caulfield, daughter of the 2<sup>nd</sup> Viscount Caulfield. 
+Thomas and Sarah’s son, Cornelius O’Callaghan was the member for Fethard in four parliaments in Dublin from 1761. In 1785, he was raised to the peerage as Baron Lismore of Shanbally. 
+He married Frances Ponsonby, daughter of the Right Honourable John Ponsonby, who was Speaker of the Irish House of Commons in Grattan’s parliament, and died in 1797.
  
 Their heir was Cornelius O’Callaghan, and Baron Lismore, who was raised to a viscountcy in 1806. 
 <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.uk/books?id=ufJBAAAAcAAJ&lpg=PA317&ots=4VkdQD-Izt&dq=Baron+Lismore+of+Shanbally+Castle&pg=PA317&output=embed&hl=en" width=600 height=800></iframe>
 
 
-In 1807, Cornelius made an unsuccessful attempt to be elected as a Representative Peer of Ireland. He eventually got to parliament in 1838, when he was created ***Baron Lismore of Shanbally Castle*** in the peerage of the United Kingdom — one of Queen Victoria’s coronation peerages. Cornelius was also Lord Lieutenant of County Tipperary but scandal followed in 1826 when he divorced his wife Lady Eleanor Butler, the daughter of the Earl of Ormond and Ossory. Cornelius died at Shanbally Castle, the house he had commissioned.
+In 1807, Cornelius made an unsuccessful attempt to be elected as a Representative Peer of Ireland. He eventually got to parliament in 1838, when he was created ***Baron Lismore of Shanbally Castle*** in the peerage of the United Kingdom — one of Queen Victoria’s coronation peerages. 
+Cornelius was also Lord Lieutenant of County Tipperary but scandal followed in 1826 when he divorced his wife Lady Eleanor Butler, the daughter of the Earl of Ormond and Ossory. Cornelius died at Shanbally Castle, the house he had commissioned.
  
 His son, George Ponsonby O’Callaghan, 2<sup>nd</sup> Viscount Lismore, married Mary Norbury in 1839. He was Sheriff of County Tipperary in 1853 and Lord Lieutenant of the county between 1857 and 1885. His only son, the Honourable George Cornelius O’Callaghan, married Rosina, the widow of Edward Follett, at Umballa in India in 1874, but died childless at only 39. 
 The 2<sup>nd</sup> Viscount was a Liberal until 1886 in which year, and in opposition to Gladstone’s attempts to introduce Home Rule for Ireland, he left the party, but he remained a Unionist. The Government offered him the Order of Saint Patrick in 1864 but he declined the honour and the peerages died with him in 1898 as both his sons pre-deceased him. His will was proved at £20,000. 
@@ -205,9 +233,13 @@ Lady Constance continued to live in a wing of Shanbally until her death 1949, we
 After the death of Lady Beatrice Pole-Carew in 1952, there was a five-day sale of the contents of the house. 
 
 
-##	A questionable decision
+##	A terrible decision
 
-As time passed by the influence and wealth of the family declined and in 1954, Major Pole-Carew sold the estate to the Land Commission, which acquired 750 acres of arable land and 250 acres of woodland, as well as Shanbally Castle. For a short period it appeared that a buyer could be found for the castle and despite the attempts of a religious community and of Edward Sackville, 5<sup>th</sup> Lord Sackville of Knole to buy it, by 1957 however, it had been decided that Nash’s fine house should be levelled to the ground. The castle was still in good condition, having been lived in up until quite close to the sale. 
+As time passed by the influence and wealth of the family declined and in 1954, Major Pole-Carew sold the estate to the Land Commission, which acquired 750 acres of arable land and 250 acres of woodland, as well as Shanbally Castle. 
+For a short period it appeared that a buyer could be found for the castle and despite the attempts of a religious community and of Edward Sackville, 5<sup>th</sup> Lord Sackville of Knole to buy it.
+He agreed to buy the castle, together with 163 acres (0.66 km2), but pulled out of the transaction when the Irish Land Commission refused to stop cutting trees in the land he intended to buy.
+However, by 1957 it had been decided that Nash’s fine house should be levelled to the ground. 
+At this point the castle was still in good condition, having been lived in up until quite close to the sale. 
 
 > “Not only was the building of the first importance in the history of Irish domestic architecture but it was also in good and complete condition before it fell afoul of the crass ignorance and prejudice of the bureaucrats who decided to destroy it.”
 
@@ -220,11 +252,12 @@ Describing the order to demolish the castle as an *'act of vandalism'*, Professo
 > *`There is no sense whatever in squandering public money on the destruction of a beautiful house which is well known to students of Nash's domestic architecture’*. 
 
 He received a reply stating that the Minister would be unavailable until mid-October, but would give the matter his fullest attention when he returned to work. 
-
-But Professor Gwynn's article was already too late. Despite some local opposition and widespread critical comment, the roof was removed and some of its impressive cut stones were being removed by hand and broken into smaller pieces for use in road building.
+But Professor Gwynn's article was already too late. 
+Despite some local opposition and widespread critical comment, the roof was removed and some of its impressive cut stones were being removed by hand and broken into smaller pieces for use in road building.
  
-The demolition had started in September. The beautiful lawn trees at Shanbally were cut down and *‘rapidly carted away’*. 
-The Land Commission had sold the castle to a Limerick firm who razed it to the ground in order to salvage materials from the ruins. A Limerick auctioneer sold these at public auction. 
+The demolition had started in September. 
+The beautiful lawn trees at Shanbally were cut down and *‘rapidly carted away’*. 
+The Land Commission had sold the castle to a Limerick firm who razed it to the ground in order to salvage materials from the ruins and these were sold at public auction by a Limerick auctioneer. 
 The *'philistines'* who did this were merely symptomatic of the general attitude of the population at the time. The Land Commission issued the following notice: *‘The beautiful cut stone of the Castle will no doubt be put to practical use’*.
  
 The Government Information Bureau, in an attempt to defend the vandalism, issued the following statement, which although suited their narrative, should be considered a blatant lie:
@@ -254,31 +287,10 @@ The Cork Examiner commented, in 1957 that:
  
 All of this has gone, a victim of an ignorant mentality. A two-storey summerhouse down by the lake is all that remains of a house and a demesne which, if the government had allowed it to survive, would today be one of the treasures of Ireland’s heritage.
 
-#	Sources
+
+
+# Photo Gallery
 ---
-
-http://lordbelmontinnorthernireland.blogspot.ie/2011/10/shanbally-castle.html
-
-http://www.clogheen.net/history/shanbally/
-
-Landed Estates Database, NUI Galway , http://landedestates.nuigalway.ie:8080/LandedEstates/jsp/property-show.jsp?id=3873
-
-Landed Estates Database, NUI Galway, http://landedestates.nuigalway.ie/LandedEstates/jsp/family-show.jsp?id=2283
-
-The Peerage of the British Empire as at present existing, Edmund Lodge, 1840
-
-
-
-# License
-
-Copyright 2017-present [J.P. Morrissey](https://johnpmorrissey.com).
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
-
-
-
-# Project Gallery
----
-
 
 
 {{< gallery album="shanbally_plans" resize_options="x150">}} 
