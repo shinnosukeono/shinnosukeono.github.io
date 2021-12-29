@@ -1,0 +1,64 @@
+{{/* Enable an array of images to be loaded from local page dir or media library at `static/media/`.
+    Pass "srcArray" and "thumbCaption" as comma separated strings.
+    Set "numCols" to the wanted number of columns.
+    A general figure caption should be passed as "figCaption" */}}
+
+{{ $page := .Page }}
+{{ $media_dir := site.Params.media_dir | default "media" }}
+
+{{/* Parse data arrays */}}
+{{ $scrArray := split (.Get "srcArray") ";" }}
+{{ $thumbCaption := split (.Get "thumbCaption") ";" }}
+
+{{/* Parse all other variables */}}
+{{ $figCaption := .Get "figCaption" | default "" }}
+{{ $numCols := .Get "numCols" | default 2 }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $library := .Get "library" | default false }}
+{{ $fixSpacing := .Get "fixSpacing" | default false }}
+
+{{/* The shortcode supports up to 12 columns */}}
+{{ if (gt $numCols 12) }}
+ {{ $numCols = 12 }}
+{{ end }}
+
+{{/* Calculate col width */}}
+{{ $colSize := printf "col-%d" (int (math.Floor (div 12.0 $numCols))) }}
+
+{{/* Declare some variables */}}
+{{ $asset := "" }}
+{{ $image_src := "" }}
+{{ $uniqueName := printf "gallery-%d" .Ordinal }}
+{{ $justify := "justify-content-between" }}
+
+{{/* Change flex behaviour if user want a fixed spacing */}}
+{{ if $fixSpacing }}
+ {{ $justify = "justify-content-center" }}
+{{ end }}
+
+<figure>
+<div class="d-flex flex-wrap {{ with $justify }}{{ . }}{{ end }}">
+{{ range $img_index, $img := $scrArray }}
+ {{ $asset = ($page.Resources.ByType "image").GetMatch $img }}
+ {{ $img_md := $asset.Fit "760x760" }}{{/* Match `.docs-article-container` max-width */}}
+ {{ $width := $img_md.Width }}
+ {{ $height := $img_md.Height }}
+
+ <div class="{{with $colSize}}{{ . }}{{ end }} p-1">
+   <a data-fancybox="{{$uniqueName}}" href="{{$asset.RelPermalink}}" {{ with (index $thumbCaption $img_index) }}data-caption="{{ .|markdownify|emojify|safeHTMLAttr }}"{{ end }}>
+     <img alt="" src="{{ $img_md.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" loading="lazy"/>
+   </a>
+ </div>
+
+{{ end }}
+
+</div>
+
+{{ if $figCaption }}
+ {{/* Localize the figure numbering (if enabled). */}}
+ {{ $figure := split (i18n "figure" | default "Figure %d:") "%d" }}
+ <figcaption{{ if eq (.Get "numbered") "true" }} data-pre="{{ index $figure 0 }}" data-post="{{ index $figure 1 }}" class="numbered"{{ end }}>
+   {{ $figCaption | markdownify | emojify }}
+ </figcaption>
+{{ end }}
+</figure>
