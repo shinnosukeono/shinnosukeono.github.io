@@ -124,15 +124,22 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
 
-The castle location can be seen in the following historical maps (need to select as the historic map is not the default) from the OSI.
+The castle location can be seen in the following historical maps (*Note: need to select as the historic map is not the default*) from the OSI.
 <!-- <iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/1HiyiT0"></iframe> -->
 <iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1zWevn0"></iframe>
 
-The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
+The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. 
+To facilitate this a hunting lodge (Mountain Lodge) was erected there in the 1920’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. 
+There was also a two-storey summerhouse down by the lake which was known as the tea-rooms.
+
 Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar. It had numerous machicolations, towers and battlements. 
 
+{{< gallery album="shanbally" resize_options="x150">}} 
 
-In its heyday, Shanbally Castle was entered under a *porte-cochère* (carriage porch) into the main entrance hall. This was divided from the billiard room by a gothic arch. Directly beyond was a large top-lit gallery, at one end of which was an imperial staircase. 
+
+In its heyday, Shanbally Castle was entered under a *porte-cochère* (carriage porch) into the main entrance hall. 
+This was divided from the billiard room by a gothic arch. 
+Directly beyond was a large top-lit gallery, at one end of which was an imperial staircase. 
 Both of these rooms had fan-vaulted ceilings, while the ceilings in the other main rooms of the castle had excellent gothic plasterwork. 
 
 > “To the right of the entrance hail was the dining room, while the garden front of the castle had, from left to right, the following; a dining room in the great round tower, lit by three lancet windows; a library, which occupied the central section of this front (also lit by three gothic windows); and, farther on, there was a conservatory of six bays with pointed windows.”
@@ -147,19 +154,19 @@ It has been noted that Shanbally bore a considerable resemblance to Nash and Rep
 
 
 <div class="row">
-  <div class="column">
+  <div class="column_2">
     {{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" >}} 
   </div>
-  <div class="column">
+  <div class="column_2">
     {{< figure src="Caerhays-0406.jpg" title="**Caerhays Castle, Cornwall, England**" >}}
-  </div>
-  <div class="column">
-    {{< figure src="caerhays-3-1000x500.jpg" title="**Caerhays Castle, Cornwall, England**" >}} 
   </div>
 </div>
 
-Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. the woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there….even a reigning king and queen of England were entertained at Shanbally Castle. 
-When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1915, they stayed in Shanbally Castle on their tour (This was due to the Earls of Ormonde connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Pole-Carews attended the coronation of Edward VII and Alexandra in 1912).
+Shanbally castle was a magnificent house that was situated on landscaped gardens, with the whole lot over-looking a private lake which was often used activities such as boating. 
+The woods belonging to the castle was used for rearing game, and visiting gentry to the castle enjoyed themselves in shooting parties there.
+Even a reigning king and queen of England were entertained at Shanbally Castle. 
+When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1904 on a private trip to Kilkenny Castle (the seat of the Ormonde's), Waterford and Lismore, they visited Shanbally Castle on their tour. 
+This was likely due to the Marquess of Ormonde's connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Ormonde's attended the coronation of King George V and Queen Mary in 1911 [^2].
 
 ###	The Estate
 
@@ -272,7 +279,6 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
 # Project Gallery
 ---
 
-{{< gallery album="shanbally" resize_options="x150">}} 
 
 
 {{< gallery album="shanbally_plans" resize_options="x150">}} 
@@ -287,3 +293,5 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
 ---
 
 [^1]: Randall MacDonnell, "The Lost Houses Of Ireland: A Chronicle of the Great Houses and the Families Who Lived There", 2002. Weidenfeld & Nicolson,  ISBN: 029784301X.
+
+[^2]: The Peeresses at the Coronation.  *Patea Mail*, Volume XXXIV, 21 Aug 1911. https://paperspast.natlib.govt.nz/newspapers/PATM19110821.2.2?query=Pole 
