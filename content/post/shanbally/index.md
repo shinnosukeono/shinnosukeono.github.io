@@ -125,7 +125,7 @@ The Estate comprised of 600 acres of farmland and 400 acres of woodland. The est
 
 The castle location can be seen in the following historical maps from the OSI (*Note: need to select historic map layer as the historic map is not the default*).
 <!-- <iframe width="800" height="600" frameborder="0" scrolling="no" allow="fullscreen" loading="lazy" src="https://arcg.is/1HiyiT0"></iframe> -->
-<iframe width="800" height="600" frameborder="0" scrolling="no" loading="lazy" src="https://arcg.is/1zWevn0"></iframe>
+<iframe width="800" height="600" frameborder="0" scrolling="no" loading="lazy" src="https://arcg.is/1zWevn0" onLoad="self.scrollTo(0,0)></iframe>
 
 The nearby Galtee Mountains also formed part of the Shanbally Estate and guests at the castle hunted deer and pheasant on the mountain. 
 To facilitate this a hunting lodge ([Mountain Lodge](https://www.buildingsofireland.ie/buildings-search/building/22208001/mountain-lodge-cullenagh-shanrahan-pr-tipperary-south)) was erected there in the 1830’s, and has for many years now been a youth hostel, having been acquired by [An Óige](https://anoige.ie/) for hikers. 
