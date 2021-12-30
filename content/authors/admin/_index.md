@@ -79,7 +79,8 @@ highlight_name: true
 
 J.P. is an experienced research scientist specialising in **particulate mechanics** and the **Discrete Element Method (DEM)**. J.P. completed his Ph.D. at the University of Edinburgh studying in the field of granular mechanics and has over 10 years research experience covering both the experimental and numerical fields.   
 
-J.P. was developer of a novel DEM contact model that captures the behaviour of complex cohesive granular solids. This contact model has been implemented in the commerical DEM code **EDEM** (now *Altair EDEM*) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
+J.P. was the developer of a novel DEM contact model that captures the behaviour of complex cohesive granular solids. 
+This contact model has been implemented in the commerical DEM code **EDEM** (now *Altair EDEM*) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
 J.P. was also heavily involved in the development of the **Edinburgh Powder Tester (EPT)** whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. 
 
 Working the the numerical field of *DEM*, *programming*, *data analysis* and *visualisation* are common tasks and *python*, *Julia* and *C++* are often the tools of choice. 
