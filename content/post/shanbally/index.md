@@ -192,8 +192,8 @@ The woods belonging to the castle was used for rearing game, and visiting gentry
   {{< figure src="shanbally_castle_aerial.jpg" title="**Aerial view of Shanbally Castle, in early 20th century**" >}} 
 
 Even a reigning king and queen of England were entertained at Shanbally Castle. 
-When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1904 on a private trip to Kilkenny Castle (the seat of the Ormonde's), Waterford and Lismore, they visited Shanbally Castle on their tour. 
-This was likely due to the Marquess of Ormonde's connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Ormonde's attended the coronation of King George V and Queen Mary in 1911 [^2].
+When, as king and queen, the royal couple of Edward VII and Alexandra visited Ireland in 1904 on a private trip to Kilkenny Castle (the seat of the Ormonde's), Waterford and Lismore, they visited Shanbally Castle on their tour [^2]. 
+This was likely due to the Marquess of Ormonde's connection to the British royal family and their very powerful political position in Ireland for hundreds of years; the Ormonde's attended the coronation of King George V and Queen Mary in 1911 [^3].
 
 ###	The Estate
 
@@ -306,4 +306,7 @@ All of this has gone, a victim of an ignorant mentality. A two-storey summerhous
 
 [^1]: Randall MacDonnell, "The Lost Houses Of Ireland: A Chronicle of the Great Houses and the Families Who Lived There", 2002. Weidenfeld & Nicolson,  ISBN: 029784301X.
 
-[^2]: The Peeresses at the Coronation.  *Patea Mail*, Volume XXXIV, 21 Aug 1911. https://paperspast.natlib.govt.nz/newspapers/PATM19110821.2.2?query=Pole 
+[^2]: Hunt, T. (2017). *The Little Book of Waterford*. Argentina: History Press. https://www.google.co.uk/books/edition/The_Little_Book_of_Waterford/U5ALDgAAQBAJ?hl=en&gbpv=1&dq=king+edward+and+alexandra+%22lismore%22&pg=PT56&printsec=frontcover
+
+[^3]: The Peeresses at the Coronation.  *Patea Mail*, Volume XXXIV, 21 Aug 1911. https://paperspast.natlib.govt.nz/newspapers/PATM19110821.2.2?query=Pole 
+
