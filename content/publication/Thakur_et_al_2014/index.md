@@ -36,7 +36,7 @@ abstract: |-
 # Summary. An optional shortened abstract.
 summary: "An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability."
 
-tags: ["cohesive material", "contact model", "discrete element method", "DEM", "plasticity", "powder flow", "uniaxial test"]
+tags: ["cohesive material", "contact model", "EEPA", "discrete element method", "DEM", "plasticity", "powder flow", "uniaxial test"]
 
 # Display this page in the Featured widget?
 featured: true
