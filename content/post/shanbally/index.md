@@ -310,3 +310,5 @@ All of this has gone, a victim of an ignorant mentality. A two-storey summerhous
 
 [^3]: The Peeresses at the Coronation.  *Patea Mail*, Volume XXXIV, 21 Aug 1911. https://paperspast.natlib.govt.nz/newspapers/PATM19110821.2.2?query=Pole 
 
+[^4]: Tipperary Library Service https://soundcloud.com/tipperary-libraries/shanbally-castle 
+
