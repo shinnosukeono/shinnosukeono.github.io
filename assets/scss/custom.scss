@@ -8,6 +8,57 @@
     color: white;
 }
 
+
+.article-tags a[href='/tag/eepa/'] {
+    background: #b6c649;
+    color: black;
+}
+
+.dark .article-tags a[href='/tag/eepa/'] {
+    background: #B6C649;
+    color: black;
+}
+
+.article-tags a[href='/tag/calibration/'] {
+    background: #f46036;
+    color: white;
+}
+
+.dark .article-tags a[href='/tag/calibration/'] {
+    background: #f46036;
+    color: white;
+}
+
+.article-tags a[href='/tag/characterisation/'] {
+    background: #485696;
+    color: white;
+}
+
+.dark .article-tags a[href='/tag/characterisation/'] {
+    background: #485696;
+    color: white;
+}
+
+.article-tags a[href='/tag/Model Driven Design/'] {
+    background: #3DFAFF;
+    color: black;
+}
+
+.dark .article-tags a[href='/tag/Model Driven Design/'] {
+    background: #3DFAFF;
+    color: black;
+}
+
+.article-tags a[href='/tag/MDD/'] {
+    background: #3DFAFF;
+    color: black;
+}
+
+.dark .article-tags a[href='/tag/MDD/'] {
+    background: #3DFAFF;
+    color: black;
+}
+
 .gallery a[data-fancybox] img {
     height: 240px;
     max-width: 31%;		
