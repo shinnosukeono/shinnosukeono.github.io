@@ -20,7 +20,7 @@ twitter: 'jp_morr'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
+email: 
 phone: 
 address:
   street: School of Engineering, The King's Buildings
@@ -35,20 +35,20 @@ coordinates:
 directions: Floor 2, Alexander Graham Bell Building, Thomas Bayes Road.
 office_hours:
   - 'Monday - Friday:  09:00 to 17:30'
-appointment_url: 'https://calendly.com'
+# appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: 'https://twitter.com/jp_morr'
+  # - icon: skype
+  #   icon_pack: fab
+  #   name: Skype Me
+  #   link: 'skype:echo123?call'
+  # - icon: comments
+  #   icon_pack: fas
+  #   name: Discuss on Forum
+  #   link: 'https://discourse.gohugo.io'
 
 # Site header
 
