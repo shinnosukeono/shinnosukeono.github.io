@@ -134,7 +134,7 @@ The first set of images I tested the AI tool on was the higher quality images of
  
 <div class="row">
     <div class="column_2">
-        {{< figure src="albums/shanbally/WL_3451.png" title="**View of Shanbally Castle across the southern gardens**" >}} 
+        {{< figure src="albums/shanbally/wl_3451.png" title="**View of Shanbally Castle across the southern gardens**" >}} 
     </div>
     <div class="column_2">
         {{< figure src="albums/shanbally_colour/WL_3451_Col.png" title="**View of Shanbally Castle across the southern gardens - now in colour**" >}}
