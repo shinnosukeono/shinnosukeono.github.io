@@ -119,6 +119,10 @@ As it turns out, there's quite a lot of work after getting done in the area in t
 
  # Colourised Images
 
+## High Resolution Images
+
+The first set of images I tested the AI tool on was the higher quality images of the exterior of the castle shot early in it's lifetime. These photos are relatively good resolution without many defects in the image.
+
 <div class="row">
     <div class="column_2">
         {{< figure src="albums/shanbally/WL_3450.png" title="**View of Shanbally Castle from front elevation with porte-cochère**" >}} 
@@ -128,7 +132,6 @@ As it turns out, there's quite a lot of work after getting done in the area in t
     </div>
 </div>
  
-
 <div class="row">
     <div class="column_2">
         {{< figure src="albums/shanbally/WL_3451.png" title="**View of Shanbally Castle across the southern gardens**" >}} 
@@ -137,7 +140,6 @@ As it turns out, there's quite a lot of work after getting done in the area in t
         {{< figure src="albums/shanbally_colour/WL_3451_Col.png" title="**View of Shanbally Castle across the southern gardens - now in colour**" >}}
     </div>
 </div>
-
 
 <div class="row">
     <div class="column_2">
@@ -148,7 +150,6 @@ As it turns out, there's quite a lot of work after getting done in the area in t
     </div>
 </div>
 
-
 <div class="row">
     <div class="column_2">
         {{< figure src="albums/shanbally/WL_5167.png" title="**View of Shanbally Castle from front elevation with porte-cochère**" >}} 
@@ -158,7 +159,6 @@ As it turns out, there's quite a lot of work after getting done in the area in t
     </div>
 </div>
 
-
 <div class="row">
     <div class="column_2">
         {{< figure src="albums/shanbally/WL_5169.png" title="**View of Shanbally Castle across the southern gardens. Main Library is visible in centre of facade with single storey conservatory to the right**" >}} 
@@ -167,7 +167,6 @@ As it turns out, there's quite a lot of work after getting done in the area in t
         {{< figure src="albums/shanbally_colour/WL_5169_Col.png" title="**View of Shanbally Castle across the southern gardens - now in colour**" >}}
     </div>
 </div>
-
 
 <div class="row">
     <div class="column_2">
@@ -184,5 +183,61 @@ As it turns out, there's quite a lot of work after getting done in the area in t
     </div>
     <div class="column_2">
         {{< figure src="albums/shanbally_colour/WL_6910_Col.png" title="**Approach to Shanbally Castle with porte-cochère visible at left - now in colour**" >}}
+    </div>
+</div>
+
+## Low Resolution Images
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_009_28122012.jpg" title="**Main library**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_009_28122012_col.jpg" title="**Main library - now in colour**" >}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_010_28122012_col.jpg" title="**Inside of drawing room - now in colour**" >}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_007_28122012_col.jpg" title="**Main groundfloor gallery - now in colour**" >}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_005_28122012_col.jpg" title="**Main staircase from Gallery - now in colour**" >}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_006_28122012_col.jpg" title="**Vaulted ceiling over main staircase - now in colour**" >}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="column_2">
+        {{< figure src="shanbally_demo/Image_003_28122012.jpg" title="**Octagonal tea room**" >}} 
+    </div>
+    <div class="column_2">
+        {{< figure src="shanbally_demo_colour/Image_003_28122012_col.jpg" title="**Octagonal tea room - now in colour**" >}}
     </div>
 </div>
