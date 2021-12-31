@@ -1,10 +1,10 @@
 ---
-title: "Shanbally Castle: A Lost Treasure"
+title: "Colourising Old Photos: Shanbally Castle Revisited"
 
-subtitle: A brief overview of the history of Shanbally Castle
+subtitle: Adding a splash of colour to some old photos using AI and deep learning.
 
 # Summary for listings and search engines
-summary: A brief overview of the history of Shanbally Castle.
+summary: Adding a splash of colour to some old photos using AI and deep learning.
 
 # Link this post with a project
 projects: []
@@ -16,7 +16,7 @@ date: "2021-12-31T00:00:00Z"
 # lastmod: "2021-12-01T00:00:00Z"
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: true
