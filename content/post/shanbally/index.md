@@ -79,7 +79,7 @@ gallery_item:
   caption: View of Shanbally Castle from front elevation with porte-cochère
 - album: shanbally
   image: WL_5169.png
-  caption: View of Shanbally Castle across the southern gardens. Main Library is visible in centre of facade with single storey conservatory to the right.
+  caption: View of Shanbally Castle across the southern gardens. Main Library is visible in centre of facade with single storey conservatory to the right
 - album: shanbally
   image: WL_6909.png
   caption: View of Shanbally Castle across the southern gardens 
@@ -118,7 +118,7 @@ As a building designed by the famous architect of the Prince Regent, one of only
 
 ##	The Castle
 
-**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle in 1810, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. 
+**Cornelius O’Callaghan** engaged John Nash to design Shanbally Castle in 1810, which was situated between the **Galtee Mountains** and the **Knockmealdown Mountains** in South Tipperary. Construction was completed around 1819.
 The castle and estate was the property of the Earls of Ormonde (the Butlers: a powerful Norman ruling family) and whose principal residence was [**Kilkenny Castle**](https://kilkennycastle.ie/). 
 
 The Estate comprised of 600 acres of farmland and 400 acres of woodland. The estate also included the estate manager’s house, and three houses which were known as *‘lodges’*, and these were occupied by caretakers. There was *Finn’s lodge*; *Carey’s lodge,* and *Norris’s lodge*, and the whole estate was surrounded by a high stone wall, which was known by the local people as the *‘demesne wall’*. 
