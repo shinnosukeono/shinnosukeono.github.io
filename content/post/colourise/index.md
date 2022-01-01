@@ -103,7 +103,9 @@ This post was originally published on [Jp's Blog](blog.johnpmorrissey.com) in 20
 # Introduction
 ---
 
-While recently organising some old black & white photos that I had digitised I began to think about whether it would be possible to colourise those photos using some modern deep learning techniques rather than manually colourising in either PhotoShop or GIMP. Manually colourising may be the best way to ensure accuracy (if you know a specific colour in the image) but it can be incredibly slow and tedious taking hours, days or even months, depending on the photo. This didn't sound appealing to me. The promise of automatically (automagically?) coloured in minutes by an AI sounded ...easier.
+While recently organising some old black & white photos that I had digitised I began to think about whether it would be possible to colourise those photos using some modern deep learning techniques rather than manually colourising in either PhotoShop or GIMP. 
+Manually colourising may be the best way to ensure accuracy (if you know a specific colour in the image) but it can be incredibly slow and tedious taking hours, days or even months, depending on the photo. 
+This didn't sound appealing to me. The promise of automatically (automagically?) coloured in minutes by an AI sounded ...easier.
 
 Here's a great video on the process of colourising images properly:
 {{< youtube vubuBrcAwtY >}}
@@ -118,6 +120,8 @@ As it turns out, there's quite a lot of work after getting done in the area in t
 
 
  # Colourised Images
+
+ I'm using  set of photos of from a previous post of [lost local landmark](./post/shanbally/) to get an idea of what it might look like if I walked past it today.
 
 ## High Resolution Images
 
@@ -195,13 +199,18 @@ Again another image that has been very well done. Only one small washed out path
 </div>
 
 ## Low Resolution Images
+The second batch of photos I'm going to attempt colourising are the internal photos. 
+These images are quite poor quality as they are scans of printed photos and not ones longingly created from negatives or originals. 
+This means that although the resolution is relatively high, there is a lot of noise in the image, which may affect the colourising process. 
+Ideally, these photos should probably be enhanced or restored before colourising but I'm going to skip that step. 
+Maybe I'll come back to do it some other time.
 
 <div class="row">
     <div class="column_2">
         {{< figure src="albums/shanbally_demo/Image_009_28122012.jpg" title="**Main library**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_009_28122012_col.jpg" title="**Main library - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_009_28122012_col.png" title="**Main library - now in colour**" >}}
     </div>
 </div>
 
@@ -210,7 +219,7 @@ Again another image that has been very well done. Only one small washed out path
         {{< figure src="albums/shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_010_28122012_col.jpg" title="**Inside of drawing room - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_010_28122012_col.png" title="**Inside of drawing room - now in colour**" >}}
     </div>
 </div>
 
@@ -219,7 +228,7 @@ Again another image that has been very well done. Only one small washed out path
         {{< figure src="albums/shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_007_28122012_col.jpg" title="**Main groundfloor gallery - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_007_28122012_col.png" title="**Main groundfloor gallery - now in colour**" >}}
     </div>
 </div>
 
@@ -228,7 +237,7 @@ Again another image that has been very well done. Only one small washed out path
         {{< figure src="albums/shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_005_28122012_col.jpg" title="**Main staircase from Gallery - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_005_28122012_col.png" title="**Main staircase from Gallery - now in colour**" >}}
     </div>
 </div>
 
@@ -237,7 +246,7 @@ Again another image that has been very well done. Only one small washed out path
         {{< figure src="albums/shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_006_28122012_col.jpg" title="**Vaulted ceiling over main staircase - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_006_28122012_col.png" title="**Vaulted ceiling over main staircase - now in colour**" >}}
     </div>
 </div>
 
@@ -246,6 +255,6 @@ Again another image that has been very well done. Only one small washed out path
         {{< figure src="albums/shanbally_demo/Image_003_28122012.jpg" title="**Octagonal tea room**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_003_28122012_col.jpg" title="**Octagonal tea room - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_003_28122012_col.png" title="**Octagonal tea room - now in colour**" >}}
     </div>
 </div>
