@@ -38,69 +38,20 @@ tags:
 - Shanbally Castle
 - AI
 - Deep Learning
+- Photo
 
 categories:
 - AI
 - Architecture
 - Deep Learning
 
-# gallery captions
-gallery_item:
-- album: shanbally_plans
-  image: Basement_plan.jpg
-  caption: Plan of basement floor
-- album: shanbally_plans
-  image: Groundfloor_plan.jpg
-  caption: Plan of ground floor
-- album: shanbally_plans
-  image: ChamberStorey_plan.jpg
-  caption: Plan of chamber floor
-- album: shanbally_plans
-  image: ChamberStorey_TimberPlan.jpg
-  caption: Timber plan for chamber floor
-- album: shanbally_plans
-  image: Entrance_South_Elevations.jpg
-  caption: Elevations of the Entrance front and south (garden) front 
-- album: shanbally_plans
-  image: PorchSection_WestFront.jpg
-  caption: Section through entrance porch, hall and gallery and west elevation
-- album: shanbally_plans
-  image: Kitchen_NorthElevation.jpg
-  caption: North elevation of the kitchen and offices
-- album: shanbally
-  image: WL_3450.png
-  caption: View of Shanbally Castle from front elevation with porte-cochère 
-- album: shanbally
-  image: WL_3451.png
-  caption: View of Shanbally Castle across the southern gardens 
-- album: shanbally
-  image: WL_3452.png
-  caption: End Elevation of Shanbally castle showing towers containing the oval drawing room (right) and dining room (left)
-- album: shanbally
-  image: WL_5167.png
-  caption: View of Shanbally Castle from front elevation with porte-cochère
-- album: shanbally
-  image: WL_5169.png
-  caption: View of Shanbally Castle across the southern gardens. Main Library is visible in centre of facade with single storey conservatory to the right.
-- album: shanbally
-  image: WL_6909.png
-  caption: View of Shanbally Castle across the southern gardens 
-- album: shanbally
-  image: WL_6910.png
-  caption: Approach to Shanbally Castle with porte-cochère visible at left
- 
-
-
 
 ---
-
-{{% callout note %}}
-This post was originally published on [Jp's Blog](blog.johnpmorrissey.com) in 2012.
-{{% /callout %}}
 
 {{< toc >}}
 
 # Introduction
+
 ---
 
 While recently organising some old black & white photos that I had digitised I began to think about whether it would be possible to colourise those photos using some modern deep learning techniques rather than manually colourising in either PhotoShop or GIMP. 
@@ -113,15 +64,20 @@ Here's a great video on the process of colourising images properly:
 ## The Contenders
 
 As it turns out, there's quite a lot of work after getting done in the area in the past few years and a little bit of research threw up some of the main contenders - here's a well curated [list](https://reposhub.com/python/deep-learning/oskar-j-awesome-image-coloring.html) of some of the many options. After some further reading, I narrowed the list down to a few contenders:
- - https://github.com/richzhang/colorization  
- - https://github.com/junyanz/interactive-deep-colorization
- - https://github.com/google-research/google-research/tree/master/coltran
- - https://github.com/jantic/DeOldify
+ - https://github.com/richzhang/colorization : This is quite well referenced and the results look quite promising.
+ - https://github.com/junyanz/interactive-deep-colorization : This is an interactive tool that allow you to specify the colour of a specific region which can be useful for stopping colour bleeding or to force a specific colour in an area. This is now included in Adobe Photoshop Elements.
+ - https://github.com/google-research/google-research/tree/master/coltran : The power of Google research. Should be good, right?
+ - https://github.com/jantic/DeOldify : A pretty impressive tool that is now available within [MyHeritage](https://www.myheritage.com/incolor) website. This is the original tool minus any new updates in the MyHeritage version.
 
+There's strengths and weaknesses for each of these options and there is also a dependence on the dataset used for training, both it's size and content. If you use a model trained on pictures containing people nd animals only, it will probably do a relatively poor job colouring landscape images.
+
+There's a really nice [post](https://habr.com/en/company/ruvds/blog/568426/) that makes a comparison between the colour transformer and DeOldify approaches which shows that the transformer can give great results, but more often than not it will do something strange while DeOldify is much more consistent from years of training and tweaking. However, it does show that DeOldify can have a more limited and restrained colour palette because of how it works.
+
+Anyway, after much reading and thinking about what I want to achieve (reliable colourisation of old photos), I've decided to start with DeOldify's notebooks and see how well it performs on my images.
 
  # Colourised Images
 
- I'm using  set of photos of from a previous post of [lost local landmark](../shanbally/) to get an idea of what it might look like if I walked past it today.
+ I'm using  set of photos of from a previous post of a [lost local landmark](../shanbally/) to get an idea of what it might look like if I walked past it today.
 
 ## High Resolution Images
 
@@ -217,7 +173,7 @@ My only question/doubt here relates to the colour of the material on the road - 
 
 
 The AI has done a pretty decent job of colourising these photos, with some obvious sections that would require a manual touch-up. 
-The colour adds a new perspective to these images and I'm surprised 
+The colour adds a new perspective to these images and I'm surprised by how much of a difference it makes.
 
 
 ## Low Resolution Images
@@ -317,4 +273,4 @@ Some more time was obviously spent finding the best input parameters as this can
 
 The AI and algorithm worked much better on the the first batch of higher quality images and there were a few really impressive conversions. It struggled a bit with the second set of images which were lower quality with a pixelated appearance due to being scans of printed images. I also think the image content didn't help, with it struggling to add colours to the interior and things all just ending up with an average *'brownish'* wash because it did quite well on the exterior images in this batch.
 
-I've been impressed by what these new tools can do, but they will probably never quite have the accuracy of a lovingly created, historically accurate, manually create colour image. But if you just want a splash of color for a new perspective, then this is great.
+I've been impressed by what these new tools can do, but they will probably never quite have the accuracy of a lovingly created, historically accurate, manually colourised image. But if you just want a splash of color for a new perspective, then this is great.
