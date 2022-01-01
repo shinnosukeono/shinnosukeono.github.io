@@ -121,7 +121,7 @@ As it turns out, there's quite a lot of work after getting done in the area in t
 
  # Colourised Images
 
- I'm using  set of photos of from a previous post of [lost local landmark](./post/shanbally/) to get an idea of what it might look like if I walked past it today.
+ I'm using  set of photos of from a previous post of [lost local landmark](../shanbally/) to get an idea of what it might look like if I walked past it today.
 
 ## High Resolution Images
 
@@ -210,7 +210,7 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_009_28122012.jpg" title="**Main library**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_009_28122012_col.png" title="**Main library - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_009_28122012.png" title="**Main library - now in colour**" >}}
     </div>
 </div>
 
@@ -219,7 +219,7 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_010_28122012.jpg" title="**Inside of drawing room**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_010_28122012_col.png" title="**Inside of drawing room - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_010_28122012.png" title="**Inside of drawing room - now in colour**" >}}
     </div>
 </div>
 
@@ -228,7 +228,7 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_007_28122012.jpg" title="**Main groundfloor gallery**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_007_28122012_col.png" title="**Main groundfloor gallery - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_007_28122012.png" title="**Main groundfloor gallery - now in colour**" >}}
     </div>
 </div>
 
@@ -237,7 +237,7 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_005_28122012.jpg" title="**Main staircase from Gallery**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_005_28122012_col.png" title="**Main staircase from Gallery - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_005_28122012.png" title="**Main staircase from Gallery - now in colour**" >}}
     </div>
 </div>
 
@@ -246,7 +246,7 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_006_28122012.jpg" title="**Vaulted ceiling over main staircase**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_006_28122012_col.png" title="**Vaulted ceiling over main staircase - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_006_28122012.png" title="**Vaulted ceiling over main staircase - now in colour**" >}}
     </div>
 </div>
 
@@ -255,6 +255,6 @@ Maybe I'll come back to do it some other time.
         {{< figure src="albums/shanbally_demo/Image_003_28122012.jpg" title="**Octagonal tea room**" >}} 
     </div>
     <div class="column_2">
-        {{< figure src="albums/shanbally_demo_colour/Image_003_28122012_col.png" title="**Octagonal tea room - now in colour**" >}}
+        {{< figure src="albums/shanbally_demo_colour/Image_003_28122012.png" title="**Octagonal tea room - now in colour**" >}}
     </div>
 </div>
