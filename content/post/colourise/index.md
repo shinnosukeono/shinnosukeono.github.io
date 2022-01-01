@@ -50,7 +50,7 @@ categories:
 
 {{< toc >}}
 
-# Introduction
+## Introduction
 
 ---
 
@@ -75,11 +75,11 @@ There's a really nice [post](https://habr.com/en/company/ruvds/blog/568426/) tha
 
 Anyway, after much reading and thinking about what I want to achieve (reliable colourisation of old photos), I've decided to start with DeOldify's notebooks and see how well it performs on my images.
 
- # Colourised Images
+ ## Colourised Images
 
  I'm using  set of photos of from a previous post of a [lost local landmark](../shanbally/) to get an idea of what it might look like if I walked past it today.
 
-## High Resolution Images
+### High Resolution Images
 
 The first set of images I tested the AI tool on was the higher quality images of the exterior of the castle shot early in it's lifetime. These photos are relatively good resolution without many defects in the image.
 
@@ -176,7 +176,7 @@ The AI has done a pretty decent job of colourising these photos, with some obvio
 The colour adds a new perspective to these images and I'm surprised by how much of a difference it makes.
 
 
-## Low Resolution Images
+### Low Resolution Images
 The second batch of photos I'm going to attempt colourising are the internal photos. 
 These images are quite poor quality as they are scans of printed photos and not ones longingly created from negatives or originals. 
 This means that although the resolution is relatively high, there is a lot of noise in the image, which may affect the colourising process. 
@@ -266,7 +266,7 @@ Also, I have no idea on the actual interior decoration and what colours to expec
 **Verdict:** This is by far the best of the this batch of low quality photos. The only blemish is the slightly green tint appearing in the sky. It does look like a glorious late summer's day in Tipperary though. Amazing what  little colour can do.
 
 
-# Conclusion
+## Conclusion
 
 Overall, the quality of the colourised images is pretty impressive for an automated process that only took 5-10s per image. 
 Some more time was obviously spent finding the best input parameters as this can vary per image, depending on the image quality.
