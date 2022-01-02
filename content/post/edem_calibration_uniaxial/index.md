@@ -7,10 +7,11 @@ summary:
   Handling of particulate products is a task that is at the core of many industries, from pharmaceuticals to foods to mining. Measuring the flowability of such materials or characterising the properties for a DEM cohesive material model in a simulation is not necessarily a trivial task.
 
 # Link this post with a project
-projects: []
+projects: 
+ - gran_ed
 
 # Date published
-date: "2019-12-13T00:00:00Z"
+date: "2019-02-05T00:00:00Z"
 
 # Date updated
 lastmod: "2021-12-01T00:00:00Z"

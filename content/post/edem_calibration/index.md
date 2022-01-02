@@ -7,7 +7,10 @@ subtitle: ''
 summary: Using uniaxial testing is a quick and easy way of calibrating cohesive solids for DEM simulations.
 
 # Link this post with a project
-projects: []
+projects: 
+- phd
+- pos_doc
+- gran_ed
 
 # Date published
 date: "2017-10-19T00:00:00Z"
