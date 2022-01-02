@@ -78,8 +78,11 @@ There should also be a GPU implementation of the modelling making bigger simulat
 </div>
 
 
-
 I hope this helps making simulation of cohesive granular materials more accessible to more user and that the models popularity continues to grow.
+
+{{< cite page="/publication/morrissey_2013" view="4" >}}
+
+{{< cite page="/publication/thakur_et_al_2014" view="4" >}}
 
 # References
 [^1]:	American Society of Mechanical Engineers., *Guide for verification and validation in computational solid mechanics*, American Society of Mechanical Engineers, 2006. https://www.asme.org/products/codes-standards/v-v-10-2006-guide-verification-validation (accessed July 13, 2017).
