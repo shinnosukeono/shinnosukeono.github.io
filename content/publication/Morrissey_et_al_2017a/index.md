@@ -40,7 +40,7 @@ abstract: |-
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["EDEM", "EBPM", "TBBM", "Contact model", "Bond model", "Beam Bond", "Timoshenko"]
+tags: ["EDEM", "EBBM", "TBBM", "Contact model", "Bond model", "Beam Bond", "Timoshenko"]
 
 # Display this page in the Featured widget?
 featured: false
