@@ -5,7 +5,7 @@ name = "Custom"
 light = true
 
 # Primary
-primary = "#0092e0"
+primary = "#0085CC"
 
 # Menu
 menu_primary = "#212529"
@@ -18,7 +18,7 @@ home_section_odd = "#ffffff"
 home_section_even = "#EBEBEB"
 
 # Links
-link = "#0092e0"
+link = "#0085CC"
 link_hover = "#133C55"
 link_decoration = "underline"
 
@@ -37,5 +37,5 @@ link_decoration = "underline"
     home_section_even = "#4b4b4b"
 
     # Links
-    link = "#C05746"
-    link_hover = "#C05746"
+    link = "#0085CC"
+    link_hover = "#0085CC"
