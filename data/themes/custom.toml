@@ -5,9 +5,7 @@ name = "Custom"
 light = true
 
 # Primary
-primary = "#007EBD"
-primary_light = "0088CC"
-primary_dark = "0088CC"
+primary = "#0092e0"
 
 # Menu
 menu_primary = "#212529"
@@ -20,8 +18,8 @@ home_section_odd = "#ffffff"
 home_section_even = "#EBEBEB"
 
 # Links
-link = "#007EBD"
-link_hover = "#0088CC"
+link = "#0092e0"
+link_hover = "#133C55"
 link_decoration = "underline"
 
 [dark]
@@ -29,9 +27,9 @@ link_decoration = "underline"
     primary = "#ffa600"
 
     # Menu
-    dark_menu_primary = "#212529"
-    dark_menu_text = "#ffa600"
-    dark_menu_text_active = "rgba(255,255,255,1)"
+    menu_primary = "#212529"
+    menu_text = "#ffa600"
+    menu_text_active = "rgba(255,255,255,1)"
     dark_menu_title = "#999999"
 
     # Home sections
@@ -39,5 +37,5 @@ link_decoration = "underline"
     home_section_even = "#4b4b4b"
 
     # Links
-    dark_link = "#C05746"
-    dark_link_hover = "#C05746"
+    link = "#C05746"
+    link_hover = "#C05746"
