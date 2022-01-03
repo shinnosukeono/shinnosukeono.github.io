@@ -59,7 +59,7 @@ And that's where my new favourite Python Library comes in ... Hello **PyVista**.
 ## PyVista
 ---
 
-[PyVista](https://docs.pyvista.org/) is a powerful and flexible library for plotting 3D figures using python. It's also based on **VTK**, but implements a higher level API that interfaces through [Numpy](https://numpy.org/). PyVista is:
+[PyVista](https://docs.pyvista.org/) is a powerful and flexible library for plotting 3D figures using python. It's also based on **VTK**, but implements a higher level API that interfaces through [NumPy](https://numpy.org/). PyVista is:
 > 3D plotting made simple and built for large/complex data geometries
 
 I don't want to write a huge tutorial here because there are lots of great examples on the [PyVista website](https://docs.pyvista.org/examples/index.html) which should help you get started. I'm just going to include my favourite examples here and then let you go explore as you wish.
