@@ -1,10 +1,10 @@
 ---
-title: Favourite Python Library of 2020
+title: Favourite Tool/Package of 2020
 
 subtitle: ''
 
 # Summary for listings and search engines
-summary: An introduction to my favourite python package for 2020.
+summary: An introduction to my favourite tool or package for 2020.
 
 # Link this post with a project
 projects: []
@@ -53,7 +53,7 @@ Working with **Discrete Element Method (DEM)** usually means that you need to vi
 
 Anyway, that's where [ParaView](https://www.paraview.org/) usually comes in. It's a hugely powerful open-source data analysis and visualization application. However, it's built on top of the **VTK** library and usually requires writing all your data out in a *ascii* VTK format, which is not always practical.
 
-And that's where my new favourite Python Library comes in.
+And that's where my new favourite Python Library comes in ... Hello **PyVista**.
 
 
 ## PyVista
