@@ -15,14 +15,14 @@ menu_title = "#999999"
 
 # Home sections
 home_section_odd = "#ffffff"
-home_section_even = "#E5E5E5"
+home_section_even = "#D6D6D6"
 
 # Links
-link = "#707070"
-link_hover = "#000"
+link = "#0088CC"
+link_hover = "#005F8F"
 link_decoration = "underline"
 
 [dark]
     # Home sections
-    home_section_odd = "#1d2127"
+    home_section_odd = "#D6D6D6"
     home_section_even = "#1d2127"
