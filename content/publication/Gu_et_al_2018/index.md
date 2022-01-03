@@ -34,7 +34,7 @@ abstract: |-
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["DEM", "TBBM", "High-speed Rail", "Railway Embankment", "Moving Load"]
+tags: ["DEM", "EBBM", "TBBM", "High-speed Rail", "Railway Embankment", "Moving Load"]
 
 # Display this page in the Featured widget?
 featured: false
