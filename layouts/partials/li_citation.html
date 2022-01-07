@@ -16,6 +16,7 @@
       {{- .Params.publication | markdownify -}}.
       {{ end }}
       <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+      <div class="spacer"></div>
   
       {{/* MLA Style */}}
       {{ else if eq site.Params.publications.citation_style "mla" }}
@@ -57,4 +58,6 @@
       <a href={{ print "https://plu.mx/plum/a/?doi=" .Params.doi }} data-popup="bottom" data-size="medium" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a>
     {{ end }}
     </div>
+
+
   </div>
