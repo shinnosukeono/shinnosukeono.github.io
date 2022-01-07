@@ -59,7 +59,6 @@
       Available at: <a href="{{ .Params.url_pdf }}">{{- .Params.url_pdf | markdownify -}}</a>
       {{ end }}
       <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
-      <div class="spacer"></div>
 
       {{/* CO Style */}}
       {{ else }}
@@ -87,5 +86,6 @@
     {{ end }}
     </div>
 
+    <div class="spacer"></div>
 
   </div>

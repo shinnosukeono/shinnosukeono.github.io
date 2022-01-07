@@ -104,21 +104,28 @@ copyright_license:
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
+
 abstract_length: 135
+
 plugins_js: []
+
 avatar:
   gravatar: false
   shape: circle
+
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: harvard
+
 projects:
   post_view: 2
   publication_view: 2
   talk_view: 2
+
 breadcrumb:
   page_types:
     book: true
+
 comments:
   provider: 'disqus'
   commentable:
@@ -132,6 +139,7 @@ comments:
     show_count: true
   commento:
     url: ''
+
 search:
   provider: wowchemy
   algolia:
@@ -139,19 +147,23 @@ search:
     api_key: ''
     index_name: ''
     show_logo: false
+
 map:
   provider: 'mapnik'
   api_key: ''
   zoom: 16
+
 marketing:
   google_analytics: 'UA-18805120-1'
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
+
 cms:
   branch: master
   local_backend: false
+
 icon:
   pack:
     ai: true
