@@ -29,6 +29,9 @@ content:
     author: ''
     exclude_featured: true
     
+
+citation_style: 'harvard'
+
 design:
   # Choose a view for the listings:
   #   1 = List

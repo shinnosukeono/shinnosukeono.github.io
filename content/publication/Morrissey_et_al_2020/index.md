@@ -31,7 +31,6 @@ publishDate: "2020-05-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-citation_style: 'harvard'
 publication: SIMULATION
 publication_short: SIMULATION
 volume: 96
