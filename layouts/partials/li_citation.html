@@ -37,23 +37,23 @@
       {{ else if eq site.Params.publications.citation_style "harvard" }}
   
       <span class="article-metadata li-cite-author">
-        {{ partial "page_metadata_authors" . }}
+        {{ partial "page_metadata_authors" . }},
       </span>
       {{- .Date.Format "2006" -}}.
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
       {{ if .Params.publication }}
-      {{- .Params.publication | markdownify -}}
+      {{- *.Params.publication* | markdownify -}}
       {{ else if .Params.publication_short }}
-      {{- .Params.publication_short | markdownify -}} 
+      {{- *.Params.publication_short* | markdownify -}} 
       {{ end }}
       {{ if .Params.volume }}
-      , {{- .Params.volume | markdownify -}}
+      , {{ .Params.volume | markdownify -}}
       {{ end }}
       {{ if .Params.issue }}
       ({{- .Params.issue | markdownify -}})
       {{ end }}
       {{ if .Params.pages }}
-      , pp{{- .Params.pages | markdownify -}}
+      , pp.{{- .Params.pages | markdownify -}}
       {{ end }}.
       {{ if .Params.url_pdf }}
       Available at: <a href="{{ .Params.url_pdf }}">{{- .Params.url_pdf | markdownify -}}</a>
