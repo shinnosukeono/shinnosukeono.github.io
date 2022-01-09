@@ -21,7 +21,7 @@ date: "2017-10-10T00:00:00Z"
 draft: false
 
 # Show this page in the Featured widget?
-featured: false
+featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -49,7 +49,7 @@ math: true
 {{% callout note %}}
 This post was originally published on [www.edemsimulation.com](https://www.edemsimulation.com/news/more-particles-faster-edem-2018/).
 
-Since Altair's aquistion of EDEM in 2020 the original post has been taken down. A cached copy of that post can be found [here](https://shackletonventures.com/more-particlesfaster-with-edem-2018/).
+Since Altair's acquisition of EDEM in 2020 the original post has been taken down. A cached copy of that post can be found [here](https://shackletonventures.com/more-particlesfaster-with-edem-2018/).
 {{% /callout %}}
 
 ## Introduction
