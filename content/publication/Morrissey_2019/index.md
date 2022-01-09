@@ -19,8 +19,8 @@ publishDate: "2019-03-18T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
+publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Poster at *Royal Society of Chemistry Formative Formulation Workshop, Maxwell Centre, University of Cambridge, Cambridge, UK.*"
