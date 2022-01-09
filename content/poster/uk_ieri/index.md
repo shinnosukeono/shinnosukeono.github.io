@@ -21,7 +21,7 @@ links:
   name: Follow
   url: https://twitter.com/jp_morr
 url_code: ""
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/UK_IERI_V2_600DPI.pdf
+url_pdf: https://bit.ly/Sticky_Situation
 url_slides: ""
 url_video: ""
 

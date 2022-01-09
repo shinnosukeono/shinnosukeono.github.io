@@ -20,7 +20,7 @@ links:
   name: Follow
   url: https://twitter.com/jp_morr
 url_code: ""
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/Modelling%20a%20Twin%20Screw%20Granulator%20using%20the%20Discrete%20Element%20Method.pdf
+url_pdf: https://bit.ly/TSG_DEM
 url_slides: ""
 url_video: ""
 

@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/Hybrid%20Multiscale%20Modelling%20of%20a%20Twin%20Screw%20Granulator.pdf
+url_pdf: https://bit.ly/HybridModelling_TSG
 url_code: ''
 url_dataset: ''
 url_poster: ''

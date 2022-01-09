@@ -21,7 +21,7 @@ links:
   name: Follow
   url: https://twitter.com/jp_morr
 url_code: ""
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/PARTEC_Poster.pdf
+url_pdf: https://bit.ly/VELaSSCo_PARTEC
 url_slides: ""
 url_video: ""
 

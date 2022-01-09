@@ -20,7 +20,7 @@ links:
   name: Follow
   url: https://twitter.com/jp_morr
 url_code: ""
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/Hybrid%20Multiscale%20Modelling%20of%20a%20Twin%20Screw%20Granulator.pdf
+url_pdf: https://bit.ly/HybridModelling_TSG
 url_slides: ""
 url_video: ""
 

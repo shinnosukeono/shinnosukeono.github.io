@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/Modelling%20a%20Twin%20Screw%20Granulator%20using%20the%20Discrete%20Element%20Method.pdf
+url_pdf: https://bit.ly/TSG_DEM
 url_code: ''
 url_dataset: ''
 url_poster: ''

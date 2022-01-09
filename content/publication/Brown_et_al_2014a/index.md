@@ -51,7 +51,7 @@ links:
 - name: linux_x64
   url: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EdinburghBondedParticleModel_Linux_x64.zip
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EBPM_ReferenceManual.pdf
+url_pdf: https://bit.ly/EBPM_Reference_Manual
 url_code: ''
 url_dataset: ''
 url_poster: ''

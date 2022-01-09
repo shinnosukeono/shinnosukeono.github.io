@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/EBPM_ExampleProblem.pdf
+url_pdf: https://bit.ly/EBPM_Example_Problem
 url_code: ''
 url_dataset: ''
 url_poster: ''

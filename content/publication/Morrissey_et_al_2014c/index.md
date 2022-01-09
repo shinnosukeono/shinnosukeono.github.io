@@ -48,7 +48,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/ECM_ReferenceManual.pdf
+url_pdf: https://bit.ly/EEPA_Reference_Manual
 url_code: ''
 url_dataset: ''
 url_poster: ''
