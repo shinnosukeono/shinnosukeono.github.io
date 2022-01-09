@@ -1,7 +1,7 @@
 ---
-# An instance of the Pages widget.
+# An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: featured
 
 # This file represents a page section.
 headless: true
@@ -10,24 +10,19 @@ headless: true
 weight: 60
 
 title: Recent Posts
-subtitle:
+subtitle: Highlights
 
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: post
   # Choose how many pages you would like to display (0 = all pages)
-  count: 9
+  count: 6
   # Filter on criteria
   filters:
     author: ""
     category: ""
-    tag: ""
-    exclude_featured: false
-    exclude_future: false
-    exclude_past: false
     publication_type: ""
-  # Choose how many pages you would like to offset by
-  offset: 0
+    tag: ""
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
