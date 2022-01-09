@@ -60,7 +60,7 @@
       <!-- pages -->
       {{ if (and .Params.page_start .Params.page_end )}}
       pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
-      {{ elseif .Params.pages }}
+      {{ else if .Params.pages }}
       p.{{- .Params.pages | markdownify -}}
       {{ end }}.
       <!-- Available at: -->
