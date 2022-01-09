@@ -37,7 +37,7 @@ volume: 96
 issue: 7
 pages: 20
 page_start: 567
-pages_end: 581
+page_end: 581
 
 abstract: |-
   Regardless of its origin, in the near future the challenge will not be how to generate data, but rather how to manage big and highly distributed data to make it more easily handled and more accessible by users on their personal devices. VELaSSCo (Visualization for Extremely Large-Scale Scientific Computing) is a platform developed to provide new visual analysis methods for large-scale simulations serving the petabyte era. The platform adopts Big Data tools/architectures to enable in-situ processing for analytics of engineering and scientific data and hardware-accelerated interactive visualization. In large-scale simulations, the domain is partitioned across several thousand nodes, and the data (mesh and results) are stored on those nodes in a distributed manner. 
