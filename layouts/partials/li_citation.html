@@ -42,9 +42,9 @@
       {{- .Date.Format "2006" -}}.
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
       {{ if .Params.publication }}
-      {{- .Params.publication | markdownify -}}
+      <em>{{- .Params.publication | markdownify -}}</em>
       {{ else if .Params.publication_short }}
-      {{- .Params.publication_short | markdownify -}} 
+      <em>{{- .Params.publication_short | markdownify -}}</em>
       {{ end }}
       <!-- volume and issue -->
       {{ if .Params.volume }}
@@ -55,7 +55,9 @@
       {{ end }}
       <!-- pages -->
       {{ if .Params.pages }}
-      , pp.{{- .Params.pages | markdownify -}}
+      , p.{{- .Params.pages | markdownify -}}
+      {{ else if (and .Params.page_start .Params.page_end )}}
+      , pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
       {{ end }}.
       <!-- Available at: -->
       {{ if .Params.url_pdf }}
