@@ -46,15 +46,18 @@
       {{ else if .Params.publication_short }}
       {{- .Params.publication_short | markdownify -}} 
       {{ end }}
+      <!-- volume and issue -->
       {{ if .Params.volume }}
-      , {{ .Params.volume | markdownify -}}
+      , vol. {{ .Params.volume | markdownify -}}
       {{ end }}
       {{ if .Params.issue }}
-      ({{- .Params.issue | markdownify -}})
+      , no. {{- .Params.issue | markdownify -}}
       {{ end }}
+      <!-- pages -->
       {{ if .Params.pages }}
       , pp.{{- .Params.pages | markdownify -}}
       {{ end }}.
+      <!-- Available at: -->
       {{ if .Params.url_pdf }}
       Available at: <a href="{{ .Params.url_pdf }}">{{- .Params.url_pdf | markdownify -}}</a>
       {{ end }}
