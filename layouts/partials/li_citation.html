@@ -82,7 +82,9 @@
         {{- .Params.publication | markdownify -}}
       {{ end }}
       <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
-  
+      <!-- Add spacer below buttons to resize card -->
+      <div class="spacer"></div>
+
       {{ end }}
     </div>
   
@@ -95,6 +97,5 @@
     {{ end }}
     </div>
 
-    <div class="spacer"></div>
 
   </div>
