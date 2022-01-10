@@ -16,7 +16,6 @@
       {{- .Params.publication | markdownify -}}.
       {{ end }}
       <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
-      <div class="spacer"></div>
   
       {{/* MLA Style */}}
       {{ else if eq site.Params.publications.citation_style "mla" }}
@@ -82,10 +81,12 @@
         {{- .Params.publication | markdownify -}}
       {{ end }}
       <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+
+      {{ end }}
+
       <!-- Add spacer below buttons to resize card -->
       <div class="spacer"></div>
 
-      {{ end }}
     </div>
   
     {{/* Add Altmetric and Dimension badges */}}
