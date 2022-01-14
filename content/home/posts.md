@@ -30,6 +30,8 @@ content:
   order: desc
   archive:
     enable: true
+    # link: "publicationlist/"
+    # text: "bla bla bla"
 
 design:
   # Choose a view for the listings:
