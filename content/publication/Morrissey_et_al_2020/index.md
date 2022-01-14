@@ -1,28 +1,24 @@
 ---
-title: "Post-processing and visualization of large-scale DEM simulation data with the open-source VELaSSCo platform"
+title: "Micromechanical analysis of cohesive granular materials using discrete element method with an adhesive elasto-plastic contact model"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- S. C. Thakur
 - admin
-- Prabhat Totoo
-- Kevin J. Hanley
-- Stefanos-Aldo Papanicolopulos
+- Jin Sun
+- Jian-Fei Chen
 - Jin Y. Ooi
-- Iván Cores Gonzalez
-- Bruno Raffin
-- Seyedmorteza Mostajabodaveh
-- Thomas Gierlinger 
 
 # Author notes (optional)
 # author_notes:
 
-date: "2020-03-01T00:00:00Z"
-doi: "10.1177/0037549720906465"
+date: "2014-05-01T00:00:00Z"
+doi: "10.1007/s10035-014-0506-4"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-05-01T00:00:00Z"
+publishDate: "2014-05-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,26 +27,24 @@ publishDate: "2020-05-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: SIMULATION
-publication_short: SIMULATION
-volume: 96
-issue: 7
-pages: 20
-page_start: 567
-page_end: 581
+publication: Granular Matter
+publication_short: Granular Matter
+volume: 16
+issue: 
+pages: 
+page_start: 383
+page_end: 400
+
 
 abstract: |-
-  Regardless of its origin, in the near future the challenge will not be how to generate data, but rather how to manage big and highly distributed data to make it more easily handled and more accessible by users on their personal devices. VELaSSCo (Visualization for Extremely Large-Scale Scientific Computing) is a platform developed to provide new visual analysis methods for large-scale simulations serving the petabyte era. The platform adopts Big Data tools/architectures to enable in-situ processing for analytics of engineering and scientific data and hardware-accelerated interactive visualization. In large-scale simulations, the domain is partitioned across several thousand nodes, and the data (mesh and results) are stored on those nodes in a distributed manner. 
+  An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability. Simulations have been performed for uniaxial consolidation followed by unconfined compression to failure using this model. The model has been shown to be capable of predicting the experimental flow function (unconfined compressive strength vs. the prior consolidation stress) for a limestone powder which has been selected as a reference solid in the Europe wide PARDEM research network. Contact plasticity in the model is shown to affect the flowability significantly and is thus essential for producing satisfactory computations of the behaviour of a cohesive granular material. 
   
-  The VELaSSCo platform accesses this distributed information, processes the raw data, and returns the results to the users for local visualization by their specific visualization clients and tools. The global goal of VELaSSCo is to provide Big Data tools for the engineering and scientific community, in order to better manipulate simulations with billions of distributed records. The ability to easily handle large amounts of data will also enable larger, higher resolution simulations, which will allow the scientific and engineering communities to garner new knowledge from simulations previously considered too large to handle. 
-  
-  This paper shows, by means of selected Discrete Element Method (DEM) simulation use cases, that the VELaSSCo platform facilitates distributed post-processing and visualization of large engineering datasets.
-
+  The model predicts a linear relationship between a normalized unconfined compressive strength and the product of coordination number and solid fraction. This linear relationship is in line with the Rumpf model for the tensile strength of particulate agglomerate. Even when the contact adhesion is forced to remain constant, the increasing unconfined strength arising from stress consolidation is still predicted, which has its origin in the contact plasticity leading to microstructural evolution of the coordination number. The filled porosity is predicted to increase as the contact adhesion increases. Under confined compression, the porosity reduces more gradually for the load-dependent adhesion compared to constant adhesion. It was found that the contribution of adhesive force to the limiting friction has a significant effect on the bulk unconfined strength. The results provide new insights and propose a micromechanical based measure for characterising the strength and flowability of cohesive granular materials.
 
 # Summary. An optional shortened abstract.
-summary: " VELaSSCo (Visualization for Extremely Large-Scale Scientific Computing) is a platform developed to provide new visual analysis methods for large-scale simulations serving the petabyte era. The platform adopts Big Data tools/architectures to enable in-situ processing for analytics of engineering and scientific data and hardware-accelerated interactive visualization."
+summary: "An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability."
 
-tags: ["Apache Hadoop", "DEM", "Discrete element method", "HBase", "data analytics", "discrete-to-continuum", "visualization"]
+tags: ["cohesive material", "contact model", "EEPA", "discrete element method", "DEM", "plasticity", "powder flow", "uniaxial test"]
 
 # Display this page in the Featured widget?
 featured: true
@@ -60,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://doi.org/10.1177/0037549720906465
+url_pdf: http://link.springer.com/10.1007/s10035-014-0506-4
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -69,13 +63,13 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# add Altmetric, dimensions and plumx badges
+# add Almetric adn dimensions badges
 add_badge: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Coarse-grained results of DEM simulation of railway embankment'
+  caption: 'EEPA Contact Model'
   focal_point: ""
   preview_only: false
 
@@ -85,7 +79,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- velassco
+- phd
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
