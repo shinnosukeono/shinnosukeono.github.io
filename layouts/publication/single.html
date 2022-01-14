@@ -78,6 +78,20 @@
     <div class="d-md-none space-below"></div>
     {{ end }}
 
+    {{ if and .Params.page_start .Params.page_end }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "pages" }}</div>
+          <div class="col-12 col-md-9">{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
      
     {{ if .Params.abstract }}
     <h3>{{ i18n "abstract" }}</h3>

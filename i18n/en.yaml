@@ -177,6 +177,9 @@
 - id: issue
   translation: Issue
 
+- id: pages
+  translation: Pages
+
 - id: pub_uncat
   translation: Uncategorized
 
