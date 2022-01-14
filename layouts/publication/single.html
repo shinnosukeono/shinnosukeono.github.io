@@ -84,13 +84,10 @@
     {{ end }}
 
     <div class="space-below"></div>
-
-    <div class="article-style">{{ .Content }}</div>
-
-    <div class="space-below"></div>
+    
     <h3>Publication Metrics </h3>
 
-      {{ if and .Params.add_badge .Params.doi }}
+    {{ if and .Params.add_badge .Params.doi }}
       <div style="float: left; width: 150px;">
         <div data-badge-popover="bottom" data-badge-type="donut" data-doi="{{ .Params.doi }}" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
       </div>
@@ -104,6 +101,9 @@
     {{ end }}
 
     <div class="space-below"></div>
+
+
+    <div class="article-style">{{ .Content }}</div>
 
     {{ partial "page_footer" . }}
 
