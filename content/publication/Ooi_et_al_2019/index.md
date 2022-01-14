@@ -16,7 +16,8 @@ authors:
 # author_notes:
 
 date: "2019-07-01T00:00:00Z"
-doi: "978-1-912669-05-9"
+doi: ''
+isbn: "978-1-912669-05-9"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-08-01T00:00:00Z"
@@ -57,7 +58,7 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
