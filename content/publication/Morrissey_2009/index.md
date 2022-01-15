@@ -26,7 +26,7 @@ publication_types: ["7"]
 publication: M.Eng. Thesis
 publication_short: M.Eng. Thesis
 pages: 185
-location: University of Edinburgh
+location: [University of Edinburgh](https://www.ed.ac.uk/)
 
 abstract: |-
   The number of rail passenger and miles travelled has dramatically increased over the past 15 years. Network Rail is the operator of the UK infrastructure network and is responsible for managing over 32,000 km of track. In order to maintain the required standards of 
