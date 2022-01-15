@@ -26,7 +26,7 @@ publication_types: ["7"]
 publication: B.Eng. Thesis
 publication_short: B.Eng. Thesis
 pages: 72
-location: [Cork Institute of Technology](https://www.cit.ie/)
+location: "<a href="https://www.cit.ie/">Cork Institute of Technology</a>"
 
 abstract: |-
   The aim of the project was to investigate cementitious binders of various materials including ggbs and gypsum. This included the environmental impact of its use and production, economic benefit from alternatives, and most importantly the technical behaviour of concrete. 
