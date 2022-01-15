@@ -171,6 +171,9 @@
 - id: location
   translation: Location
 
+- id: university
+  translation: University
+
 - id: volume
   translation: Volume
 
