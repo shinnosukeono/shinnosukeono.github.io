@@ -23,8 +23,9 @@ publishDate: "2018-04-24T00:00:00Z"
 publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Poster at *8th World Congress on Particle Technology, Orlando, FL., USA*"
-publication_short: "*WCPT8* Poster"
+publication: "8th World Congress on Particle Technology*"
+publication_short: "*WCPT8*"
+location: Orlando, FL., USA.
 
 abstract: |-
   Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.

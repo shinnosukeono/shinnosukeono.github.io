@@ -17,6 +17,7 @@ authors:
 
 date: "2011-07-01T00:00:00Z"
 doi: ''
+uri: http://hdl.handle.net/2117/188883
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2011-08-01T00:00:00Z"
@@ -28,15 +29,18 @@ publishDate: "2011-08-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the II International Conference on Particle-based Methods – Fundamentals and Applications - PARTICLES 2011 *
-publication_short: In *Particles 2011 Proceedings*
+publication: "*Proceedings of the II International Conference on Particle-based Methods – Fundamentals and Applications - PARTICLES 2011*"
+publication_short: "*Particles 2011 Proceedings*"
+page_start: 33
+page_end: 42
+location: Barcelona, Spain
 
 abstract: |-
   Many powders and particulate solids are cohesive in nature and the strength often exhibits dependence on the consolidation stress. As a result, the stress history in the material leading up to a handling scenario needs to be considered when evaluating its handleability. This paper outlines the development of a DEM contact model accounting for plasticity and adhesion force, which is shown to be suitable for modelling the stress history dependent cohesive strength. The model was used to simulate the confined consolidation and the subsequent unconfined loading of iron ore fines with particle sizes up to 1.18mm. The predicted flow function was found to be comparable to the experimental results.
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Many powders and particulate solids are cohesive in nature and the strength often exhibits dependence on the consolidation stress. As a result, the stress history in the material leading up to a handling scenario needs to be considered when evaluating its handleability. This paper outlines the development of a DEM contact model accounting for plasticity and adhesion force."
 
 tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 
@@ -48,7 +52,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: https://upcommons.upc.edu/handle/2117/188883
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +67,7 @@ add_badge: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

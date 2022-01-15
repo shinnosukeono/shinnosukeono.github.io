@@ -23,15 +23,16 @@ publishDate: "2019-03-18T00:00:00Z"
 publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Poster at *Royal Society of Chemistry Formative Formulation Workshop, Maxwell Centre, University of Cambridge, Cambridge, UK.*"
-publication_short: "*Formative Formulation Workshop* Poster"
+publication: "*Royal Society of Chemistry Formative Formulation Workshop*"
+publication_short: "*Formative Formulation Workshop*"
+location: Maxwell Centre, University of Cambridge, Cambridge, UK.
 
 abstract: |-
   Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design."
 
 tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
 

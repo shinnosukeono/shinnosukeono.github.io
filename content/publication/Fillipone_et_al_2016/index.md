@@ -50,7 +50,7 @@ publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
 publication: "PARTEC 2016: International Congress on Particle Technology"
-publication_short: "Poster at: PARTEC 2016"
+publication_short: "PARTEC 2016"
 volume: ''
 issue: ''
 pages: ''

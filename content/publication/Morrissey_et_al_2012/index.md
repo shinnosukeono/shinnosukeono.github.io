@@ -27,11 +27,12 @@ publishDate: "2012-10-11T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th International Conference for Conveying and Handling of Particulate Solids - CHoPS 2012*
-publication_short: In *CHoPS 2012 Proceedings*
+publication: "*Proceedings of the 7th International Conference for Conveying and Handling of Particulate Solids - CHoPS 2012*"
+publication_short: "*CHoPS 2012 Proceedings*"
+location: Friedrichshafen, Germany.
 
 abstract: |-
-
+  In this paper, the loading behaviour of iron ore fines was investigated using both a confined compression test and a uniaxial test. This provides a comprehensive description of the material behaviour in terms of bulk compressibility, loading-unloading stiffness, unconfined strength and lateral pressure ratio. The effect of moisture content on the iron ore fines behaviour is evaluated and comparison is made between the different types of fines materials. DEM simulations of the uniaxial experiments are carried out and the predictions, using a new contact model for iron ore fines, are presented and compared with the experimental data. The results show the significant effect of additional moisture on the cohesive strength of the iron ore fines and the lateral pressure ratio has been evaluated to be 0.39. DEM simulation results are in reasonable agreement with the experimental data.
 
 
 # Summary. An optional shortened abstract.
@@ -57,12 +58,12 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
