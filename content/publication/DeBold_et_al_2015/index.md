@@ -22,18 +22,26 @@ publishDate: "2015-08-01T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Documentation; 10 = Poster; 11 = Unpublished;
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Construction and Building Materials, Vol. 92*
-publication_short: In *Con. Build. Mat.*
+publication: Construction and Building Materials, Vol. 92
+publication_short: Con. Build. Mat.
+volume: 92
+issue: 
+article: 
+pages: 
+page_start: 31
+page_end: 42
 
 abstract: |-
-  Abstract The overall aim of this project was to relate ground penetrating radar (GPR) to a ballast fouling index (FI). Laboratory research aimed at characterising the electromagnetic properties has enabled researchers worldwide to determine ballast thickness using impulse ground penetrating radar (GPR) - based upon derived values of the relative electrical permittivity or dielectric constant. In this paper, a series of GPR experiments, following on from these laboratory experiments, were undertaken on a full scale track bed using a range of bowtie antennas from 500 MHz to 2.6 GHz. The key innovation reported is the use of scatter analyses of the GPR waveforms, featuring area, axis crossing and inflexion point analyses. These scatter analyses were then used to predict the Ionescu ballast fouling index. A correlation coefficient greater than 0.9 was obtained by using a 500 MHz bowtie antenna in the parallel orientation in conjunction with a scan area analysis.
+  The overall aim of this project was to relate ground penetrating radar (GPR) to a ballast fouling index (FI). Laboratory research aimed at characterising the electromagnetic properties has enabled researchers worldwide to determine ballast thickness using impulse ground penetrating radar (GPR) - based upon derived values of the relative electrical permittivity or dielectric constant. 
+  
+  In this paper, a series of GPR experiments, following on from these laboratory experiments, were undertaken on a full scale track bed using a range of bowtie antennas from 500 MHz to 2.6 GHz. The key innovation reported is the use of scatter analyses of the GPR waveforms, featuring area, axis crossing and inflexion point analyses. These scatter analyses were then used to predict the Ionescu ballast fouling index. A correlation coefficient greater than 0.9 was obtained by using a 500 MHz bowtie antenna in the parallel orientation in conjunction with a scan area analysis.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "  The overall aim of this project was to relate ground penetrating radar (GPR) to a ballast fouling index (FI). Laboratory research aimed at characterising the electromagnetic properties has enabled researchers worldwide to determine ballast thickness using impulse ground penetrating radar (GPR) - based upon derived values of the relative electrical permittivity or dielectric constant."
 
 tags: ["Analysis", "Ballast", "Benchmarking", "GPR", "Maintenance", "Railway", "Spent", "Testing", "Track bed"]
 

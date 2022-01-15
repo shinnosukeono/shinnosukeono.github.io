@@ -22,15 +22,23 @@ publishDate: "2021-12-16T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Documentation; 10 = Poster; 11 = Unpublished;
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Granular Matter, Vol. 24*
-publication_short: In *Granular Matter*
+publication: Granular Matter
+publication_short: Gran. Matt.
+volume: 24
+issue: 
+article: 29
+pages: 20
+page_start: 
+page_end: 
 
 abstract: |-
-    Bonded contact models have been increasingly used in the discrete element method (DEM) to study cemented and sintered particulate materials in recent years. Several popular DEM bond models have been proposed in the literature; thus it is beneficial to assess the similarities and differences between the different bond models before they are used in simulations. This paper identifies and discusses two fundamental types of bond models: the Spring Bond Model where two bonded particles are joined by a set of uniform elastic springs on the bond's cross-section, and the Beam Bond Model in which a beam is used to connect the centres of two particles. 
+    Bonded contact models have been increasingly used in the discrete element method (DEM) to study cemented and sintered particulate materials in recent years. Several popular DEM bond models have been proposed in the literature; thus it is beneficial to assess the similarities and differences between the different bond models before they are used in simulations. 
+    
+    This paper identifies and discusses two fundamental types of bond models: the Spring Bond Model where two bonded particles are joined by a set of uniform elastic springs on the bond's cross-section, and the Beam Bond Model in which a beam is used to connect the centres of two particles. 
     
     A series of cantilever beam bending simulation cases were carried out to verify the findings and assess the strength and weakness of the bond models. Despite the numerous bond models described in the literature, they can all be considered as a variation of these two fundamental model types. The comparative evaluation in this paper also shows that all the bond models investigated can be unified to a general form given at a predefined contact point location.
 
