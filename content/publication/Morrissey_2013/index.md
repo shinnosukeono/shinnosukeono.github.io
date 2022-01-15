@@ -12,6 +12,7 @@ authors:
 
 date: "2013-07-01T00:00:00Z"
 doi: ""
+uri: "http://hdl.handle.net/1842/8270"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-08-01T00:00:00Z"
@@ -25,11 +26,12 @@ publication_types: ["7"]
 # Publication name and optional abbreviated publication name.
 publication: Ph.D. Thesis
 publication_short: Ph.D. Thesis
+pages: 331
+location: University of Edinburgh
 
 abstract: |-
   Across industry the majority of raw materials handled are particulate in nature, ranging in size and properties from aggregates to powders. 
-  The stress regimes experienced by the granular solids vary and the exhibited bulk behaviours can be complex and unexpected. 
-  The prevalence of granular solids makes them an area of interest for industry and researchers alike as many challenges still remain, such as dealing with complex cohesive behaviour in materials, which often gives rise to handling difficulties.
+  The stress regimes experienced by the granular solids vary and the exhibited bulk behaviours can be complex and unexpected. The prevalence of granular solids makes them an area of interest for industry and researchers alike as many challenges still remain, such as dealing with complex cohesive behaviour in materials, which often gives rise to handling difficulties.
 
 
   Storage and transportation are an important part of the process chain for industries where particulate solids are commonplace. 

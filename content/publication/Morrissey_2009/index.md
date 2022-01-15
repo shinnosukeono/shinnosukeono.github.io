@@ -25,42 +25,26 @@ publication_types: ["7"]
 # Publication name and optional abbreviated publication name.
 publication: M.Eng. Thesis
 publication_short: M.Eng. Thesis
+pages: 185
+location: University of Edinburgh
 
 abstract: |-
-  The number of rail passenger and miles travelled has dramatically increased over the past 
-  15 years. Network Rail is the operator of the UK infrastructure network and is responsible 
-  for managing over 32,000 km of track. In order to maintain the required standards of 
-  comfort and safety Network Rail spends over one billion pounds (sterling) each year on 
-  maintenance alone. Traditional methods of determining when maintenance was required 
-  were time consuming and expensive, which lead to the use of non-destructive testing 
-  (NDT), particularly GPR, as a method of monitoring track conditions.  
+  The number of rail passenger and miles travelled has dramatically increased over the past 15 years. Network Rail is the operator of the UK infrastructure network and is responsible for managing over 32,000 km of track. In order to maintain the required standards of 
+  comfort and safety Network Rail spends over one billion pounds (sterling) each year on maintenance alone. Traditional methods of determining when maintenance was required were time consuming and expensive, which lead to the use of non-destructive testing (NDT), particularly GPR, as a method of monitoring track conditions.  
 
-  The purpose of this research was to build on the knowledge base that already exists in 
-  terms of the use of GPR on railways and to add new methods and techniques to this. 
+  The purpose of this research was to build on the knowledge base that already exists in terms of the use of GPR on railways and to add new methods and techniques to this. 
 
-  A full scale railway test track, with varying degrees of trackbed deterioration, was 
-  constructed at the University of Edinburgh some years ago and has been the source for 
-  much research over the years. The initial research focussed on the determination of the in-
-  situ ballast. The physical properties of the ballast, their effect on the GPR and the recorder 
-  response were discussed. 
+  A full scale railway test track, with varying degrees of trackbed deterioration, was constructed at the University of Edinburgh some years ago and has been the source for much research over the years. The initial research focussed on the determination of the in-situ ballast. The physical properties of the ballast, their effect on the GPR and the recorder response were discussed. 
 
-  The second stage of the research focussed on the ability of GPR to detect small objects or 
-  voids within the railway substructure. A tank was buried within in the substructure and 
-  the response of the GPR was analysed for varying conditions of the tank, ranging from an 
-  empty tank to a full tank. The ability of a range of antennas of different frequencies to 
-  detect the targets was analysed. 
+  The second stage of the research focussed on the ability of GPR to detect small objects or voids within the railway substructure. A tank was buried within in the substructure and the response of the GPR was analysed for varying conditions of the tank, ranging from an empty tank to a full tank. The ability of a range of antennas of different frequencies to detect the targets was analysed. 
 
-  The final stage of the research was concerned with developing a method that could 
-  measure the amount of scatter experienced by EM waves as they propagated through 
-  ballast of varying conditions. 
-
-  Finally, particles size distribution analyses of the track took place to accurately confirm 
-  the track condition. 
+  The final stage of the research was concerned with developing a method that could measure the amount of scatter experienced by EM waves as they propagated through ballast of varying conditions. Finally, particles size distribution analyses of the track took place to accurately confirm the track condition. 
 
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "The number of rail passenger and miles travelled has dramatically increased over the past 15 years. Network Rail is the operator of the UK infrastructure network and is responsible for managing over 32,000 km of track. In order to maintain the required standards of 
+  comfort and safety Network Rail spends over one billion pounds (sterling) each year on maintenance alone. Traditional methods of determining when maintenance was required were time consuming and expensive, which lead to the use of non-destructive testing (NDT), particularly GPR, as a method of monitoring track conditions. "
 
 tags: ["GPR", "Spent", "Railway Track", "Railway Ballast", "Granular solid", "Fines"]
 
