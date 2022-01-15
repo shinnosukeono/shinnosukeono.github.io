@@ -27,7 +27,7 @@ publication_types: ["7"]
 publication: Ph.D. Thesis
 publication_short: Ph.D. Thesis
 pages: 331
-location: "<a href="https://www.ed.ac.uk/">University of Edinburgh</a>"
+location: University of Edinburgh
 
 abstract: |-
   Across industry the majority of raw materials handled are particulate in nature, ranging in size and properties from aggregates to powders. 
