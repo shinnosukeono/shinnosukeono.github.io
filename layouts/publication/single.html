@@ -42,12 +42,14 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
-          {{if or $pub_type = 1  $pub_type = 6}}
-          <div class="col-12 col-md-9">In: {{ .Params.publication | markdownify }}</div>
+          {{if $pub_type = 1  }}
+            <div class="col-12 col-md-9">In: {{ .Params.publication | markdownify }}</div>
+          {{else if $pub_type = 6  }}
+            <div class="col-12 col-md-9">In: {{ .Params.publication | markdownify }}</div>
           {{else if $pub_type = 10 }}
-          <div class="col-12 col-md-9">Presented at: {{ .Params.publication | markdownify }}</div>
+            <div class="col-12 col-md-9">Presented at: {{ .Params.publication | markdownify }}</div>
           {{ else }}
-          <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
+            <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
           {{ end }}
         </div>
       </div>
