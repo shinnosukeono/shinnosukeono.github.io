@@ -217,7 +217,7 @@
   translation: Poster
 
 - id: pub_manual
-  translation: Reference Manual
+  translation: Documentation
 
 - id: pub_unpublished
   translation: Unpublished Document

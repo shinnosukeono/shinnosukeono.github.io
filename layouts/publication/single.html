@@ -113,9 +113,9 @@
 
     <div class="space-below"></div>
 
-    <h3>Publication Metrics </h3>
 
     {{ if and .Params.add_badge .Params.doi }}
+    <h3>Publication Metrics </h3>
     <div style="min-height: 90px; height: auto;">
       <div style="float: left; width: 150px;">
         <div data-badge-popover="bottom" data-badge-type="donut" data-doi="{{ .Params.doi }}" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
