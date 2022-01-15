@@ -82,7 +82,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://era.ed.ac.uk/handle/1842/8270?show=full
+url_pdf: https://era.ed.ac.uk/handle/1842/8270
 url_code: ''
 url_dataset: ''
 url_poster: ''
