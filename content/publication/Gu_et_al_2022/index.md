@@ -23,12 +23,19 @@ publishDate: "2021-12-27T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Soil Dynamics and Earthquake Engineering, Vol. 153*
-publication_short: In *Soil Dynamics and Earthquake Engineering*
+publication: Soil Dynamics and Earthquake Engineering
+publication_short: Soil Dyn. Earthq. Eng.
+volume: 153
+issue: ''
+article: 107109
+pages: 19
+page_start: 
+pages_end: 
+location: ''
 
 abstract: |-
   With increasing train speed and wheel axle load, severe vibrations can occur in a ballasted trackbed, thereby accelerating the degradation of the ballast particles and ultimately causing excessive settlement. To gain insights into the long-term trackbed behavior and the ballast degradation evolution, a full-scale ballasted track experiment with eight sleepers was designed and tested on a validated physical model test platform (ZJU-iHSRT). Sieving analysis together with computer-aided ballast morphology analysis were adopted to quantify the ballast degradation in terms of both the ballast particle size and morphological evolution, after every 100,000 train carriages. 

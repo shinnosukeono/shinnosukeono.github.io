@@ -1,5 +1,5 @@
 ---
-title: "A discrete element analysis of the micromechanical interaction of non-spherical particles in cohesionless granular solids under K0 condition"
+title: "A discrete element analysis of the micromechanical interaction of non-spherical particles in cohesionless granular solids under K<sub>0</sub> condition"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -23,15 +23,24 @@ publishDate: "2015-09-05T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Geomechanics from Micro to Macro - Proceedings of the TC105 ISSMGE International Symposium on Geomechanics from Micro to Macro, IS-Cambridge 2014*
-publication_short: In *Geomechanics from Micro to Macro*
+publication: "*Geomechanics from Micro to Macro - Proceedings of the TC105 ISSMGE International Symposium on Geomechanics from Micro to Macro, IS-Cambridge 2014*"
+publication_short: "*Geomechanics from Micro to Macro*"
+volume: 
+issue: ''
+article: 
+pages: 6
+page_start: 
+pages_end: 
+location: Cambridge, UK.
 
 abstract: |-
-  The coefficient of earth pressure at rest K0 is often used to determine the stress state of a soil in the design of retaining walls, excavations and foundations. The most commonly used equation was proposed originally by Jaky (1944) which expresses the ratio of horizontal to vertical stress in a normally consolidated soil as K0 = 1 - sin $\phi$, where $\phi$ is the effective angle of internal friction of the soil. This raises the question as to why the at rest stress state in a soil, which is not at failure, should be governed by the failure friction angle of the soil. The expression is often reported as empirical in nature however, Jaky arrived at the expression from an analytical approach. This paper explores the micromechanics of cohesionless soils by investigating the effect of soil fabric and the evolution of the lateral pressure under confined compression using the Discrete Element Method (DEM). Many DEM models use spherical particles due to their greater efficiency. However, particle sphericity leads to the over-prediction of the lateral pressure ratio for a typical granular soil during a confined K 0 compression test. The lack of particle interlocking that is associated with spherical particles leads to a greater transmission of forces laterally in an assembly under confined compression, resulting in a higher K0 value.
+  The coefficient of earth pressure at rest K<sub>0</sub> is often used to determine the stress state of a soil in the design of retaining walls, excavations and foundations. The most commonly used equation was proposed originally by Jaky (1944) which expresses the ratio of horizontal to vertical stress in a normally consolidated soil as K<sub>0</sub> = 1 - sin $\phi$, where $\phi$ is the effective angle of internal friction of the soil. This raises the question as to why the at rest stress state in a soil, which is not at failure, should be governed by the failure friction angle of the soil. The expression is often reported as empirical in nature however, Jaky arrived at the expression from an analytical approach. 
+  
+  This paper explores the micromechanics of cohesionless soils by investigating the effect of soil fabric and the evolution of the lateral pressure under confined compression using the Discrete Element Method (DEM). Many DEM models use spherical particles due to their greater efficiency. However, particle sphericity leads to the over-prediction of the lateral pressure ratio for a typical granular soil during a confined K<sub>0</sub> compression test. The lack of particle interlocking that is associated with spherical particles leads to a greater transmission of forces laterally in an assembly under confined compression, resulting in a higher K<sub>0</sub> value.
 
 
 # Summary. An optional shortened abstract.
@@ -47,7 +56,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1201/b17395 '
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -80,6 +89,8 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+
+math: true
 ---
 
 {{% callout note %}}
