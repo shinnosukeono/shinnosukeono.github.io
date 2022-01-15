@@ -23,18 +23,23 @@ publishDate: "2014-06-21T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["4"]
+publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Technical Report*"
-publication_short: "*Technical Report*"
+publication: "*Documentation*"
+publication_short: "*Documentation*"
+volume: 
+issue: 
+pages: 16
+page_start: 
+page_end: 
 
 abstract: |-
   Example problem (Uniaxial compression of concrete cylinder) for the Edinburgh Bond Model.
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Example problem (Uniaxial compression of concrete cylinder) for the Edinburgh Bond Model."
 
 tags: ["EDEM", "EBBM", "TBBM", "Contact model", "Bond model", "Beam Bond", "Timoshenko"]
 
@@ -56,12 +61,12 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

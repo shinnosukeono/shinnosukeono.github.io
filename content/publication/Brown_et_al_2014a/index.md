@@ -22,22 +22,28 @@ publishDate: "2014-06-21T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["4"]
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
+publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Technical Report*"
-publication_short: "*Technical Report*"
+publication: "*Documentation*"
+publication_short: "*Documentation*"
+volume: 
+issue: 
+pages: 30
+page_start: 
+page_end: 
 
 abstract: |-
   This reference manual provides the key information regarding an bonded beam contact model for EDEM that has been developed over many years at the University of Edinburgh. The contact model has been implemented as a User Defined Library (UDL) through the API capabilities of EDEM.
+
   This phenomenologically based contact model has evolved over many years of use and development to capture the key bulk behaviour of cohesive powders and granular solids. This guide is written to accompany the contact model and provide the details regarding the motivation and implementation of the contact model. An example problem and description is also provided as an accompanying standalone guide for use with the contact model.
 
   While this version of the contact model has been used and tested extensively, no piece of code is ever completely bug free and, as such, the user should remain vigilant for unexpected outcomes. All efforts have been made to ensure all information is correct at time of writing. The contact model is provided with no explicit guarantee of accuracy or results.
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This reference manual provides the key information regarding an bonded beam contact model for EDEM that has been developed over many years at the University of Edinburgh."
 
 tags: ["EDEM", "EBBM", "TBBM", "Contact model", "Bond model", "Beam Bond", "Timoshenko"]
 
@@ -61,13 +67,13 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
