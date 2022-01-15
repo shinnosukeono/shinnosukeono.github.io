@@ -23,8 +23,9 @@ publishDate: "2013-12-12T00:00:00Z"
 publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Poster at *Telford-UKIERI workshop on Anisotropic, heterogeneous and cellular materials: From microarchitecture to macro-level response*"
-publication_short: "*Telford-UKIERI workshop* Poster"
+publication: "*Telford-UKIERI workshop on Anisotropic, heterogeneous and cellular materials: From microarchitecture to macro-level response*"
+publication_short: "*Telford-UKIERI workshop*"
+location: Edinburgh, UK
 
 abstract: |-
   Powders and bulk solids are stored and handled in large quantities in many industries. The materials can differ greatly in size, shape and type but are commonly affected by handling and storage difficulties, such as the blockage of silo outlets or transfer points, which occur as a result of the development of cohesion.
@@ -45,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://filedn.com/lcwBmFCli9dptOhypvFBauY/www/UK_IERI_V2_600DPI.pdf
+url_pdf: https://bit.ly/Sticky_Situation
 url_code: ''
 url_dataset: ''
 url_poster: ''
