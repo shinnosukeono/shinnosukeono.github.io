@@ -42,11 +42,11 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
-          {{if $pub_type = 1  }}
+          {{if eq $pub_type 1 }}
             <div class="col-12 col-md-9">In: {{ .Params.publication | markdownify }}</div>
-          {{else if $pub_type = 6  }}
+          {{else if eq $pub_type 6  }}
             <div class="col-12 col-md-9">In: {{ .Params.publication | markdownify }}</div>
-          {{else if $pub_type = 10 }}
+          {{else if eq $pub_type 10 }}
             <div class="col-12 col-md-9">Presented at: {{ .Params.publication | markdownify }}</div>
           {{ else }}
             <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
@@ -63,7 +63,7 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          {{if $pub_type = 7  }}
+          {{if eq $pub_type 7  }}
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "university" }}</div>
           {{ else }}
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
