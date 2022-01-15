@@ -177,6 +177,9 @@
 - id: issue
   translation: Issue
 
+- id: article
+  translation: Article
+
 - id: pages
   translation: Pages
 
