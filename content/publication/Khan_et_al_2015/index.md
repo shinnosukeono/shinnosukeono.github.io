@@ -1,5 +1,5 @@
 ---
-title: "A discrete element analysis of the micromechanical interaction of non-spherical particles in cohesionless granular solids under K<sub>0</sub> condition"
+title: "A discrete element analysis of the micromechanical interaction of non-spherical particles in cohesionless granular solids under K$_0$ condition"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
