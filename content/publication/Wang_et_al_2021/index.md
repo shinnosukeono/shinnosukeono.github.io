@@ -30,14 +30,20 @@ publishDate: "2021-08-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Journal of Pharmaceutics , Vol. 607*
-publication_short: In *Int. J. Pharm*
+publication: "*International Journal of Pharmaceutics*"
+publication_short: "*Int. J. Pharm*"
+volume: 607
+issue: 
+article: 120939
+pages: 21
+page_start: 
+page_end: 
 
 abstract: |-
   This paper presents a generic framework of Model Driven Design (MDD) with its application for a twin screw granulation process using a mechanistic-based population balance model (PBM). The process kernels including nucleation, breakage, layering and consolidation are defined in the PBM. A recently developed breakage kernel is used with key physics incorporated in the model formulation. Prior to granulation experiments, sensitivity analysis of PBM parameters is performed to investigate the variation of model outputs given the input parameter variance. The significance of liquid to solid ratio (L/S ratio), nucleation and breakage parameters is identified by sensitivity analysis. The sensitivity analysis dramatically reduces the number of fitting parameters in PBM and only nine granulation experiments are required for model calibration and validation. A model validation flowchart is proposed to elucidate the evolution of kinetic rate parameters associated with L/S ratio and screw element geometry. The presented MDD framework for sensitivity analysis, parameter estimation, model verification and validation can be generalized and applied for any particulate process.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This paper presents a generic framework of Model Driven Design (MDD) with its application for a twin screw granulation process using a mechanistic-based population balance model (PBM)."
 
 tags: ["Model driven design", "Model validation", "Parameter estimation", "Population balance model", "Sensitivity analysis", "Twin screw granulation"]
 

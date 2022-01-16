@@ -25,8 +25,14 @@ publishDate: "2021-12-13T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Pharmaceutics , Vol. 13*
-publication_short: In *Pharmaceutics*
+publication: "*Pharmaceutics*"
+publication_short: "*Pharmaceutics*"
+volume: 13
+issue: 12
+article: 2136
+pages: 29
+page_start: 
+page_end: 
 
 abstract: |-
   Discrete Element Method (DEM) simulations have the potential to provide particle-scale understanding of twin-screw granulators. This is difficult to obtain experimentally because of the closed, tightly confined geometry. An essential prerequisite for successful DEM modelling of a twin-screw granulator is making the simulations tractable, i.e., reducing the significant computational cost while retaining the key physics. 
