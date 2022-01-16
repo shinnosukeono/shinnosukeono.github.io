@@ -23,12 +23,13 @@ publishDate: "2014-05-21T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th World Congress on Particle Technology (WCPT7)*
-publication_short: In *WCPT7 Proceedings*
+publication: "*Proceedings of the 7th World Congress on Particle Technology (WCPT7)*"
+publication_short: "*WCPT7 Proceedings*"
+location: Beijing International Convention Center, Beijing, China
 
 abstract: |-
   Bulk handling of powders and granular solids is common in many industries and often gives rise to handling difficulties especially when the material exhibits complex cohesive behavior. In this study the effect of moisture on the level of cohesion, and thus handleability, of iron ore fines is investigated. The compression and flow function of the iron ore fines was established form a semi-automated uniaxial tester – the Edinburgh Powder Tester (EPT). The confined compression behavior of the material in terms of stress, strain and density can be measured as well as the unconfined shear behavior. The cohesive strength is determined from unconfined compressions tests following confined consolidation to a range of consolidation stresses.
@@ -39,7 +40,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Bulk handling of powders and granular solids is common in many industries and often gives rise to handling difficulties especially when the material exhibits complex cohesive behavior. In this study the effect of moisture on the level of cohesion, and thus handleability, of iron ore fines is investigated."
 
 tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "Flow function", "Uniaxial Test", "Iron ore fines"]
 

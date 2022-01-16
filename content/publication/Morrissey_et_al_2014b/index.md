@@ -21,12 +21,13 @@ publishDate: "2014-05-21T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th World Congress on Particle Technology (WCPT7)*
-publication_short: In *WCPT7 Proceedings*
+publication: "*Proceedings of the 7th World Congress on Particle Technology (WCPT7)*"
+publication_short: "*WCPT7 Proceedings*"
+location: Beijing International Convention Center, Beijing, China
 
 abstract: |-
   Bulk handling of powders and granular solids is common in many industries and often gives rise to handling difficulties especially when the material exhibits complex cohesive behavior. For example, high storage stresses in a silo can lead to high cohesive strength of the stored solid, which may in turn cause blockages such as ratholing or arching near the outlet during discharge. The wall friction and the internal friction of the stored solid are expected to influence the flow pattern which develops within a silo. The varying flow pattern and the possibility of cohesive arching in the solid can lead to significant variation in the wall pressures observed in a silo during discharge.
@@ -37,7 +38,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: " Bulk handling of powders and granular solids is common in many industries and often gives rise to handling difficulties especially when the material exhibits complex cohesive behavior. For example, high storage stresses in a silo can lead to high cohesive strength of the stored solid, which may in turn cause blockages such as ratholing or arching near the outlet during discharge. This paper deploys the Discrete Element Method to study the discharge of a granular solid from a flat-bottomed silo with varying levels of cohesion and varying levels of internal friction which arises from a combination of particle interlocking and contact friction (sliding and rolling). "
 
 tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact", "Wall Pressure", "Silo Discharge"]
 
@@ -59,7 +60,7 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -21,12 +21,13 @@ publishDate: "2014-06-21T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["4"]
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
+publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Technical Report*"
-publication_short: "*Technical Report*"
+publication: "*User Guide*"
+publication_short: "*User Guide*"
+pages: 9
 
 abstract: |-
   An example problem (uniaxial compression) for the Edinburgh Cohesion Model.

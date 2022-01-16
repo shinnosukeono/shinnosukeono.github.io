@@ -21,12 +21,13 @@ publishDate: "2014-06-21T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["4"]
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
+publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Technical Report*"
-publication_short: "*Technical Report*"
+publication: "*Reference Manual*"
+publication_short: "*Reference Manual*"
+pages: 12
 
 abstract: |-
   This guide provides the key information regarding an adhesive elasto-plastic contact model for EDEM that has been in development over many years at the University of Edinburgh. The contact model has been implemented as a User Defined Library (UDL) through the API capabilities of EDEM.
@@ -36,7 +37,7 @@ abstract: |-
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This guide provides the key information regarding an adhesive elasto-plastic contact model for EDEM that has been in development over many years at the University of Edinburgh."
 
 tags: ["Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact", "ECM", "EEPA"]
 
@@ -58,12 +59,12 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

@@ -120,17 +120,3 @@ slides: ""
 {{% callout note %}}
 Click the *Cite* button above to get publication metadata for your reference management software in *.bib* format.
 {{% /callout %}}
-
-
-<h3>URI Test Metrics </h3>
-<div style="min-height: 90px; height: auto;">
-  <div style="float: left; width: 150px;">
-    <div data-badge-popover="bottom" data-badge-type="donut" data-handle="{{ .Params.uri }}" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-  </div>
-  <div style="float: left; width: 150px;">
-    <div class="__dimensions_badge_embed__" data-doi="{{ .Params.uri }}" data-legend="hover-bottom" data-style="small_circle" data-hide-zero-citations="true"></div>
-  </div>
-  <div style="float: left; width: 150px;">
-    <a href={{ print "https://plu.mx/plum/a/?url_id=" .Params.uri }} data-popup="bottom" data-size="medium" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a>
-  </div>
-</div>
