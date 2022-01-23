@@ -36,20 +36,17 @@ pages: 251
 
 abstract: |-
   This volume contains the extended abstracts of the 7$^{th}$ UK–China International Particle Technology Forum (PTFVII) and the annual UK Particle Technology Forum which was held jointly in Edinburgh UK on 28$^{th}$ - 31$^{st}$ July 2019. 
-  The UK–China International Particle Technology Forum is a not-for-profit conference series run every twoyears in rotation between the UK and China. 
-  It was initiated in 2006 to help facilitate and foster collaborationsbetween communities in both the UK and China in the multidisciplinary field of particle science and technology.The inclusion of the word *‘International’* since 2013 acknowledges the worldwide participation and popularity  of this forum.
+  The UK–China International Particle Technology Forum is a not-for-profit conference series run every two years in rotation between the UK and China. 
+  It was initiated in 2006 to help facilitate and foster collaborations between communities in both the UK and China in the multidisciplinary field of particle science and technology. The inclusion of the word *‘International’* since 2013 acknowledges the worldwide participation and popularity of this forum.
   
-  This year’s conference was highly successful, with over 150 papers accepted for publication in the conference.Of these, 93 were accepted as oral presentation with the remainder accepted to the poster track.  
-  This bookletcontains the collection of the abstracts presented at the forum, which also included five plenary lectures andfourteen keynote lectures.
+  This year’s conference was highly successful, with over 150 papers accepted for publication in the conference.Of these, 93 were accepted as oral presentation with the remainder accepted to the poster track. This booklet contains the collection of the abstracts presented at the forum, which also included five plenary lectures and fourteen keynote lectures.
   
-  This Joint Forum has brought together researchers and practitioners from the particle science and technologycommunity in a convivial atmosphere to discuss recent advances in the field, identify research areas of partic-ular focus, establish new international collaborations and strengthen existing ones.  
-  The themes of the forumcover both fundamental and applied aspects of particle science and engineering, including particle synthesis,characterisation and measurement, particle processing and manufacture, bulk powder handling, bulk flow char-acterisation, particulate product engineering, modelling and simulation, and emerging applications of particletechnology.
+  This Joint Forum has brought together researchers and practitioners from the particle science and technologycommunity in a convivial atmosphere to discuss recent advances in the field, identify research areas of partic-ular focus, establish new international collaborations and strengthen existing ones.
+  The themes of the forum cover both fundamental and applied aspects of particle science and engineering, including particle synthesis, characterisation and measurement, particle processing and manufacture, bulk powder handling, bulk flow char-acterisation, particulate product engineering, modelling and simulation, and emerging applications of particle technology.
 
 
 # Summary. An optional shortened abstract.
-summary: "This volume contains the extended abstracts of the 7$^{th}$ UK–China International Particle Technology Forum (PTFVII) and the annual UK Particle Technology Forum which was held jointly in Edinburgh UK on 28$^{th}$ - 31$^{st}$ July 2019. 
-  The UK–China International Particle Technology Forum is a not-for-profit conference series run every twoyears in rotation between the UK and China. 
-  It was initiated in 2006 to help facilitate and foster collaborationsbetween communities in both the UK and China in the multidisciplinary field of particle science and technology.The inclusion of the word *‘International’* since 2013 acknowledges the worldwide participation and popularity  of this forum."
+summary: "This volume contains the extended abstracts of the 7$^{th}$ UK–China International Particle Technology Forum (PTFVII) and the annual UK Particle Technology Forum which was held jointly in Edinburgh UK on 28$^{th}$ - 31$^{st}$ July 2019. The UK–China International Particle Technology Forum is a not-for-profit conference series run every two years in rotation between the UK and China. It was initiated in 2006 to help facilitate and foster collaborations between communities in both the UK and China in the multidisciplinary field of particle science and technology. The inclusion of the word *‘International’* since 2013 acknowledges the worldwide participation and popularity of this forum."
 
 tags: ["Particle technology", "DEM", "CFD"]
 
