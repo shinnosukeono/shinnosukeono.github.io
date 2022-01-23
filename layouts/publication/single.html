@@ -118,6 +118,23 @@
     <div class="d-md-none space-below"></div>
     {{ end }}
 
+    {{if eq $pub_type 5 }}
+    {{ if .Params.isbn }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ ISBN" }}</div>
+          <div class="col-12 col-md-9">{{ .Params.isbn | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+    {{ end }}
+
+
     {{ if and .Params.page_start .Params.page_end }}
     <div class="row">
       <div class="col-md-1"></div>
