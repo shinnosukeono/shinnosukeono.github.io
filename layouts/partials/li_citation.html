@@ -52,18 +52,18 @@
       {{ end }}
 
       <!-- volume and issue -->
-      {{ if (and .Params.volume .Params.issue ) }}
-        {{ trim "vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}}" " " }}
-      {{ else }}
-        {{ if .Params.volume }}
-          {{ trim {{vol. {{ .Params.volume | markdownify -}} }} " " }}
-        {{ end }}
-        {{ if .Params.issue }}
-          {{ trim "no. {{- .Params.issue | markdownify -}}" " " }}
-        {{ end }}
-        
-      {{ end }}
+      {{- if (and .Params.volume .Params.issue ) -}}
+        vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}}
+      {{- else -}}
+        {{- if .Params.volume -}}
+          vol. {{- .Params.volume | markdownify -}}
+        {{- end -}}
 
+        {{- if .Params.issue -}}
+          no. {{- .Params.issue | markdownify -}}
+        {{- end -}}
+        
+      {{- end -}}
 
       <!-- pages -->
       {{ if (and .Params.page_start .Params.page_end )}}
