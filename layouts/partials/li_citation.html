@@ -94,8 +94,10 @@
 
       {{ end }}
 
-      <!-- Add spacer below buttons to resize card
-      <div class="spacer"></div> -->
+      <!-- Add spacer below buttons to resize card -->
+      {{ if and .Params.add_badge .Params.doi }}
+      <div class="spacer"></div> 
+      {{ end }}
 
     </div>
   
