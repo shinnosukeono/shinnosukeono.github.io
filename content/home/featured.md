@@ -34,3 +34,7 @@ design:
   #   4 = Citation (publication only)
   view: 3
 ---
+
+{{% callout note %}}
+See more relevant content by [visiting all publications](./publication/).
+{{% /callout %}}
