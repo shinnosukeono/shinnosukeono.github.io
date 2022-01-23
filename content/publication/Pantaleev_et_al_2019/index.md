@@ -21,18 +21,20 @@ publishDate: "2019-08-01T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th UK–China International Particle Technology Forum*
-publication_short: In *PTF7 Proceedings*
+publication: "*Proceedings of the 7th UK–China International Particle Technology Forum*"
+publication_short: "*PTF7 Proceedings*"
+page_start: 222
+page_end: 223
 
 abstract: |-
   Discrete element modelling of a monotonic triaxial test is carried out with the aim of studying the stress-strain response of railway ballast in a large-scale tester. The latex membrane of the tester is modelled via a lattice of bonded particles to investigate the effects of membrane stiffness on the stress-strain response. The confining pressure application through the membrane is achieved via individual forces applied to the membrane particles, giving rise  to a uniform, radially  inward, equivalent stress. This modelling approach leads to a close agreement with published experimental data. A coarse-graining analysis of the numerical results is performed to study the evolution of the stress state in the numerical sample.
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Discrete element modelling of a monotonic triaxial test is carried out with the aim of studying the stress-strain response of railway ballast in a large-scale tester."
 
 tags: ["DEM", "Triaxial", "Railway Ballast"]
 
@@ -54,12 +56,12 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: 'Triaxial test model in EDEM'
   focal_point: ""
   preview_only: false
 

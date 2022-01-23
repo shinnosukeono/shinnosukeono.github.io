@@ -24,12 +24,12 @@ publishDate: "2012-08-01T00:00:00Z"
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
+# 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th International Conference for Conveying and Handling of Particulate Solids, CHoPS 2012*
-publication_short: In *CHoPS 2012 Proceedings*
+publication: "*Proceedings of the 7th International Conference for Conveying and Handling of Particulate Solids, CHoPS 2012*"
+publication_short: "*CHoPS 2012 Proceedings"
 
 abstract: |-
 
@@ -57,7 +57,7 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -73,6 +73,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - phd
+- gran_ed
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

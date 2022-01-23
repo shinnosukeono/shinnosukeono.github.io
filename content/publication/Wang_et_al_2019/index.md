@@ -27,15 +27,20 @@ publishDate: "2019-08-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 7th UK–China International Particle Technology Forum*
-publication_short: In *PTF7 Proceedings*
+publication: Proceedings of the 7th UK–China International Particle Technology Forum
+publication_short: PTF7 Proceedings
+page_start: 130
+page_end: 131
 
 abstract: |-
-  This paper presents the application of a digital twin in industrial manufacturing with an impact pin mill and  twin  screw  granulator  as  exemplar  studies.  A  new  particle  breakage  model  subject  to  impact loading pertaining to the impact pin mill was developed, which enables the contribution of the normal and tangential velocity components to be rationalised. In the twin screw granulation, a coupled model with DEM and PBM is proposed with a new breakage kernel developed for the TSG. The application of digital twin is hoped to facilitate the understanding of particulate process and help transit from digital design to digital operation.
+  Particulate processes are both ubiquitous and challenging in industrial manufacturing. However, many particulate processes such as milling or granulation remain poorly understood because of the complexity of any typical particulate system. The application of a digital twin is becoming increasingly popular as a powerful means to gain insight into the mechanics of a process and implement digital design of particulate process. 
+  
+  This paper presents the application of a digital twin in industrial manufacturing with an impact pin mill and twin screw granulator (TSG) as exemplar studies. Mechanistic model-based approaches are developed and implemented for the abovementioned case studies. For example, a new particle breakage model subject to impact loading pertaining to the impact pin mill was developed, which enables the contribution of the normal and tangential velocity components to be rationalised. As for the twin screw granulation, a hybrid coupled model with DEM (Discrete Element Method) and PBM (Population Balance Model) is proposed with a new breakage kernel developed for the TSG. The application of digital twin is hoped to facilitate the improved understanding of particulate process and help transit from digital design to digital operation.
+
 
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "This paper presents the application of a digital twin in industrial manufacturing with an impact pin mill and  twin  screw  granulator  as  exemplar  studies. A  new  particle  breakage  model  subject  to  impact loading pertaining to the impact pin mill was developed, which enables the contribution of the normal and tangential velocity components to be rationalised. In the twin screw granulation, a coupled model with DEM and PBM is proposed with a new breakage kernel developed for the TSG. The application of digital twin is hoped to facilitate the understanding of particulate process and help transit from digital design to digital operation."
 
 tags: ["Digital Twin", "DEM", "PBM", "Impact", "Milling", "Granulation", "Twin Screw Granulation"]
 
@@ -57,7 +62,7 @@ url_source: ''
 url_video: ''
 
 # add Altmetric, dimensions and plumx badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

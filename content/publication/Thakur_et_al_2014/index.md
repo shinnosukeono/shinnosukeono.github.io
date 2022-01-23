@@ -27,8 +27,8 @@ publishDate: "2014-05-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Granular Matter , Vol. 16*
-publication_short: In *Granular Matter*
+publication: Granular Matter
+publication_short: Granul. Matter
 volume: 16
 issue: ''
 pages: ''
@@ -36,7 +36,9 @@ page_start: 383
 page_end: 400
 
 abstract: |-
-  An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability. Simulations have been performed for uniaxial consolidation followed by unconfined compression to failure using this model. The model has been shown to be capable of predicting the experimental flow function (unconfined compressive strength vs. the prior consolidation stress) for a limestone powder which has been selected as a reference solid in the Europe wide PARDEM research network. Contact plasticity in the model is shown to affect the flowability significantly and is thus essential for producing satisfactory computations of the behaviour of a cohesive granular material. The model predicts a linear relationship between a normalized unconfined compressive strength and the product of coordination number and solid fraction. This linear relationship is in line with the Rumpf model for the tensile strength of particulate agglomerate. Even when the contact adhesion is forced to remain constant, the increasing unconfined strength arising from stress consolidation is still predicted, which has its origin in the contact plasticity leading to microstructural evolution of the coordination number. The filled porosity is predicted to increase as the contact adhesion increases. Under confined compression, the porosity reduces more gradually for the load-dependent adhesion compared to constant adhesion. It was found that the contribution of adhesive force to the limiting friction has a significant effect on the bulk unconfined strength. The results provide new insights and propose a micromechanical based measure for characterising the strength and flowability of cohesive granular materials.
+  An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability. Simulations have been performed for uniaxial consolidation followed by unconfined compression to failure using this model. The model has been shown to be capable of predicting the experimental flow function (unconfined compressive strength vs. the prior consolidation stress) for a limestone powder which has been selected as a reference solid in the Europe wide PARDEM research network. 
+  
+  Contact plasticity in the model is shown to affect the flowability significantly and is thus essential for producing satisfactory computations of the behaviour of a cohesive granular material. The model predicts a linear relationship between a normalized unconfined compressive strength and the product of coordination number and solid fraction. This linear relationship is in line with the Rumpf model for the tensile strength of particulate agglomerate. Even when the contact adhesion is forced to remain constant, the increasing unconfined strength arising from stress consolidation is still predicted, which has its origin in the contact plasticity leading to microstructural evolution of the coordination number. The filled porosity is predicted to increase as the contact adhesion increases. Under confined compression, the porosity reduces more gradually for the load-dependent adhesion compared to constant adhesion. It was found that the contribution of adhesive force to the limiting friction has a significant effect on the bulk unconfined strength. The results provide new insights and propose a micromechanical based measure for characterising the strength and flowability of cohesive granular materials.
 
 # Summary. An optional shortened abstract.
 summary: "An adhesive elasto-plastic contact model for the discrete element method with three dimensional non-spherical particles is proposed and investigated to achieve quantitative prediction of cohesive powder flowability."
