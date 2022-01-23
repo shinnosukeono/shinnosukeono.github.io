@@ -53,26 +53,24 @@
 
       <!-- volume and issue -->
       {{ if (and .Params.volume .Params.issue ) }}
-        vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}}
+        {{ trim vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}} " " }}
       {{ else }}
         {{ if .Params.volume }}
-          vol. {{ .Params.volume | markdownify -}}
+          {{ trim vol. {{ .Params.volume | markdownify -}} " " }}
         {{ end }}
 
         {{ if .Params.issue }}
-          no. {{- .Params.issue | markdownify -}}
+          {{ trim no. {{- .Params.issue | markdownify -}} " " }}
         {{ end }}
         
       {{ end }}
-      {{ if or (and .Params.page_start .Params.page_end ) .Params.pages }}
-      ,
-      {{ end }}
+
 
       <!-- pages -->
       {{ if (and .Params.page_start .Params.page_end )}}
-      pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
+      , pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
       {{ else if .Params.pages }}
-      p.{{- .Params.pages | markdownify -}}
+      , p.{{- .Params.pages | markdownify -}}
       {{ end }}.
 
       <!-- Available at: -->
