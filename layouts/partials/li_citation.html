@@ -62,12 +62,15 @@
       no. {{- .Params.issue | markdownify -}}
       {{ end }}
       {{ end }}
+      {{ if or (and .Params.page_start .Params.page_end ) .Params.pages }}
+      ,
+      {{ end }}
 
       <!-- pages -->
       {{ if (and .Params.page_start .Params.page_end )}}
-      , pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
+      pp.{{- .Params.page_start | markdownify -}}-{{- .Params.page_end | markdownify -}}
       {{ else if .Params.pages }}
-      , p.{{- .Params.pages | markdownify -}}
+      p.{{- .Params.pages | markdownify -}}
       {{ end }}.
 
       <!-- Available at: -->
