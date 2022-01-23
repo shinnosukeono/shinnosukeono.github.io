@@ -23,7 +23,7 @@ publishDate: "2018-04-24T00:00:00Z"
 publication_types: ["10"]
 
 # Publication name and optional abbreviated publication name.
-publication: "8th World Congress on Particle Technology*"
+publication: "8th World Congress on Particle Technology"
 publication_short: "*WCPT8*"
 location: Orlando, FL., USA.
 

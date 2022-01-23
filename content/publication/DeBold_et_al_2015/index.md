@@ -26,7 +26,7 @@ publishDate: "2015-08-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Construction and Building Materials, Vol. 92
+publication: Construction and Building Materials
 publication_short: Con. Build. Mat.
 volume: 92
 issue: 
