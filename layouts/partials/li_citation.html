@@ -45,11 +45,11 @@
       </span>
       {{- .Date.Format "2006" -}}.
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
-      {{ if .Params.publication -}}
+      {{- if .Params.publication -}}
       <em>{{- .Params.publication | markdownify -}}</em>
-      {{ else if .Params.publication_short -}}
+      {{- else if .Params.publication_short -}}
       <em>{{- .Params.publication_short | markdownify -}}</em>
-      {{ end -}}
+      {{- end -}}
 
       <!-- volume and issue -->
       {{- if (and .Params.volume .Params.issue ) -}}
