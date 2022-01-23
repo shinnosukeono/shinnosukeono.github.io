@@ -53,14 +53,13 @@
 
       <!-- volume and issue -->
       {{ if (and .Params.volume .Params.issue ) }}
-        {{ trim vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}} " " }}
+        {{ trim "vol. {{- .Params.volume | markdownify -}}, no. {{- .Params.issue | markdownify -}}" " " }}
       {{ else }}
         {{ if .Params.volume }}
-          {{ trim vol. {{ .Params.volume | markdownify -}} " " }}
+          {{ trim "vol. {{ .Params.volume | markdownify -}}" " " }}
         {{ end }}
-
         {{ if .Params.issue }}
-          {{ trim no. {{- .Params.issue | markdownify -}} " " }}
+          {{ trim "no. {{- .Params.issue | markdownify -}}" " " }}
         {{ end }}
         
       {{ end }}
