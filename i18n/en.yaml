@@ -63,6 +63,9 @@
 - id: btn_pdf
   translation: PDF
 
+- id: btn_isbn
+  translation: ISBN
+
 - id: btn_cite
   translation: Cite
 
