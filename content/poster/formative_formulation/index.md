@@ -1,7 +1,7 @@
 ---
 title: "Multiscale Modelling of a Twin Screw Granulator"
 summary: "Poster at *Royal Society of Chemistry Formative Formulation Workshop, Maxwell Centre, University of Cambridge*"
-tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material", "contact"]
+tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete element method", "DEM", "Granular material"]
 
 date: "2019-03-18T00:00:00Z"
 doi: "10.13140/RG.2.2.35252.58240"
@@ -35,13 +35,15 @@ url_video: ""
 slides: ''
 ---
 
-**Date:** 18 March, 2019
 
-**Event:** Telford-UKIERI workshop on Anisotropic, heterogeneous and cellular materials: From microarchitecture to macro-level response
-
-**Location:** University of Cambridge, Cambridge, UK
+  **Event:** Royal Society of Chemistry Formative Formulation Workshop
+  **Date:** 18 March, 2019
+  **Location:** Maxwell Centre, University of Cambridge, Cambridge, UK.
 
 Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.
+
+### Cite
+{{< cite page="/publication/Morrissey_et_al_2019" view="4" >}}
 
 {{% callout note %}}
 Click the *Cite* button above to get publication metadata for your reference management software in *.bib* format.
