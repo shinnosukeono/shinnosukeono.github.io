@@ -32,9 +32,9 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 3
+  view: 2
 ---
 
 {{% callout note %}}
-See more relevant content by [visiting all publications](./publication/).
+See additional relevant content by [visiting all publications](./publication/).
 {{% /callout %}}
