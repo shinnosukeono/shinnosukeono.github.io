@@ -38,7 +38,7 @@ url_video: ""
 slides: ''
 ---
 
-{{ poster_metadata }}
+{{< poster_metadata >}}
 
 **Event:** Royal Society of Chemistry Formative Formulation Workshop
 **Date:** 18 March, 2019
