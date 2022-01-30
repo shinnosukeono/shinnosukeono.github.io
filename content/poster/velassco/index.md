@@ -7,6 +7,8 @@ date: "2016-04-19T00:00:00Z"
 
 doi: "10.13140/RG.2.2.20556.13446"
 
+event: "PARTEC 2016: International Congress on Particle Technology"
+location:  "Nürnberg, Germany"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -32,6 +34,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ''
 ---
+
+{{< poster_metadata >}}
 
 **Date:** 19-21 April, 2016
 

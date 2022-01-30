@@ -6,12 +6,14 @@ tags: ["Conference", "Adhesion", "Cohesive solid", "Contact model", "Discrete el
 date: "2018-04-24T00:00:00Z"
 doi: "10.13140/RG.2.2.16645.17123/1"
 
+event: 8th World Congress on Particle Technology (WCPT8)
+location: Orlando World Center, Orlando, FL., USA
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 
   focal_point: Smart
 
 links:
@@ -32,11 +34,9 @@ url_video: ""
 slides: ''
 ---
 
-**Date:** 22-26 April, 2018
 
-**Event:** 8th World Congress on Particle Technology
+{{< poster_metadata >}}
 
-**Location:** Orlando World Center, Orlando, FL., USA
 
   Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.
 
