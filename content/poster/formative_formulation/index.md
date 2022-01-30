@@ -38,45 +38,7 @@ url_video: ""
 slides: ''
 ---
 
-<div class="article-container">
-
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-    <div class="row">
-      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div>
-      <div class="col-12 col-md-9">{{ .Params.event | markdownify }}</div>
-    </div>
-  </div>
-  <div class="col-md-1"></div>
-</div>
-<div class="d-md-none space-below"></div>
-
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-    <div class="row">
-      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div>
-      <div class="col-12 col-md-9">{{ .Params.date | markdownify }}</div>
-    </div>
-  </div>
-  <div class="col-md-1"></div>
-</div>
-<div class="d-md-none space-below"></div>
-
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-    <div class="row">
-      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
-      <div class="col-12 col-md-9">{{ .Params.location | markdownify }}</div>
-    </div>
-  </div>
-  <div class="col-md-1"></div>
-</div>
-<div class="d-md-none space-below"></div>
-
-</div>
+{{ poster_metadata }}
 
 **Event:** Royal Society of Chemistry Formative Formulation Workshop
 **Date:** 18 March, 2019
