@@ -183,6 +183,12 @@
 - id: issue
   translation: Issue
 
+- id: doi
+  translation: DOI
+
+- id: isbn
+  translation: ISBN
+
 - id: article
   translation: Article
 
