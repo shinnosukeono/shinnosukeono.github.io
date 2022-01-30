@@ -37,11 +37,6 @@ slides: ''
 
 {{< poster_metadata >}}
 
-**Date:** 19-21 April, 2016
-
-**Event:** PARTEC 2016: International Congress on Particle Technology
-
-**Location:** Nürnberg, germany
 
 VELaSSCo (Visual Analysis for Extremely Large-Scale Scientific Computing) is an EC FP7 project involving a consortium of seven European partners. 
 VELaSSCo aims to provide new visual analysis methods for large-scale simulations serving the petabyte era. 
