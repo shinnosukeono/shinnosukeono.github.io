@@ -40,10 +40,6 @@ slides: ''
 
 {{< poster_metadata >}}
 
-**Event:** Royal Society of Chemistry Formative Formulation Workshop
-**Date:** 18 March, 2019
-**Location:** Maxwell Centre, University of Cambridge, Cambridge, UK.
-
 Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.
 
 
