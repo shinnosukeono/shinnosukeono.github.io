@@ -6,6 +6,9 @@ tags: ["Workshop", "Adhesion", "Cohesive solid", "Contact model", "Discrete elem
 date: "2019-03-18T00:00:00Z"
 doi: "10.13140/RG.2.2.35252.58240"
 
+event: Royal Society of Chemistry Formative Formulation Workshop
+location: Maxwell Centre, University of Cambridge, Cambridge, UK
+
 project:
  - mmpp
 
@@ -35,15 +38,51 @@ url_video: ""
 slides: ''
 ---
 
+<div class="article-container">
 
-    **Event:** Royal Society of Chemistry Formative Formulation Workshop
-    **Date:** 18 March, 2019
-    **Location:** Maxwell Centre, University of Cambridge, Cambridge, UK.
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div>
+      <div class="col-12 col-md-9">{{ .Params.event | markdownify }}</div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="d-md-none space-below"></div>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div>
+      <div class="col-12 col-md-9">{{ .Params.date | markdownify }}</div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="d-md-none space-below"></div>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
+      <div class="col-12 col-md-9">{{ .Params.location | markdownify }}</div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="d-md-none space-below"></div>
+
+</div>
+
+**Event:** Royal Society of Chemistry Formative Formulation Workshop
+**Date:** 18 March, 2019
+**Location:** Maxwell Centre, University of Cambridge, Cambridge, UK.
 
 Wet granulation is a process used to create larger stable agglomerates (granules) from fine powders. However, despite wide adoption, it is often inefficiently operated, with high recycle ratios in continuous processes and high rejection rates in batch processes. This numerical study simulates a GEA ConsiGma™ 1 Twin Screw Granulator (TSG), following a standard framework for model-driven design.
-
-### Cite
-{{< cite page="/publication/Morrissey_2019" view="4" >}}
 
 
 {{% callout note %}}
