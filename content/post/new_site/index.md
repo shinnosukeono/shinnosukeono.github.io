@@ -54,7 +54,7 @@ However, after creating it, I quickly realised that I didn't have a whole lot to
 I wrote a few good posts that got some traction, but much of it was more personal in nature and possibly not of much interest to other people.
 The personal domain for email became the main draw and when I swapped providers a few years ago, the website didn't get transferred.
 
-{{ < figure src="old_site.png" title="**Homepage of Original Site**" > }}
+{{< figure src="old_site.png" title="**Homepage of Original Site**" >}}
 
 This was probably a mistake - some of the posts were actually of interest and had lots of comments. 
 I had been using wordpress to handle the blog but I never transferred out all the comments before just putting thins on ice. So to anyone reading who may be about to do something similar - remember to back up or export things like comments as well as the raw data of the site.
