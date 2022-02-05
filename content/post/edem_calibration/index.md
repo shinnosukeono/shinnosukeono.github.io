@@ -146,11 +146,6 @@ This process provides a fully calibrated DEM model for cohesive powders for use 
 {{< figure src="fig_11.png" title="**Calibrated Flow function vs Experimental flow function**"  numbered="true" >}}
 
 
-## License
-
-Copyright 2017-present [J.P. Morrissey](https://johnpmorrissey.com).
-
-
 # References
 [^1]:	American Society of Mechanical Engineers., *Guide for verification and validation in computational solid mechanics*, American Society of Mechanical Engineers, 2006. https://www.asme.org/products/codes-standards/v-v-10-2006-guide-verification-validation (accessed July 13, 2017).
 

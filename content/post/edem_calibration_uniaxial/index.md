@@ -85,10 +85,6 @@ The **Freeman UPT**, which is a semi-automated uniaxial tester, provides rapid m
 
 
 
-## License
-
-Copyright 2019-present [J.P. Morrissey](https://johnpmorrissey.com).
-
 
 # References
 [^1]:	T.A. Bell, E.J. Catalano, Z. Zhong, J.Y. Ooi, J.M. Rotter, *Evaluation of the Edinburgh powder tester*, in: PARTEC 2007 - Congr. Part. Technol., Nürnberg, 2007: pp. 1–6. http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Evaluation+of+the+Edinburgh+Powder+Tester#0 (accessed October 5, 2019).
