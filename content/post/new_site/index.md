@@ -76,15 +76,20 @@ I was drawn to `Hugo` by the fact that all the templating is written in markdown
 
 ## Getting Started
 
-So since `Hugo` is quite popular there are plenty of tutorials and guides out there, I started reading reading a few [^1]<sup>,</sup>[^2] to see where to get started. While doing a bit more reading, I came across a website called [Wowchemy](https://wowchemy.com/) which promises quick and easy publishing for scientific and technical audiences (That's me!). 
+Since `Hugo` is quite popular, there are plenty of tutorials and guides out there and I started reading reading a few [^1]<sup>,</sup>[^2] to see where to get started. 
+While doing a bit more reading, I came across a website called [Wowchemy](https://wowchemy.com/) which promises quick and easy publishing for scientific and technical audiences (That's me!). 
 
-So that where I decided to start with the 60 second [quickstart](https://wowchemy.com/docs/getting-started/hugo-github-quickstart/) guide. This solutions saves the website in a GitHub repository and the website is deployed using [Netlify](https://www.netlify.com/). Netlify is basically the build manager and detects any new pushes to the repository, starts a build process and then deploys your built website. By default, you are assigned a custom Netlify domain, but you can quite easily set it up to use your own custom domain as well. 
+So that is where I decided to start with the [quickstart](https://wowchemy.com/docs/getting-started/hugo-github-quickstart/) guide. 
+This solutions saves the website in a GitHub repository and the website is deployed using [Netlify](https://www.netlify.com/). 
+Netlify is basically the build manager and detects any new pushes to the repository, starts a build process and then deploys your built website. 
+By default, you are assigned a custom Netlify domain, but you can quite easily set it up to use your own custom domain as well. 
+Obviously Netlify offers a **free package** for personal sites which has 300 build minutes per month, which should be more than enough for most people.
 
 ### Wowchemy
 
 **Wochemy** provides a few template pages for specific purposes such as individual pages or those for a research group. I cloned the [Academic Resume](https://wowchemy.com/hugo-themes/) theme, followed the instructions and had it deployed with Netlify in about 5-10 minutes. Very nice!
 
-The wowchemy ecosystem consists of lots of elements, which are a bit like building *'blocks'* which can be used to create a page or site. 
+The wowchemy ecosystem consists of lots of elements, which are a bit like *'building blocks'* which can be used to create a page or site. 
 There are lots of options such as posts, publications, sliders, galleries and much more. 
 There's code and math support as well as easy setup of some commenting systems. There's even an CMS available if yuo wish to mange things that way. 
 
