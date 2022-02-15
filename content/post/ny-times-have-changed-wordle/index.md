@@ -19,6 +19,11 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+
+{{% callout warning %}}
+SPOILER ALERT: Today's **Wordle** solution is shown at the bottom of the page!
+{{% /callout %}}
+
 Lots of people have been complaining that **Wordle** has become much harder since the **NY Times** purchased the games and took control. 
 But it is a random list of words so you would expect easy and hard words every so often. 
 And while they have made some minor [changes](https://kotaku.com/wordle-archive-nyt-ban-offensive-guesses-streak-new-yor-1848525418) in the name of political correctness by removing possible *"offensive"* words, wholesale changes this quickly are unlikely.
