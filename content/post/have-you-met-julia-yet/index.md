@@ -2,9 +2,9 @@
 title: Have you met Julia Yet?
 summary: An introduction to the *new kid on the block.
 
-date: 2022-02-07T08:00:00.000Z
+date: 2022-02-13T08:00:00.000Z
 
-draft: true
+draft: false
 featured: true
 
 authors:
@@ -168,7 +168,7 @@ A more 'full-fat' option of @benchmark can also be used to get some additional i
 
 ````julia
 julia> @btime nrm = normalize_by_row($vec_1);
-  606.431 μs (10 allocations: 1.91 MiB)
+582.561 μs (10 allocations: 1.91 MiB)
 
 
 julia> @benchmark nrm = normalize_by_row($vec_1)
@@ -221,15 +221,31 @@ Here's the first attempt.
  end
 
 julia> @btime nrm = normalize_by_row_v2($vec_1);
-  517.021 μs (4 allocations: 1.53 MiB)
+  472.435 μs (4 allocations: 1.53 MiB)
 
 ````
 
-This implementation looks quite different from the first attempt which was a simple broadcasted one-line solution. This one has a **loop**! 
+This implementation looks quite different from the first attempt which was a simple broadcasted one-line solution. 
+This one has a **loop**! 
 It's also using a temporary array for storage and the views function to reduce copying to memory.
 Interestingly, even though this is using a for loop, it's still quicker than the initial implementation and has reduced memory usage and the number of memory allocations. 
 
-It seems it is possible to squeeze more performance but how much better can we do? I've gone thorugh some of the polular user forums
+Here's another attempt at the one-liner and a subtle change does improve the performance but it's only similar to the extra loop example.
+
+````julia
+
+function normalize_by_row_v1(arr)
+    sqrt.(sum(x->x^2,arr, dims=2))
+end
+
+julia> @btime nrm1 = normalize_by_row_v1($vec_1);
+  447.826 μs (8 allocations: 781.42 KiB)
+
+````
+
+I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
+It seems it is possible to squeeze more performance but how much better can we do? 
+
 
 
 ## Are loops really that bad?
@@ -241,8 +257,54 @@ This static typing and compilation allows much more performance to be extracted 
 Packages like `NumPy` provide highly optimised functions that are actually compiled to `C` beforehand, hence their performance. 
 I think that's partly where this *"loops are bad"* mentality comes from in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler.
 
+So to prove this I've take the extra information gathered though trawling the web and hope to show it's not all bad!
+
+````julia
+ function normalize_by_row_v7(arr)
+    norms = Vector{Float64}(undef, size(arr)[1])
+    @inbounds for i in axes(arr, 1)
+        anorm2 = zero(eltype(arr))
+        for j in axes(arr, 2)
+            anorm2 += arr[i, j]^2
+        end
+        norms[i] = sqrt(anorm2)
+
+    end
+    return norms
+end
+
+julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
+    319.993 μs (2 allocations: 390.67 KiB)
+
+````
 
 
+It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.  
+Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations.
+
+````julia
+using LoopVectorization
+
+function normalize_by_row_v7_turbo(arr)
+    norms = Vector{Float64}(undef, size(arr)[1])
+    @turbo for i in axes(arr, 1)
+        anorm2 = zero(eltype(arr))
+        for j in axes(arr, 2)
+            anorm2 += arr[i, j]^2
+        end
+        norms[i] = sqrt(anorm2)
+
+    end
+    return norms
+end
+
+julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
+    161.017 μs (2 allocations: 390.67 KiB)
+
+````
+
+## Summary
+So the one line summary? If you want to make your `python` code ***10x times quicker*** use `Julia`!!
 
 # References
 
