@@ -36,7 +36,9 @@ I started my game without much thought and struggled to make it in 6.
 
 Later while discussing today's word with my other half it soon became clear that we had solved different words!! What is going on?!
 
-Anyway, here are the screenshots from a device where I had the old one still open in a chrome tab. 
+So it seems that the **NY Times have changed Wordle** already, and maybe they have added back in some of the 10,000 or so other possible 5 letter words that weren't on the original Wordle list, hence the feeling it is now more difficult as there are more obscure or less familiar words being used?
+
+Anyway, here are the screenshots from a device where I had the old one still open in a chrome tab and was able to verify this. Let me know in the comments if you have also noticed something similar. 
 
 <div class="row">
   <div class="column_2">
@@ -47,5 +49,4 @@ Anyway, here are the screenshots from a device where I had the old one still ope
   </div>
 </div>
 
-So it seems that the **NY Times have changed Wordle** already, and maybe they have added back in some of the 10,000 or so other possible 5 letter words that weren't on the original Wordle list, hence the feeling it is now more difficult as there are more obscure or less familiar words being used?
 
