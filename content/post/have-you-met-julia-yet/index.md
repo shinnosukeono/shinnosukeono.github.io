@@ -15,6 +15,11 @@ image:
   focal_point: Smart
   preview_only: false
 
+_build:
+  render: always
+  list: never
+  publishResources: true
+
 ---
 There are many different programming languages out there such as `c`, `c++` and `Java`. These are probably considered more general computing languages.
 Then there are some others that are higher level languages such as python. There are languages that have developed communities like `R` for data science. 
