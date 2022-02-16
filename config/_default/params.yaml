@@ -77,7 +77,7 @@ highlight_languages:
   - latex
   - C
   - C++
-  - Julia
+  - julia
 math: true
 diagram: false
 privacy_pack: false

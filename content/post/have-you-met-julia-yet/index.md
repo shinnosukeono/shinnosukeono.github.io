@@ -1,6 +1,6 @@
 ---
 title: Have you met Julia Yet?
-summary: An introduction to the **new* kid on the block.
+summary: An introduction to the *new* kid on the block.
 
 date: 2022-02-13T08:00:00.000Z
 
@@ -26,12 +26,16 @@ However, it's ease of use has made it a star in recent years it the recent explo
 If you have come from a scientific or academic background, then you will probably have spent many years using MATLAB as it was (and still is) a staple of many science and engineering undergraduate courses. 
 And once you learn something you tend to keep using it because of familiarity: the devil you know is better than one don't!
 
-I fall into this last category, I learned off MATLAB as an undergraduate but couldn't understand why we were being though something like this - who would ever need it. Roll on a few years into my Ph.D. and the first thing i did most days after switching on my computer was to open MATLAB in preparation for the days work. I enjoyed using MATLAB as it made my life easier for reading big data files and doing all my calculations. I couldn't have managed without it really. But I always had a desire to find something that didn't have a big price tag attached. 
+I fall into this last category, I learned off MATLAB as an undergraduate but couldn't understand why we were being though something like this - who would ever need it. 
+Roll on a few years into my Ph.D. and the first thing i did most days after switching on my computer was to open MATLAB in preparation for the days work. 
+I enjoyed using MATLAB as it made my life easier for reading big data files and doing all my calculations. 
+I couldn't have managed without it really. But I always had a desire to find something that didn't have a big price tag attached. 
 Something similar and familiar feeling but free. 
 
 I'd heard of this language called python that was like a cross between MATLAB and Perl and thought *"This sounds good"*, but I was nearing the end of my Ph.D. and the looming deadline meant I didn't have time to explore. 
 Around the same time I also came across an [announcement](https://julialang.org/blog/2012/02/why-we-created-julia/) of a new language that sounded like my ideal language. Like MATLAB to use but as fast as `C`. Perfect. 
-But it was new, and still under development. And my deadlines meant I soon forgot about it. Eventually I moved on to python and have been well served by it for many years now.
+But it was new, and still under development. And my deadlines meant I soon forgot about it. 
+Eventually I moved on to python and have been well served by it for many years now.
 
 But I still long for more speed at times. Particularly as my data sets grow with passing time (much like my waistline really).
 
