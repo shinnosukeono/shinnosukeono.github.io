@@ -148,7 +148,7 @@ I'm also going to use the `LinearAlgebra` and `LoopVectorization` packages to ex
 I've written the equivalent Julia function to my native python function from earlier but I've written this in a vectorised manner as this is how I would write a similar function using `Numpy`. 
 Years of python exposure has *"loops are bad"* seared in my brain. 
 
-````julia
+```Julia
 using BenchmarkTools
 using LinearAlgebra
 using LoopVectorization
@@ -161,7 +161,7 @@ end
 
 @btime nrm = normalize_by_row($vec_1);
 
-````
+```
 
 `@btime` provides a similar output to `timeit`, however, it also includes the amount of memory used and number of memory allocations in the function. Useful information for improving any function. 
 A more 'full-fat' option of @benchmark can also be used to get some additional information.
