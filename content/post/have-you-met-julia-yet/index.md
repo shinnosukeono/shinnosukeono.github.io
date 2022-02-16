@@ -21,10 +21,9 @@ _build:
   publishResources: true
 
 ---
-{{< toc >}}
+{{ < toc > }}
 
 # Introduction
----
 There are many different programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
 There are more modern languages such as `swift` and `kotlin` which are very popular in app development. 
 These are all low level languages 
@@ -67,13 +66,14 @@ What I would like to do is just show a simple use case that highlights the power
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
-$$ \left| x \right| \_{2} = \left| x \right| = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}) $$
+$$ \left | x \right |_{2} = \left | x \right | = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}} $$
+
 
 This is a relatively simple calculation but can have a significant impact on performance if you happen to be calculating this for a large number of vectors, partly because of the repeated use of a square root.
 
 ### Python Implementation
 
-It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[^2] in the *Linear Algebra* submodule and this also provides the ability to calculate various other vector norms.
+It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[^2] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
 
 But if doing things in `python` quickly is something you want to do, you may also be interested in the `Numba` package and I'll give a quick example why.
 
