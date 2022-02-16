@@ -21,6 +21,9 @@ _build:
   publishResources: true
 
 ---
+{{ < toc > }}
+
+# Introduction
 There are many different programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
 There are more modern languages such as `swift` and `kotlin` which are very popular in app development. 
 These are all low level languages 
@@ -63,8 +66,9 @@ What I would like to do is just show a simple use case that highlights the power
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
-$$\left | x \right |_{2} = \left | x \right | = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2})$$
+$$ \left | x \right |_{2} = \left | x \right | = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}) $$
 
+$$ \nabla F(\mathbf{x}_{n}) $$
 
 This is a relatively simple calculation but can have a significant impact on performance if you happen to be calculating this for a large number of vectors, partly because of the repeated use of a square root.
 
@@ -105,12 +109,12 @@ def numba_norm(vects):
 
 ```
 
-As many operations are size dependent, I'm going to use the `perfplots` package to helpfully run a benchmark suite os sizes, from a single element to a very large array of 3-component vectors. 
+As many operations are size dependent, I'm going to use the `perfplot` package to helpfully run a benchmark suite os sizes, from a single element to a very large array of 3-component vectors. 
 
 
 ```python
 out = perfplot.bench(
-    setup=lambda n: np.random.random([n,3]),  # or setup random nx3 array
+    setup=lambda n: np.random.random([n,3]),  # setup random nx3 array
     kernels=[
         lambda a: native_norm(a),
         lambda a: np.linalg.norm(a, axis=1),
@@ -127,12 +131,15 @@ out.show(
     time_unit="us",  # set to one of ("auto", "s", "ms", "us", or "ns") to force plot units
 )
 ```
+
+
+This automates the whole process and creates a nice plot of the relative performance of the supplied function which you can see in the figure below. 
+
 {{< figure src="perf.png" title="**Performance of various computation methods for L2-norm calculation**" >}}
 
-
-This automates the whole process and creates a nice plot of the relative performance of the supplied function which you can see in the figure below. Some interesting takeaways from the te results are:
+Some interesting takeaways from the results are:
   1. The native python implementation is the slowest (Not Surprising)
-  2. Numba is a powerful just-in-time compiler than can make your functions many times quicker. The *'jitted'* function is somewhere between 1 nd 2 orders of magnitude quicker than the native `python` code. 50-100x faster for one line of code more!
+  2. Numba is a powerful just-in-time compiler than can make your functions many times quicker. The *jitted* function is somewhere between 1 and 2 orders of magnitude quicker than the native `python` code. **50-100x faster** for one line of code more!
   3. As the array size increase, the `Numba` and `NumPy` solutions converge to the same results suggesting th code is being compiled to the same machine code. `NumPy` is slower for the smaller array sizes due to the overhead related to the `NumPy` function such as various implementation options and error checking. This overhead is large for the small array sizes but disappears for arrays above about several thousand rows in this. This is worth bearing in mind if you will only be working on small datasets.
 
 Although, I'm using a specific package for my benchmarking, it's really just automating the process of using `timeit`. 
@@ -155,7 +162,7 @@ vects = np.random.random([100,3])
 Using `Julia` is a bit like writing code for `python` or `MATLAB` and and can be executed from the Julia REPL or using scripts. 
 `Julia` is in some sense acting a bit like `Numba` in that is is compiling all the code before execution to benefit from the performance gained from compiled code.  
 
-While I'm not yet aware of any `perfplot` equivalent for Julia just yet, it is relatively easy to measure the performance of any functions using the `BenchmarkTools` package. 
+While I'm not yet aware of any `perfplot` equivalent for `Julia` just yet, it is relatively easy to measure the performance of any functions using the `BenchmarkTools` package. 
 I'm also going to use the `LinearAlgebra` and `LoopVectorization` packages to explore other options.
 
 
