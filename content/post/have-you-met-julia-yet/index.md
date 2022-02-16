@@ -27,14 +27,14 @@ These are all low level languages
 Then there are some others that are higher level languages such as python. There are languages that have developed communities like `R` for data science. 
 For years scientific computing was dominated by `Fortran` and `MATLAB`. There are many more examples but what they show is that there is rarely a language that does everything well.
 
-For example, `python` is easy to learn and can do almost anything, but the trade of here is that it is an interpreted language and this makes it slow in comparison to `Java` and `C` which are compiled. 
-However, it's ease of use has made it a star in recent years it the recent explosion in data science and AI has seen python's popularity soar.
+For example, `python` is easy to learn and can do almost anything, but the trade off here is that it is an interpreted language and this makes it slow in comparison to `Java` and `C` which are compiled. 
+However, it's ease of use has made it a star in recent years and the recent explosion in data science and AI has seen python's popularity soar.
 
 If you have come from a scientific or academic background, then you will probably have spent many years using MATLAB as it was (and still is) a staple of many science and engineering undergraduate courses. 
-And once you learn something you tend to keep using it because of familiarity: the devil you know is better than one don't!
+And once you learn something you tend to keep using it because of familiarity: the devil you know is better than the one you don't!
 
 I fall into this last category, I learned off MATLAB as an undergraduate but couldn't understand why we were being though something like this - who would ever need it. 
-Roll on a few years into my Ph.D. and the first thing i did most days after switching on my computer was to open MATLAB in preparation for the days work. 
+Roll on a few years into my Ph.D. and the first thing I did most days after switching on my computer was to open MATLAB in preparation for the days work. 
 I enjoyed using MATLAB as it made my life easier for reading big data files and doing all my calculations. 
 I couldn't have managed without it really. But I always had a desire to find something that didn't have a big price tag attached. 
 Something similar and familiar feeling but free. 
@@ -51,6 +51,7 @@ But I still long for more speed at times. Particularly as my data sets grow with
 ## Meet Julia
 
 Julia is still young. It's only been about 10 years since that early announcement that sounded so intriguing to me. 
+Actually, looking at the date on the post, it's 10 years exactly tomorrow!
 I must admit that I forgot about it for many years as python did such a good job of filling all the holes. 
 
 Recently I picked up an old computer and logged in looking for some old files and same this icon on the desktop for `Julia`. It was time to look it up and see how it was doing. Had they fulfilled their initial greedy ambitions? Was it even still active.
@@ -60,7 +61,7 @@ What I would like to do is just show a simple use case that highlights the power
 
 ##  Use Case: Vector Normalisation
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
-The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[1] is the **L2-norm**, given by 
+The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
 $$\left | x \right |_{2} = \left | x \right | = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2})$$
 
@@ -69,11 +70,13 @@ This is a relatively simple calculation but can have a significant impact on per
 
 ### Python Implementation
 
-It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[2] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
+It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[^2] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
 
 But if doing things in `python` quickly is something you want to do, you may also be interested in the `Numba` package and I'll give a quick example why.
 
-Here's the implementation of both the native and `Numba` functions for calculating the L2-norm. The interesting thing here is probably how little needs to be done to *'jit'* a function with `Numba` and unlock huge performance gains. In this case, just once change is required - the addition of `@njit()` before the function. Super easy!!
+Here's the implementation of both the native and `Numba` functions for calculating the L2-norm. 
+The interesting thing here is probably how little needs to be done to *jit* a function with `Numba` and unlock huge performance gains. 
+In this case, just once change is required - the addition of `@njit()` before the function. Super easy!!
 
 ```python
 import numpy as np
@@ -323,4 +326,4 @@ Well that's not really been the point of this post, but it is eye catching. 10x 
 
 
 [^1]: Weisstein, Eric W. "Vector Norm." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/VectorNorm.html. Accessed on 13/2/2022
-[^2]: NumPy API Reference, . https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
+[^2]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
