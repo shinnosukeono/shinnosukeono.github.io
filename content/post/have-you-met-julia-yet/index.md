@@ -1,10 +1,10 @@
 ---
 title: Have you met Julia Yet?
-summary: An introduction to the *new kid on the block.
+summary: An introduction to the **new* kid on the block.
 
 date: 2022-02-13T08:00:00.000Z
 
-draft: true
+draft: false
 featured: true
 
 authors:
@@ -64,7 +64,7 @@ But if doing things in `python` quickly is something you want to do, you may als
 
 Here's the implementation of both the native and `Numba` functions for calculating the L2-norm. The interesting thing here is probably how little needs to be done to *'jit'* a function with `Numba` and unlock huge performance gains. In this case, just once change is required - the addition of `@njit()` before the function. Super easy!!
 
-````python
+```python
 import numpy as np
 import math
 
@@ -89,12 +89,12 @@ def numba_norm(vects):
         
     return norms
 
-````
+```
 
 As many operations are size dependent, I'm going to use the `perfplots` package to helpfully run a benchmark suite os sizes, from a single element to a very large array of 3-component vectors. 
 
 
-````python
+```python
 out = perfplot.bench(
     setup=lambda n: np.random.random([n,3]),  # or setup random nx3 array
     kernels=[
@@ -112,7 +112,7 @@ out = perfplot.bench(
 out.show(
     time_unit="us",  # set to one of ("auto", "s", "ms", "us", or "ns") to force plot units
 )
-````
+```
 {{< figure src="perf.png" title="**Performance of various computation methods for L2-norm calculation**" >}}
 
 
@@ -124,7 +124,7 @@ This automates the whole process and creates a nice plot of the relative perform
 Although, I'm using a specific package for my benchmarking, it's really just automating the process of using `timeit`. 
 You will get very similar results running the following code for each size of array.
 
-````python
+```python
 vects = np.random.random([100,3])
 
 %timeit native_norms = native_norm(vects)
@@ -135,7 +135,7 @@ vects = np.random.random([100,3])
 
 %timeit numba_norms = numba_norm(vects)
 2.84 µs ± 53.1 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
-````
+```
 
 ### Julia Implementation
 Using `Julia` is a bit like writing code for `python` or `MATLAB` and and can be executed from the Julia REPL or using scripts. 
@@ -166,7 +166,7 @@ end
 `@btime` provides a similar output to `timeit`, however, it also includes the amount of memory used and number of memory allocations in the function. Useful information for improving any function. 
 A more 'full-fat' option of @benchmark can also be used to get some additional information.
 
-````julia
+```julia
 julia> @btime nrm = normalize_by_row($vec_1);
 582.561 μs (10 allocations: 1.91 MiB)
 
@@ -184,14 +184,14 @@ BenchmarkTools.Trial: 6431 samples with 1 evaluation.
  Memory estimate: 1.91 MiB, allocs estimate: 10.
 
 
-````
+```
 
 From this output we can see that our `Julia` function competes this operation on 50,000 3-component vectors.
 We can also see that our function is using about 2MB of memory to carry out this process.
 
 So how did our python code perform for the same size array? Here's the comparison:
 
-````python
+```python
 %timeit native_norms = native_norm(vects)
 85.6 ms ± 1.67 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
 
@@ -200,7 +200,7 @@ So how did our python code perform for the same size array? Here's the compariso
 
 %timeit numba_norms = numba_norm(vects)
 1.48 ms ± 18.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
-````
+```
 
 Well that's interesting - the **quickest python** implementation (`Numpy`) is about **twice as slow** as this `Julia` implementation. 
 I'm already beginning to see a case for switching to using `Julia`...
@@ -209,7 +209,7 @@ But what about my initial code? Can it be improved? What about all those memory 
 Let's have a look at a few more possible options and see if there is a bit more performance to be gained.
 
 Here's the first attempt.
-````julia
+```julia
  function normalize_by_row_v2(arr)
     norms = Vector{Float64}(undef, size(arr)[1])
     temp = arr.^2
@@ -223,7 +223,7 @@ Here's the first attempt.
 julia> @btime nrm = normalize_by_row_v2($vec_1);
   472.435 μs (4 allocations: 1.53 MiB)
 
-````
+```
 
 This implementation looks quite different from the first attempt which was a simple broadcasted one-line solution. 
 This one has a **loop**! 
@@ -232,7 +232,7 @@ Interestingly, even though this is using a for loop, it's still quicker than the
 
 Here's another attempt at the one-liner and a subtle change does improve the performance but it's only similar to the extra loop example.
 
-````julia
+```julia
 
 function normalize_by_row_v1(arr)
     sqrt.(sum(x->x^2,arr, dims=2))
@@ -241,7 +241,7 @@ end
 julia> @btime nrm1 = normalize_by_row_v1($vec_1);
   447.826 μs (8 allocations: 781.42 KiB)
 
-````
+```
 
 I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
 It seems it is possible to squeeze more performance but how much better can we do? 
@@ -255,11 +255,11 @@ But most software that is fast is written in a language that is built around loo
 However, the key difference in these cases is that they are statically typed and compiled languages and not interpreted like `MATLAB` or `python`. 
 This static typing and compilation allows much more performance to be extracted as all the information is know beforehand whereas in interpreted languages there is a constant need to check everything. 
 Packages like `NumPy` provide highly optimised functions that are actually compiled to `C` beforehand, hence their performance. 
-I think that's partly where this *"loops are bad"* mentality comes from in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler.
+I think that's partly where this *"loops are bad"* mentality comes from: in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler.
 
 So to prove this I've take the extra information gathered though trawling the web and hope to show it's not all bad!
 
-````julia
+```julia
  function normalize_by_row_v7(arr)
     norms = Vector{Float64}(undef, size(arr)[1])
     @inbounds for i in axes(arr, 1)
@@ -276,13 +276,13 @@ end
 julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
     319.993 μs (2 allocations: 390.67 KiB)
 
-````
+```
 
 
 It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.  
 Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations.
 
-````julia
+```julia
 using LoopVectorization
 
 function normalize_by_row_v7_turbo(arr)
@@ -301,10 +301,12 @@ end
 julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
     161.017 μs (2 allocations: 390.67 KiB)
 
-````
+```
 
 ## Summary
-So the one line summary? If you want to make your `python` code ***10x times quicker*** use `Julia`!!
+So the one line summary? If you want to make your `python` code ***10x times quicker*** use `Julia`!! 
+
+Well that's not really been the point of this post, but it is eye catching. 10x speedup is a lot.
 
 # References
 
