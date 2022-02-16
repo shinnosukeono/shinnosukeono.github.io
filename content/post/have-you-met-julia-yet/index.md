@@ -21,7 +21,9 @@ _build:
   publishResources: true
 
 ---
-There are many different programming languages out there such as `c`, `c++` and `Java`. These are probably considered more general computing languages.
+There are many different programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
+There are more modern languages such as `swift` and `kotlin` which are very popular in app development. 
+These are all low level languages 
 Then there are some others that are higher level languages such as python. There are languages that have developed communities like `R` for data science. 
 For years scientific computing was dominated by `Fortran` and `MATLAB`. There are many more examples but what they show is that there is rarely a language that does everything well.
 
@@ -60,7 +62,7 @@ What I would like to do is just show a simple use case that highlights the power
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[1] is the **L2-norm**, given by 
 
-$ \left | x \right |_{2} = \left | x \right | = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}) $
+$$ \left | x \right |_{2} = \left | x \right | = \sqrt({x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}) $$
 
 
 This is a relatively simple calculation but can have a significant impact on performance if you happen to be calculating this for a large number of vectors, partly because of the repeated use of a square root.
