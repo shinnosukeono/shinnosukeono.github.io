@@ -15,13 +15,13 @@ slides:
   highlight_style: dracula
 ---
 
-# Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces
+## Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces
 
-## May 4th, 2016
+### May 4th, 2016
 
-## EDEM Academic Advanced Workshop
+### EDEM Academic Advanced Workshop
 
-**J.P. Morrissey**
+#### **J.P. Morrissey**
 
 *Institute for Infrastructure & Environment, School of Engineering*
 
@@ -43,15 +43,15 @@ slides:
  - Concluding Remarks
 
 ---
----
 # Section 1
 
 ## EDEM: Application Programming and Coupling Interfaces
 
 ---
-# EDEM Application Programming Interface
+## EDEM Application Programming Interface
 
 EDEM simulations can be customized and extended using the EDEM Application Programming Interface (API)​.
+
 With the EDEM API users can write:​
 
  - Custom contact models to model new particle–particle and particle–geometry interactions​
@@ -61,7 +61,7 @@ With the EDEM API users can write:​
  - Import 3rd party vector or scalar field data which can be referenced by custom physics models
 
 
----
+
 ---
 ## Controls
 
