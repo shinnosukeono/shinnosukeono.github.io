@@ -43,6 +43,7 @@ slides:
  - Concluding Remarks
 
 ---
+---
 # Section 1
 
 ## EDEM: Application Programming and Coupling Interfaces
@@ -59,7 +60,8 @@ With the EDEM API users can write:​
  - Define and work with EDEM Custom Properties, creating custom particle and geometry properties, increasing the scope of user’s custom models​
  - Import 3rd party vector or scalar field data which can be referenced by custom physics models
 
- 
+
+---
 ---
 ## Controls
 
