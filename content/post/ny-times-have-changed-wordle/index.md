@@ -38,7 +38,9 @@ Later while discussing today's word with my other half it soon became clear that
 
 So it seems that the **NY Times have changed Wordle** already, and maybe they have added back in some of the 10,000 or so other possible 5 letter words that weren't on the original Wordle list, hence the feeling it is now more difficult as there are more obscure or less familiar words being used?
 
-Anyway, here are the screenshots from a device where I had the old one still open in a chrome tab and was able to verify this. Let me know in the comments if you have also noticed something similar. 
+Anyway, here are the screenshots from a device where I had the old one still open in a chrome tab and was able to verify this. Let me know in the comments if you have also noticed something similar.
+
+Also, have you noticed the new logo? I'm not sure about this new serif, sentence case font. Maybe I just don't like changes...
 
 <div class="row">
   <div class="column_2">

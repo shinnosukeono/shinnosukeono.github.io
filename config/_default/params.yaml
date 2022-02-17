@@ -76,6 +76,8 @@ highlight_languages:
   - python
   - latex
   - C
+  - C++
+  - julia
 math: true
 diagram: false
 privacy_pack: false
