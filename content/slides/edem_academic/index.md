@@ -43,6 +43,8 @@ slides:
  - Concluding Remarks
 
 ---
+{{% section %}}
+
 # Section 1
 
 ## EDEM: Application Programming and Coupling Interfaces
@@ -61,6 +63,7 @@ With the EDEM API users can write:​
  - Import 3rd party vector or scalar field data which can be referenced by custom physics models
 
 
+{{% /section %}}
 
 ---
 ## Controls
