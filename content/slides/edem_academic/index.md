@@ -7,7 +7,7 @@ categories: []
 date: "2019-02-05T00:00:00Z"
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: league
+  theme: white
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
@@ -15,9 +15,9 @@ slides:
 
 # Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces
 
-May 4th, 2016
+##May 4th, 2016
 
-EDEM Academic Advanced Workshop
+## EDEM Academic Advanced Workshop
 
 **J.P. Morrissey**
 
