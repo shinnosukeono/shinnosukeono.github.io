@@ -1,25 +1,27 @@
 ---
 title: Slides
 summary: An introduction to using Wowchemy's Slides feature.
+
 authors: [admin]
 tags: []
 categories: []
 date: "2019-02-05T00:00:00Z"
+
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: blood
+  theme: white
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
 ---
 
-# Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces
+## Beyond Basic: Advanced simulations in EDEM using the Application Programming and Coupling Interfaces
 
-May 4th, 2016
+### May 4th, 2016
 
-EDEM Academic Advanced Workshop
+### EDEM Academic Advanced Workshop
 
-**J.P. Morrissey**
+#### **J.P. Morrissey**
 
 *Institute for Infrastructure & Environment, School of Engineering*
 
@@ -27,7 +29,6 @@ EDEM Academic Advanced Workshop
 ---
 
 ## Presentation Overview
-
  - Application Programming & Coupling Interfaces Introduction
  - API Examples
   * Edinburgh Cohesion Model 
@@ -42,7 +43,29 @@ EDEM Academic Advanced Workshop
  - Concluding Remarks
 
 ---
+{{% section %}}
 
+# Section 1
+
+## EDEM: Application Programming and Coupling Interfaces
+
+---
+## EDEM Application Programming Interface
+
+EDEM simulations can be customized and extended using the EDEM Application Programming Interface (API)​.
+
+With the EDEM API users can write:​
+
+ - Custom contact models to model new particle–particle and particle–geometry interactions​
+ - Custom particle body force models to apply new forces and effects to the particles in the simulation​
+ - Custom particle factory models to create new methods of particle generation – to define non-standard positions, distributions or flow-rates​
+ - Define and work with EDEM Custom Properties, creating custom particle and geometry properties, increasing the scope of user’s custom models​
+ - Import 3rd party vector or scalar field data which can be referenced by custom physics models
+
+
+{{% /section %}}
+
+---
 ## Controls
 
 - Next: `Right Arrow` or `Space`
