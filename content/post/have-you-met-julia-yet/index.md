@@ -71,6 +71,11 @@ $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} +
 
 This is a relatively simple calculation but can have a significant impact on performance if you happen to be calculating this for a large number of vectors, partly because of the repeated use of a square root.
 
+{{< math >}}
+$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
+{{< /math >}}
+
 ### Python Implementation
 
 It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[^2] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
