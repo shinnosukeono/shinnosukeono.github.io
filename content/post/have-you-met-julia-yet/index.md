@@ -25,57 +25,83 @@ _build:
 
 ## Introduction
 ---
-There are many different programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
+There are many different higher level programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
 There are more modern languages such as `swift` and `kotlin` which are very popular in app development. 
-These are all low level languages 
-Then there are some others that are higher level languages such as python. There are languages that have developed communities like `R` for data science. 
-For years scientific computing was dominated by `Fortran` and `MATLAB`. There are many more examples but what they show is that there is rarely a language that does everything well.
+Then there are higher level languages such as `python`, where the focus is simplicity and ease of use to allow the user to easily convert an idea or algorithm into program code. 
+There are also languages that have developed communities in specific fields such as `R` for data science.
+For many years scientific computing was dominated by `Fortran` and `MATLAB`. 
+New languages are frequently added to the list and some slowly die off.
 
+There are many more examples but what the long list of languages shows is that there is rarely a language that does everything well for the needs of a particular community. 
 For example, `python` is easy to learn and can do almost anything, but the trade off here is that it is an interpreted language and this makes it slow in comparison to `Java` and `C` which are compiled. 
-However, it's ease of use has made it a star in recent years and the recent explosion in data science and AI has seen python's popularity soar.
+However, it's ease of use has made it a star in recent years and the recent explosion in **data science** and **AI** has seen `python`'s popularity soar.
 
-If you have come from a scientific or academic background, then you will probably have spent many years using MATLAB as it was (and still is) a staple of many science and engineering undergraduate courses. 
-And once you learn something you tend to keep using it because of familiarity: the devil you know is better than the one you don't!
+If you have come from a scientific or academic background, then you will probably have spent many years using `MATLAB` as it was (and still is) a staple of many science and engineering undergraduate courses. 
+And once you learn something you tend to keep using it because of familiarity: *the devil you know is better than the one you don't!*
 
-I fall into this last category, I learned off MATLAB as an undergraduate but couldn't understand why we were being though something like this - who would ever need it. 
-Roll on a few years into my Ph.D. and the first thing I did most days after switching on my computer was to open MATLAB in preparation for the days work. 
+I fall into this last category, I learned of MATLAB as an undergraduate but couldn't understand why we were being though something like this - who would ever need it?! 
+Roll on a few years into my Ph.D. and the first thing I did most days after switching on my computer was to open `MATLAB` in preparation for the days work. 
 I enjoyed using MATLAB as it made my life easier for reading big data files and doing all my calculations. 
-I couldn't have managed without it really. But I always had a desire to find something that didn't have a big price tag attached. 
-Something similar and familiar feeling but free. 
+I couldn't have managed without it really, but I always had a desire to find something that didn't have a big price tag attached. 
+Something similar and familiar feeling but free so that I could use at home or in a future career.
 
-I'd heard of this language called python that was like a cross between MATLAB and Perl and thought *"This sounds good"*, but I was nearing the end of my Ph.D. and the looming deadline meant I didn't have time to explore. 
-Around the same time I also came across an [announcement](https://julialang.org/blog/2012/02/why-we-created-julia/) of a new language that sounded like my ideal language. Like MATLAB to use but as fast as `C`. Perfect. 
+I'd heard of this language called `python` that was like a cross between `MATLAB` and `Perl` and thought *"This sounds good"*, but I was nearing the end of my Ph.D. and the looming deadline meant I didn't have time to explore. 
+Around the same time I also came across an [announcement](https://julialang.org/blog/2012/02/why-we-created-julia/) of a new language that sounded like my ideal language. 
+Like MATLAB to use but as fast as `C`. Perfect. 
 But it was new, and still under development. And my deadlines meant I soon forgot about it. 
 Eventually I moved on to python and have been well served by it for many years now.
 
 But I still long for more speed at times. Particularly as my data sets grow with passing time (much like my waistline really).
 
-
-
 ## Meet Julia
 
-Julia is still young. It's only been about 10 years since that early announcement that sounded so intriguing to me. 
-Actually, looking at the date on the post, it's 10 years exactly tomorrow!
-I must admit that I forgot about it for many years as python did such a good job of filling all the holes. 
+This is where I want to introdice `Julia`, which is still young. 
+Actually, looking at the date on the post, it's 10 years exactly tomorrow! And that is a lot younger than `python`, which is approaching it's 31<sup>st</sup> birthday very soon.
 
-Recently I picked up an old computer and logged in looking for some old files and same this icon on the desktop for `Julia`. It was time to look it up and see how it was doing. Had they fulfilled their initial greedy ambitions? Was it even still active.
+That early announcement sounded so intriguing to me, but I wasn't prepared to spend a lot of time learning about a language that had yet to mature and suggest it would be around long-term.
+However, I must admit that I forgot about it for many years as `python` did such a good job of filling all the holes in my daily workflow. 
 
-As it turns out, `Julia` is alive and well, possibly even thriving as more and more people  become aware of it. I don't want to write a tutorial on the use of Julia as there are already plenty of those. 
-What I would like to do is just show a simple use case that highlights the power of `Julia`.
+Recently I picked up an old computer and logged in looking for some old files and saw the icon on the desktop for `Julia`. 
+It was time to look it up and see how it was doing. Had they fulfilled their initial greedy ambitions? Was it even still active?
 
-###  Use Case: Vector Normalisation
+As it turns out, `Julia` is alive and well, possibly even thriving as more and more people become aware of it. 
+I don't want to write a tutorial on the use of Julia as there are already plenty of those, and many of which are quite detailed.
+What I would like to do is just show a simple use case that highlights the power of `Julia` and why it's worth your consideration.
+
+##  Use Case: Vector Normalisation
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
 $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}} $$
 
-
-This is a relatively simple calculation but can have a significant impact on performance if you happen to be calculating this for a large number of vectors, partly because of the repeated use of a square root.
+This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root.
 
 {{< math >}}
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
 {{< /math >}}
+
+### MATLAB Implementation
+I'll start with the implementation in `MATLAB`, although it's not really much of an implementation as there is already a `norm` and `vecnorm` function available in `MATLAB`.
+
+```matlab
+% create test set of vectors
+vec_1 = rand(50000,3);
+
+f = @() calc_norm_loop(vec_1); % handle to function
+timeit(f)
+
+f2 = @() calc_norm(vec_1); % handle to function
+timeit(f2)
+
+f3 = @() vecnorm(vec_1, 2, 2);
+timeit(f3)
+
+% check results
+a = calc_norm_loop(vec_1);
+b = calc_norm(vec_1);
+c = vecnorm(vec_1, 2, 2);
+```
 
 ### Python Implementation
 
