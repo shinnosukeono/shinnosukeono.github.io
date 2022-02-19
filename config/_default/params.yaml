@@ -75,9 +75,10 @@ highlight_languages:
   - r
   - python
   - latex
-  - C
-  - C++
+  - c
+  - c++
   - julia
+  - matlab
 math: true
 diagram: false
 privacy_pack: false
