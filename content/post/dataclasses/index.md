@@ -48,7 +48,12 @@ math: true
 ## Introduction
 ---
 
-I don't know about you but I have a tendency to store results in a dictionary and pass that around through function when I need to. I usually avoid created classes for storing data as it always seemed a bit of overkill for the job at hand. Here's a rather simple example of what I mean, where i'm gathering all the results of interest into a single return item. I find this easier than having multiple returns from multiple functions.
+I don't know about you but I have a tendency to store results in a dictionary and pass that around to functions when I need to. 
+I have typically avoided creating classes for storing data as it always seemed a bit of overkill for the job at hand. 
+Lots of repetitive code with little actual reward.
+
+Here's a rather simple example of what I mean, where I'm gathering all the results of interest into a single return item for a function. 
+I find this easier than having multiple returns from multiple functions.
 
 
 ```python
@@ -78,16 +83,17 @@ calculated_forces.keys()
 
 ```
 
- This isn't beautiful code, but it it returns a single `dict` with all the related properties together. 
- Much handier if toy need to pass this into several other functions later on in yor workflow.
+ This isn't beautiful code, but it returns a single `dict` with all the related properties together, keeping the variable workspace a bit clearer in the process. 
+ Much handier if you need to pass this into several other functions later on in your workflow.
 
-However, it's not particularly re-usable and not great for modifying in future. Maybe a class would be a better option? But there's so much effort involved in created a class I hear you say. All those `__init__` and `__repr__` methods that need to be defined, you may end up with a many lines of code for defining a very basic class.
+However, it's not particularly re-usable and not great for modifying in future. Maybe a class would be a better option? But there's so much effort involved in created a class I hear you say. 
+All those `__init__` and `__repr__` methods that need to be defined, you may end up with a many lines of code for defining a very basic class.
 
 ## Data Classes
 ---
 And that's why data classes were introduced in **python 3.7**, to remove all that unnecessary boilerplate code required and just let you use the classes quickly.
 
-So here's my rather silly contrived example again, but this ime using a fancy new data class.
+So here's my rather silly contrived example again, but this time using a fancy new data class.
 
 ```python
 import numpy as np
@@ -113,7 +119,7 @@ force_dataclass = some_complex_function_using_dataclass(forces, 4)
 
 ```
 
-I can now run `dir(force_dataclass) on my result and see that it's a fully fledged class :  
+I can now run `dir(force_dataclass)` on my result and see that it's a fully fledged class :  
 
 ```python
 ['__annotations__',
@@ -153,9 +159,10 @@ I can now run `dir(force_dataclass) on my result and see that it's a fully fledg
 
 ```
 
-So I can quite easily query `force_dataclass.multiplier` and get `Out[4]: 97.40909103400242`. What's nice about this is now tht it's a data class instead of a dictionary most IDE's will autocomplete the `dataclass` fields for you, which is another bonus.
+There's even a `repe` created for free! So I can quite easily query `force_dataclass.multiplier` and get `Out[4]: 97.40909103400242`. What's nice about this is now tht it's a data class instead of a dictionary most IDE's will autocomplete the `dataclass` fields for you, which is another bonus.
 
-The other major benefit is now I have a nice reusable data container which I could make a little more generic and use in many places. I can do this because dataclasses also accept default values for fields. So I can change my previous class to something like this:
+The other major benefit is now I have a nice reusable data container which I could make a little more generic and use in many places. 
+I can do this because dataclasses also accept default values for fields. So I can change my previous class to something like this:
 
 ```python
 @dataclass
@@ -183,7 +190,7 @@ generic_force_dataclass = some_complex_function_using_generic_dataclass(forces)
 
 ```
 
-And now from one simple change I have a generic data structure that can be used in multiple places.
+And now from one simple change I have a generic data structure that can be used in multiple places, passing in the additional variables when needed, otherwise they are set to `None`.
 
 And data classes have one more nice trick where you can *"embed"* some calculation into the `class`.
 
@@ -207,12 +214,13 @@ force_dataclass = some_complex_function_using_dataclass(forces)
 
 ```
 
-This now calculates whatever is in the `__post_init__` method when the object is created. Very handy if you always do some calculation with the data in the `class`, just simply embed the calculation within the class and it will be there for you when you need it!
+This now calculates whatever is in the `__post_init__` method when the object is created. This is very handy if you always do some calculation with the data in the `class`, just simply embed the calculation within the class and the result will be there for you when you need it!
 
 ## Conclusion
 ---
 
-These are just some very simple examples of how useful data classes can be for organising and improving your code. I love how the boilerplate of class creation is gone, and how they can make code more readable and easier to maintain.
+These are just some very simple examples of how useful data classes can be for organising and improving your code. 
+I love how the boilerplate of class creation is gone, and how they can make code more readable and easier to maintain.
 
 There are many other features you would expect of a class and these are also included such as automatic `__repr__` and object comparison. There's also easy conversion to lists and dictionaries. 
 
