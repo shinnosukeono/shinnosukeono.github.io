@@ -23,7 +23,8 @@ _build:
 ---
 {{< toc >}}
 
-# Introduction
+## Introduction
+---
 There are many different programming languages out there such as `C`/`C++`, `Go` and `Java` which are probably considered more general computing languages or system languages. 
 There are more modern languages such as `swift` and `kotlin` which are very popular in app development. 
 These are all low level languages 
@@ -62,7 +63,7 @@ Recently I picked up an old computer and logged in looking for some old files an
 As it turns out, `Julia` is alive and well, possibly even thriving as more and more people  become aware of it. I don't want to write a tutorial on the use of Julia as there are already plenty of those. 
 What I would like to do is just show a simple use case that highlights the power of `Julia`.
 
-##  Use Case: Vector Normalisation
+###  Use Case: Vector Normalisation
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
@@ -334,7 +335,7 @@ So the one line summary? If you want to make your `python` code ***10x times qui
 Well that's not really been the point of this post, but it is eye catching. 10x speedup is a lot.
 
 # References
-
+---
 
 [^1]: Weisstein, Eric W. "Vector Norm." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/VectorNorm.html. Accessed on 13/2/2022
 [^2]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
