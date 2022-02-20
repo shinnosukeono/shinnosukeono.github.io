@@ -76,10 +76,6 @@ $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} +
 
 This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root.
 
-<!-- {{< math >}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{< /math >}} -->
 
 ### MATLAB Implementation
 I'll start with the implementation in `MATLAB`, although it's not really much of an implementation as there is already a `norm` and `vecnorm` function available in `MATLAB`.
