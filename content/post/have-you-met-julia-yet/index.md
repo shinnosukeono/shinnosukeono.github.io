@@ -72,7 +72,7 @@ As it turns out, `Julia` is alive and well, possibly even thriving as more and m
 I don't want to write a tutorial on the use of Julia as there are already plenty of those, and many of which are quite detailed.
 What I would like to do is just show a simple use case that highlights the power of `Julia` and why it's worth your consideration.
 
-##  Use Case: Vector Normalisation
+## Use Case: Vector Normalisation
 Vector normalisation is possibly something that you would be doing frequently in scientific computing or some data processing. 
 The most commonly encountered **vector norm** (often simply called *"the norm"* of a vector, or sometimes the magnitude of a vector)[^1] is the **L2-norm**, given by 
 
@@ -97,7 +97,7 @@ This is a relatively simple calculation but can have a significant impact on per
 I'll start with the implementation in `MATLAB`, although there is already a `norm` and `vecnorm` function available in `MATLAB`. 
 However, It's quite trivial to implement such a function in `MATLAB` (or any other language) using a simple for-loop to assign the result to some pre-allocated memory. 
 A second function using a vectorised approach is also implemented and can be compared with the inbuilt `vecnorm` function. 
-Performance is measured with the inbuilt `timeit` function`[^2].
+Performance is measured with the inbuilt `timeit` function[^2].
 
 ```matlab
 % define simple L2norm function
@@ -155,13 +155,13 @@ It is possible it's original purpose is for calculating the norm of vectors much
 Much like for `MATLAB` it's quite trivial to implement such a function in native `python` with a for-loop but the numerical computing library `NumPy` provides a ready made solution for this[^3] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
 
 But if doing things in `python` quickly is something you want to do, you may also be interested in the `Numba` package. 
-The `Numba` package allows the user to significantly increase the performance of their code by pre-compiling the functions using a `Just-In-Time` (*jit*) compiler that runs the first time an function is called. 
+The `Numba` package allows the user to significantly increase the performance of their code by pre-compiling the functions using a `Just-In-Time` (*jit*) compiler that runs the first time a function is called. 
 Once compiled, this function is then re-used, possibly offering significant performance gains for functions that are slow and called many times.
 
 
 Here's the implementation of both the native and `Numba` functions for calculating the L2-norm. 
 The interesting thing here is probably how little needs to be done to *jit* a function with `Numba`[^4] and unlock huge performance gains. 
-In this case, just once change is required - the addition of `@njit()` before the function. Super easy!! 
+In this case, just one change is required - the addition of `@njit()` before the function. Super easy!! 
 
 ```python
 import numpy as np
@@ -214,7 +214,7 @@ out.show(
 ```
 
 
-This automates the whole process and creates a nice plot of the relative performance of the supplied function which you can see in the figure below. 
+This automates the whole process and creates a nice plot of the relative performance of the supplied function(s) which you can see in the figure below. 
 
 {{< figure src="perf.png" title="**Performance of various computation methods for L2-norm calculation**" >}}
 
@@ -229,7 +229,7 @@ Some interesting takeaways from the results are:
   3. As the array size increase, the `Numba` and `NumPy` solutions converge to the same results suggesting the code is being compiled to the same machine code. `NumPy` is slower for the smaller array sizes due to the overhead related to the `NumPy` function such as various implementation options and error checking. This overhead is large for the small array sizes but disappears for arrays above about several thousand rows in this. This is worth bearing in mind if you will only be working on small datasets.
 
 Although, I'm using a specific package for my benchmarking, it's really just automating the process of using `timeit`. 
-You will get very similar results running the following code for each size of array.
+You will get very similar results running the following code for each size of array but this is a little tedious.
 
 ```python
 vects = np.random.random([100,3])
@@ -267,14 +267,14 @@ It's worth pointing out that `timeit` returns the mean for `python` and the `med
 I've also noticed that the `MATLAB` timing results are much less consistent as it only runs a small number of tests (just 11 in this case I think), so I've seen results range from 550 µs to 1.2 ms, putting it back in the same performance bracket as `python` when averaging these results.
 
 ### Julia Implementation
-Using `Julia` is a bit like writing code for `python` or `MATLAB` and and can be executed from the Julia REPL or using scripts. 
+Using `Julia` is a bit like writing code for `python` or `MATLAB` and it can be executed from the Julia REPL or using scripts. 
 `Julia` is in some sense acting a bit like `Numba` in that is is compiling all the code before execution to benefit from the performance gained from compiled code.  
 
 While I'm not yet aware of any `perfplot` equivalent for `Julia` just yet, it is relatively easy to measure the performance of any functions using the `BenchmarkTools` package. 
 I'm also going to use the `LinearAlgebra` and `LoopVectorization` packages to explore other options.
 
 
-I've written the equivalent Julia function to my `MATLAB` and native `python` functions from earlier but I've written this in a vectorised manner as this is how I would write a similar function using `Numpy`. 
+I've written the equivalent Julia function to my `MATLAB` and native `python` functions from earlier but in a vectorised manner as this is how I would write a similar function using `Numpy`. 
 Years of MATLAB/python exposure has *"loops are bad"* seared in my brain, but the results in the previous sections have demonstrated that is invariably the case in those languages.
 
 ```Julia
@@ -292,7 +292,7 @@ end
 
 `@btime` provides a similar output to `timeit`, but it also includes the amount of memory used and number of memory allocations in the function. 
 Useful information for improving any function, however, it is returning the minimum execution time instead of the mean or median. 
-A more '*full-fat*' option of `@benchmark` can also be used to get these and some additional information.
+A more '*full-fat*' option of `@benchmark` can also be used to get these metrics and other additional information.
 
 ```julia
 julia> @btime nrm = normalize_by_row($vec_1);
@@ -316,10 +316,10 @@ From this output we can see that our `Julia` function completes this operation o
 We can also see that our function is using about 2MB of memory to carry out this process.
 
 So how did our `MATLAB` and `python` code perform for the same size array? Well if you remember, both were woefully slow in the for-loop but using the vectorised approach both were in the region of 800-900 μs. 
-Straight out of the box,`Julia` outperforms both by a noticeable margin (20% or more) with little thought and zero optimisation.
+Straight out of the box `Julia` outperforms both by a noticeable margin (20% or more) with little thought and zero optimisation required.
 I'm already beginning to see a case for switching to using `Julia`...
 
-But what about my initial `Julia` code? Can it be optimised like for `MATLAB` and `python`? What about all those memory allocations - do they make any difference to speed? 
+But what about my initial `Julia` code? Can it be optimised like we did for `MATLAB` and `python`? What about all those memory allocations - do they make any difference to speed? 
 Let's have a look at a few more possible options and see if there is a bit more performance to be gained.
 
 Here's the first attempt.
@@ -340,7 +340,7 @@ julia> @btime nrm = normalize_by_row_v2($vec_1);
 ```
 
 This implementation looks quite different from the first attempt which was a simple broadcasted one-line solution. 
-This one has a **loop**! 
+**This one has a loop**! 
 It's also using a temporary array for storage and the views function to reduce copying to memory.
 Now here is the really interesting thing about `Julia` - even though I've reverted to a for-loop like tested earlier, performance has not been impacted at all. 
 In fact, this implementation has reduced memory usage and the number of memory allocations, making the code more memory efficient without slowing things down. 
@@ -359,20 +359,20 @@ julia> @btime nrm = normalize_by_row_v3($vec_1);
 
 ```
 
-So now you must thinking *"we have done so little, maybe we can optimise this function more"*.
-To try and scratch that itch I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
+So now you must thinking *"we have not done much yet, maybe we can optimise this function more?"*.
+To try and *'scratch that itch'* I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
 If it is possible to squeeze more performance, how much better can we do? 
 
 
 ## Are loops really that bad?
 So I briefly mentioned this idea that loops are bad and you may be familiar with this concept if you are coming from `python` and `MATLAB`, where the for-loop option is often many times slower than the vectorised approach. 
-But in my few examples I've just demonstrated that this isn't the case in `Julia` where a loop can achieve the same performance as the vectorised approach.
+But in my few examples, I've just demonstrated that this isn't the case in `Julia` where a loop can achieve the same performance as the vectorised approach.
 
 This is because all code is statically typed and then compiled, much like `Fortran`, `C` or `Java` and not interpreted like `MATLAB` or `python`. 
 This static typing and compilation allows much more performance to be extracted as all the information is known beforehand and the compiler can then optimise the code into fast machine code whereas in interpreted languages there is a constant need to check everything as type information is often missing and then it needs to be translated into machine code at runtime. 
 Packages like `NumPy` provide highly optimised functions that are actually compiled to `C` beforehand, hence their performance. 
 
-I think that's partly where this *"loops are bad"* mentality comes from: in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler for example.
+I think that's partly where this *"loops are bad"* mentality comes from: in an interpreted language there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler for example.
 
 So let's see how we can optimise our `Julia` code by passing some additional instructions to the compiler to help it.
 
@@ -395,9 +395,9 @@ julia>  @btime nrm = normalize_by_row_v4($vec_1);
 
 ```
 
-Wow! So we have found another 30% reduction in from our best performing method so far but actually about 4 times quicker than our previous looped example.
+**Wow!** So we have found another 30% reduction in from our best performing method so far but actually about 4 times quicker than our previous looped example.
 
-It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.  
+It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.
 Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations.
 
 ```julia
@@ -421,7 +421,7 @@ julia>  @btime nrm7 = normalize_by_row_v4_turbo($vec_1);
 
 ```
 
-Another wow! By using the `LoopVectorization` package we can give the `@turbo` instruction to the compiler which really does add some turbo!! 
+**Another wow!** By using the `LoopVectorization` package we can give the `@turbo` instruction to the compiler which really does add some turbo!! 
 So there you have it, proof that loops are not bad! Our optimised `Julia` function has blown `python` and `MATLAB` out of the water and is now about **10-15x faster**.
 
 This was a relatively simple use case but highlights even for something simple there are possibly significant gains to be made.
