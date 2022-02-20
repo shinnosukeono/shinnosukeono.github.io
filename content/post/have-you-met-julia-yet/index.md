@@ -55,10 +55,10 @@ But I still long for more speed at times. Particularly as my data sets grow with
 
 ## Meet Julia
 
-This is where I want to introdice `Julia`, which is still young. 
+This is where I want to introduce `Julia`, which is still young. 
 Actually, looking at the date on the post, it's 10 years exactly tomorrow! And that is a lot younger than `python`, which is approaching it's 31<sup>st</sup> birthday very soon.
 
-That early announcement sounded so intriguing to me, but I wasn't prepared to spend a lot of time learning about a language that had yet to mature and suggest it would be around long-term.
+That early announcement sounded so intriguing to me, but I wasn't prepared to spend a lot of time learning about a language that had yet to mature and show that it would be around long-term.
 However, I must admit that I forgot about it for many years as `python` did such a good job of filling all the holes in my daily workflow. 
 
 Recently I picked up an old computer and logged in looking for some old files and saw the icon on the desktop for `Julia`. 
@@ -76,10 +76,10 @@ $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} +
 
 This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root.
 
-{{< math >}}
+<!-- {{< math >}}
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{< /math >}}
+{{< /math >}} -->
 
 ### MATLAB Implementation
 I'll start with the implementation in `MATLAB`, although it's not really much of an implementation as there is already a `norm` and `vecnorm` function available in `MATLAB`.
@@ -101,6 +101,12 @@ timeit(f3)
 a = calc_norm_loop(vec_1);
 b = calc_norm(vec_1);
 c = vecnorm(vec_1, 2, 2);
+
+% output
+ans = 0.0153
+ans = 6.2837e-04
+ans = 0.0021
+
 ```
 
 ### Python Implementation
@@ -168,6 +174,11 @@ This automates the whole process and creates a nice plot of the relative perform
 
 {{< figure src="perf.png" title="**Performance of various computation methods for L2-norm calculation**" >}}
 
+{{% callout warning %}}
+Note: The `Numba` function needs to be compiled before running the suite of benchmark tests or else the compilation time of the function is included. The function is compiled on first usage.
+{{% /callout %}}
+
+
 Some interesting takeaways from the results are:
   1. The native python implementation is the slowest (Not Surprising)
   2. Numba is a powerful just-in-time compiler than can make your functions many times quicker. The *jitted* function is somewhere between 1 and 2 orders of magnitude quicker than the native `python` code. **50-100x faster** for one line of code more!
@@ -180,13 +191,36 @@ You will get very similar results running the following code for each size of ar
 vects = np.random.random([100,3])
 
 %timeit native_norms = native_norm(vects)
-183 µs ± 1.76 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+183 µs ± 1.76 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each) #i7-2420
+119 µs ± 1.61 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each) #i9-9880H
 
 %timeit numpy_norms = np.linalg.norm(vects, axis=1)
-13.6 µs ± 110 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
+13.6 µs ± 110 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i7-2420
+6.72 µs ± 305 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i9-9880H
 
 %timeit numba_norms = numba_norm(vects)
-2.84 µs ± 53.1 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
+2.84 µs ± 53.1 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i7-2420
+1.96 µs ± 31.3 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each) #i9-9880H
+
+```
+
+A more representative size for my typical use case would be much larger and, as shown in the figure, the gap between the `NumPy` and `Numba` implementations has disappeared at this size.
+
+```python
+vects = np.random.random(50000,3])
+
+%timeit native_norms = native_norm(vects)
+85.6 ms ± 1.67 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) #i7-2420
+59.5 ms ± 1.53 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) #i9-9880H
+
+%timeit numpy_norms = np.linalg.norm(vects, axis=1)
+1.2 ms ± 7.37 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i7-2420
+920 µs ± 13.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i9-9880H
+
+%timeit numba_norms = numba_norm(vects)
+1.48 ms ± 18.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i7-2420
+841 µs ± 102 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i9-9880H
+
 ```
 
 ### Julia Implementation
@@ -243,16 +277,7 @@ We can also see that our function is using about 2MB of memory to carry out this
 
 So how did our python code perform for the same size array? Here's the comparison:
 
-```python
-%timeit native_norms = native_norm(vects)
-85.6 ms ± 1.67 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
 
-%timeit numpy_norms = np.linalg.norm(vects, axis=1)
-1.2 ms ± 7.37 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
-
-%timeit numba_norms = numba_norm(vects)
-1.48 ms ± 18.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
-```
 
 Well that's interesting - the **quickest python** implementation (`Numpy`) is about **twice as slow** as this `Julia` implementation. 
 I'm already beginning to see a case for switching to using `Julia`...
