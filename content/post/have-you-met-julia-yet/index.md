@@ -74,11 +74,36 @@ The most commonly encountered **vector norm** (often simply called *"the norm"* 
 
 $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} + ... + {x_{n}}^{2}} $$
 
-This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root.
+This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root. 
 
 
 ### MATLAB Implementation
-I'll start with the implementation in `MATLAB`, although it's not really much of an implementation as there is already a `norm` and `vecnorm` function available in `MATLAB`.
+I'll start with the implementation in `MATLAB`, although there is already a `norm` and `vecnorm` function available in `MATLAB`. 
+However, It's quite trivial to implement such a function in `MATLAB` (or any other language) using a simple for-loop to assign the result to some pre-allocated memory. 
+A second function using a vectorised approach is also implemented and can be compared with the inbuilt `vecnorm` function. 
+Performance is measured with the inbuilt `timeit` function`[^2].
+
+```matlab
+% define simple L2norm function
+function norms = calc_norm_loop(vec_array)   
+    [m,n] = size(vec_array);
+    norms = zeros(m);
+
+    for i=1:m
+        norms(i) = sqrt(sum(vec_array(i,:).^2));
+    end
+
+end
+
+% vectorised
+function norms = calc_norm(vec_array)   
+    norms = sqrt((sum(vec_array.^2, 2)));
+
+end
+
+```
+
+A typical vector size of 50,000 3-component vectors is used for testing.
 
 ```matlab
 % create test set of vectors
@@ -98,22 +123,29 @@ a = calc_norm_loop(vec_1);
 b = calc_norm(vec_1);
 c = vecnorm(vec_1, 2, 2);
 
-% output
-ans = 0.0153
-ans = 6.2837e-04
-ans = 0.0021
+% output in s
+ans = 0.0153        % 15.3 ms
+ans = 6.2837e-04    % 0.6283 ms
+ans = 0.0021        % 2.1 ms
 
 ```
 
+It's not really a huge surprise to see that the for-loop implementation is the slowest by a large margin, but what is more interesting is that the vectorised function is actually many times quicker than the inbuilt function (I've repeated this test many times and the result is repeatable). 
+I'm not quite sure why this is the case and it's a little surprising to see an inbuilt function not fully optimised. 
+It is possible it's original purpose is for calculating the norm of vectors much longer than 3 elements and, as such, may not be optimised for my typical 3-component use case.
+
 ### Python Implementation
 
-It's quite trivial to implement such a function in Native `python` but the numerical computing library `NumPy` provides a ready made solution for this[^2] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
+Much like for `MATLAB` it's quite trivial to implement such a function in native `python` with a for-loop but the numerical computing library `NumPy` provides a ready made solution for this[^3] in the *Linear Algebra* submodule and also provides the flexibility to calculate various other vector norms.
 
-But if doing things in `python` quickly is something you want to do, you may also be interested in the `Numba` package and I'll give a quick example why.
+But if doing things in `python` quickly is something you want to do, you may also be interested in the `Numba` package. 
+The `Numba` package allows the user to significantly increase the performance of their code by pre-compiling the functions using a `Just-In-Time` (*jit*) compiler that runs the first time an function is called. 
+Once compiled, this function is then re-used, possibly offering significant performance gains for functions that are slow and called many times.
+
 
 Here's the implementation of both the native and `Numba` functions for calculating the L2-norm. 
-The interesting thing here is probably how little needs to be done to *jit* a function with `Numba` and unlock huge performance gains. 
-In this case, just once change is required - the addition of `@njit()` before the function. Super easy!!
+The interesting thing here is probably how little needs to be done to *jit* a function with `Numba`[^4] and unlock huge performance gains. 
+In this case, just once change is required - the addition of `@njit()` before the function. Super easy!! 
 
 ```python
 import numpy as np
@@ -142,7 +174,7 @@ def numba_norm(vects):
 
 ```
 
-As many operations are size dependent, I'm going to use the `perfplot` package to helpfully run a benchmark suite os sizes, from a single element to a very large array of 3-component vectors. 
+As many operations are size dependent, I'm going to use the `perfplot` package to helpfully run a benchmark suite of arrays of different sizes, from a single vector to a very large array of 3-component vectors. 
 
 
 ```python
@@ -176,9 +208,9 @@ Note: The `Numba` function needs to be compiled before running the suite of benc
 
 
 Some interesting takeaways from the results are:
-  1. The native python implementation is the slowest (Not Surprising)
+  1. The native python implementation is the slowest (Not Surprising!)
   2. Numba is a powerful just-in-time compiler than can make your functions many times quicker. The *jitted* function is somewhere between 1 and 2 orders of magnitude quicker than the native `python` code. **50-100x faster** for one line of code more!
-  3. As the array size increase, the `Numba` and `NumPy` solutions converge to the same results suggesting th code is being compiled to the same machine code. `NumPy` is slower for the smaller array sizes due to the overhead related to the `NumPy` function such as various implementation options and error checking. This overhead is large for the small array sizes but disappears for arrays above about several thousand rows in this. This is worth bearing in mind if you will only be working on small datasets.
+  3. As the array size increase, the `Numba` and `NumPy` solutions converge to the same results suggesting the code is being compiled to the same machine code. `NumPy` is slower for the smaller array sizes due to the overhead related to the `NumPy` function such as various implementation options and error checking. This overhead is large for the small array sizes but disappears for arrays above about several thousand rows in this. This is worth bearing in mind if you will only be working on small datasets.
 
 Although, I'm using a specific package for my benchmarking, it's really just automating the process of using `timeit`. 
 You will get very similar results running the following code for each size of array.
@@ -203,7 +235,7 @@ vects = np.random.random([100,3])
 A more representative size for my typical use case would be much larger and, as shown in the figure, the gap between the `NumPy` and `Numba` implementations has disappeared at this size.
 
 ```python
-vects = np.random.random(50000,3])
+vects = np.random.random([50000,3])
 
 %timeit native_norms = native_norm(vects)
 85.6 ms ± 1.67 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) #i7-2420
@@ -219,6 +251,11 @@ vects = np.random.random(50000,3])
 
 ```
 
+Some interesting comparisons to the MATLAB results can be made with this set of figures for the larger test array size of 50,000 vectors. `MATLAB`'s for-loop is several times quicker than the native `python` loop, but both the `NumPy` and `Numba` implementations are quicker than `vecnorm` but slightly slower than the home-rolled vectorised function.
+
+It's worth pointing out that `timeit` returns the mean for `python` and the `median` for `MATLAB`. 
+I've also noticed that the `MATLAB` timing results are much less consistent as it only runs a small number of tests (just 11 in this case I think), so I've seen results range from 550 µs to 1.2 ms, putting it back in the same performance bracket as `python` when averaging these results.
+
 ### Julia Implementation
 Using `Julia` is a bit like writing code for `python` or `MATLAB` and and can be executed from the Julia REPL or using scripts. 
 `Julia` is in some sense acting a bit like `Numba` in that is is compiling all the code before execution to benefit from the performance gained from compiled code.  
@@ -227,8 +264,8 @@ While I'm not yet aware of any `perfplot` equivalent for `Julia` just yet, it is
 I'm also going to use the `LinearAlgebra` and `LoopVectorization` packages to explore other options.
 
 
-I've written the equivalent Julia function to my native python function from earlier but I've written this in a vectorised manner as this is how I would write a similar function using `Numpy`. 
-Years of python exposure has *"loops are bad"* seared in my brain. 
+I've written the equivalent Julia function to my `MATLAB` and native `python` functions from earlier but I've written this in a vectorised manner as this is how I would write a similar function using `Numpy`. 
+Years of MATLAB/python exposure has *"loops are bad"* seared in my brain, but the results in the previous sections have demonstrated that is the case in these languages.
 
 ```Julia
 using BenchmarkTools
@@ -245,8 +282,9 @@ end
 
 ```
 
-`@btime` provides a similar output to `timeit`, however, it also includes the amount of memory used and number of memory allocations in the function. Useful information for improving any function. 
-A more 'full-fat' option of @benchmark can also be used to get some additional information.
+`@btime` provides a similar output to `timeit`, however, it also includes the amount of memory used and number of memory allocations in the function. 
+Useful information for improving any function. 
+A more '*full-fat*' option of `@benchmark` can also be used to get some additional information.
 
 ```julia
 julia> @btime nrm = normalize_by_row($vec_1);
@@ -268,7 +306,7 @@ BenchmarkTools.Trial: 6431 samples with 1 evaluation.
 
 ```
 
-From this output we can see that our `Julia` function competes this operation on 50,000 3-component vectors.
+From this output we can see that our `Julia` function completes this operation on 50,000 3-component vectors over 6000 times with a median time 0f 677 μs and 762 μs.
 We can also see that our function is using about 2MB of memory to carry out this process.
 
 So how did our python code perform for the same size array? Here's the comparison:
@@ -385,4 +423,6 @@ Well that's not really been the point of this post, but it is eye catching. 10x 
 ---
 
 [^1]: Weisstein, Eric W. "Vector Norm." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/VectorNorm.html. Accessed on 13/2/2022
-[^2]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
+[^2]: Eddins, Steve. "timeit makes it into MATLAB". https://blogs.mathworks.com/steve/2013/09/30/timeit-makes-it-into-matlab/?doing_wp_cron=1645382790.6918818950653076171875. Accessed on 13/2/2022
+[^3]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
+[^4]: Numba Quickstart Guide. https://numba.pydata.org/numba-doc/latest/user/5minguide.html. Accessed on 13/2/2022
