@@ -15,10 +15,14 @@ image:
   focal_point: Smart
   preview_only: false
 
-_build:
-  render: always
-  list: never
-  publishResources: true
+tags:
+- MATLAB
+- python
+- Julia
+- Scientific Computing
+- Numerical Computing
+- Programming Languages
+- Data Analytics
 
 ---
 {{< toc >}}
@@ -265,7 +269,7 @@ I'm also going to use the `LinearAlgebra` and `LoopVectorization` packages to ex
 
 
 I've written the equivalent Julia function to my `MATLAB` and native `python` functions from earlier but I've written this in a vectorised manner as this is how I would write a similar function using `Numpy`. 
-Years of MATLAB/python exposure has *"loops are bad"* seared in my brain, but the results in the previous sections have demonstrated that is the case in these languages.
+Years of MATLAB/python exposure has *"loops are bad"* seared in my brain, but the results in the previous sections have demonstrated that is invariably the case in those languages.
 
 ```Julia
 using BenchmarkTools
@@ -278,45 +282,38 @@ function normalize_by_row(arr)
    sqrt.(sum(arr.^2, dims=2))
 end
 
-@btime nrm = normalize_by_row($vec_1);
-
 ```
 
-`@btime` provides a similar output to `timeit`, however, it also includes the amount of memory used and number of memory allocations in the function. 
-Useful information for improving any function. 
-A more '*full-fat*' option of `@benchmark` can also be used to get some additional information.
+`@btime` provides a similar output to `timeit`, but it also includes the amount of memory used and number of memory allocations in the function. 
+Useful information for improving any function, however, it is returning the minimum execution time instead of the mean or median. 
+A more '*full-fat*' option of `@benchmark` can also be used to get these and some additional information.
 
 ```julia
 julia> @btime nrm = normalize_by_row($vec_1);
-582.561 μs (10 allocations: 1.91 MiB)
-
+  393.300 μs (10 allocations: 1.91 MiB)
 
 julia> @benchmark nrm = normalize_by_row($vec_1)
-BenchmarkTools.Trial: 6431 samples with 1 evaluation.
- Range (min … max):  595.614 μs …   2.605 ms  ┊ GC (min … max): 0.00% … 40.86%
- Time  (median):     677.413 μs               ┊ GC (median):    0.00%
- Time  (mean ± σ):   762.290 μs ± 234.618 μs  ┊ GC (mean ± σ):  4.58% ±  9.81%
+BenchmarkTools.Trial: 7864 samples with 1 evaluation.
+ Range (min … max):  378.100 μs …   7.246 ms  ┊ GC (min … max):  0.00% … 61.97%
+ Time  (median):     454.300 μs               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   632.479 μs ± 628.993 μs  ┊ GC (mean ± σ):  19.93% ± 17.28%
 
-  ▃▅▆█▆▅▅▄▄▃▃▃▂▂▁▂▂▂▁▁▂▂                                        ▂
-  ████████████████████████▇▇▇▆▅▆▆▆▅▃▄▅▅▃▃▁▃▃▃▄▆██▇▆▆▅▆▆▆▇██▇▆▆▅ █
-  596 μs        Histogram: log(frequency) by time        1.8 ms <
+  ▇█▆▅▄▃▂▂▁▁▁                                                   ▂
+  ██████████████▇▇▇▆▆▄▄▄▃▁▄▃▁▃▁▃▁▁▁▃▁▁▁▁▁▄▄▄▅▅▅▅▇▇▇▇▇█▇▇▆▇▇▆▆▆▅ █
+  378 μs        Histogram: log(frequency) by time       3.76 ms <
 
  Memory estimate: 1.91 MiB, allocs estimate: 10.
 
-
 ```
 
-From this output we can see that our `Julia` function completes this operation on 50,000 3-component vectors over 6000 times with a median time 0f 677 μs and 762 μs.
+From this output we can see that our `Julia` function completes this operation on 50,000 3-component vectors over 7800 times with a median time of 454 μs and a mean time of 632 μs.
 We can also see that our function is using about 2MB of memory to carry out this process.
 
-So how did our python code perform for the same size array? Here's the comparison:
-
-
-
-Well that's interesting - the **quickest python** implementation (`Numpy`) is about **twice as slow** as this `Julia` implementation. 
+So how did our `MATLAB` and `python` code perform for the same size array? Well if you remember, both were woefully slow in the for-loop but using the vectorised approach both were in the region of 800-900 μs. 
+Straight out of the box,`Julia` outperforms both by a noticeable margin (20% or more) with little thought and zero optimisation.
 I'm already beginning to see a case for switching to using `Julia`...
 
-But what about my initial code? Can it be improved? What about all those memory allocations - do they make things slow? 
+But what about my initial `Julia` code? Can it be optimised like for `MATLAB` and `python`? What about all those memory allocations - do they make any difference to speed? 
 Let's have a look at a few more possible options and see if there is a bit more performance to be gained.
 
 Here's the first attempt.
@@ -332,46 +329,50 @@ Here's the first attempt.
  end
 
 julia> @btime nrm = normalize_by_row_v2($vec_1);
-  472.435 μs (4 allocations: 1.53 MiB)
+  391.300 μs (4 allocations: 1.53 MiB)
 
 ```
 
 This implementation looks quite different from the first attempt which was a simple broadcasted one-line solution. 
 This one has a **loop**! 
 It's also using a temporary array for storage and the views function to reduce copying to memory.
-Interestingly, even though this is using a for loop, it's still quicker than the initial implementation and has reduced memory usage and the number of memory allocations. 
+Now here is the really interesting thing about `Julia` - even though I've reverted to a for-loop like tested earlier, performance has not been impacted at all. 
+In fact, this implementation has reduced memory usage and the number of memory allocations, making the code more memory efficient without slowing things down. 
+This is the really nice thing about using `Julia`: your code is **automatically optimised!** 
 
-Here's another attempt at the one-liner and a subtle change does improve the performance but it's only similar to the extra loop example.
+Here's another attempt at the one-liner with a subtle change from earlier that does improve the performance and it's quite a significant jump.
+`Julia` is now approximately **3-5 times quicker** than `MATLAB` and `python`.
 
 ```julia
 
-function normalize_by_row_v1(arr)
+function normalize_by_row_v3(arr)
     sqrt.(sum(x->x^2,arr, dims=2))
 end
 
-julia> @btime nrm1 = normalize_by_row_v1($vec_1);
-  447.826 μs (8 allocations: 781.42 KiB)
+julia> @btime nrm = normalize_by_row_v3($vec_1);
+  138.300 μs (8 allocations: 781.42 KiB)
 
 ```
 
-I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
-It seems it is possible to squeeze more performance but how much better can we do? 
-
+So now you must thinking *"we have done so little, maybe we can optimise this function more"*.
+To try and scratch that itch I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
+If it is possible to squeeze more performance, how much better can we do? 
 
 
 ## Are loops really that bad?
-So I briefly mentioned this idea that loops are bad and you may be familiar with this concept if you are coming from python and MATLAB, where the for-loop option is often many times slower than the vectorised approach. 
+So I briefly mentioned this idea that loops are bad and you may be familiar with this concept if you are coming from `python` and `MATLAB`, where the for-loop option is often many times slower than the vectorised approach. 
+But in my few examples I've just demonstrated that this isn't the case in `Julia` where a loop can achieve the same performance as the vectorised approach.
 
-But most software that is fast is written in a language that is built around loops such as `Fortran`, `C` or `Java`. 
-However, the key difference in these cases is that they are statically typed and compiled languages and not interpreted like `MATLAB` or `python`. 
-This static typing and compilation allows much more performance to be extracted as all the information is know beforehand whereas in interpreted languages there is a constant need to check everything. 
+This is because all code is statically typed and then compiled, much like `Fortran`, `C` or `Java` and not interpreted like `MATLAB` or `python`. 
+This static typing and compilation allows much more performance to be extracted as all the information is known beforehand and the compiler can then optimise the code into fast machine code whereas in interpreted languages there is a constant need to check everything as type information is often missing and then it needs to be translated into machine code at runtime. 
 Packages like `NumPy` provide highly optimised functions that are actually compiled to `C` beforehand, hence their performance. 
-I think that's partly where this *"loops are bad"* mentality comes from: in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler.
 
-So to prove this I've take the extra information gathered though trawling the web and hope to show it's not all bad!
+I think that's partly where this *"loops are bad"* mentality comes from: in an interpreted language - there are quick vectorised libraries that you can use and they are quicker than something that will be compiled into `bytecode` by the `python` compiler for example.
+
+So let's see how we can optimise our `Julia` code by passing some additional instructions to the compiler to help it.
 
 ```julia
- function normalize_by_row_v7(arr)
+ function normalize_by_row_v4(arr)
     norms = Vector{Float64}(undef, size(arr)[1])
     @inbounds for i in axes(arr, 1)
         anorm2 = zero(eltype(arr))
@@ -384,11 +385,12 @@ So to prove this I've take the extra information gathered though trawling the we
     return norms
 end
 
-julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
-    319.993 μs (2 allocations: 390.67 KiB)
+julia>  @btime nrm = normalize_by_row_v4($vec_1);
+  91.700 μs (2 allocations: 390.67 KiB)
 
 ```
 
+Wow! So we have found another 30% reduction in from our best performing method so far but actually about 4 times quicker than our previous looped example.
 
 It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.  
 Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations.
@@ -396,7 +398,7 @@ Always verify that these optimisations don't affect the results from your calcul
 ```julia
 using LoopVectorization
 
-function normalize_by_row_v7_turbo(arr)
+function normalize_by_row_v4_turbo(arr)
     norms = Vector{Float64}(undef, size(arr)[1])
     @turbo for i in axes(arr, 1)
         anorm2 = zero(eltype(arr))
@@ -409,15 +411,32 @@ function normalize_by_row_v7_turbo(arr)
     return norms
 end
 
-julia>  @btime nrm7 = normalize_by_row_v7_turbo($vec_1);
-    161.017 μs (2 allocations: 390.67 KiB)
+julia>  @btime nrm7 = normalize_by_row_v4_turbo($vec_1);
+  40.300 μs (2 allocations: 390.67 KiB)
 
 ```
+
+Another wow! By using the `LoopVectorization` package we can give the `@turbo` instruction to the compiler which really does add some turbo!! 
+So there you have it, proof that loops are not bad! Our optimised `Julia` function has blown `python` and `MATLAB` out of the water and is now about **10-15x faster**.
+
+This was a relatively simple use case but highlights even for something simple there are possibly significant gains to be made.
+As I mentioned earlier `Julia` is still young but it appears to be reaching a point where it's difficult to ignore it any more. 
+There is no doubting it's fast, it's on the same level as `C`, `C++` and `Fortran` and is a member of the **Petaflop Club** having achieved 1.54 petaflops with 1.3 million threads on the Cray XC40 supercomputer[^5].
+
 
 ## Summary
 So the one line summary? If you want to make your `python` code ***10x times quicker*** use `Julia`!! 
 
 Well that's not really been the point of this post, but it is eye catching. 10x speedup is a lot.
+
+But there's more to `Julia` than just speed. It has an interactive REPL just like `python`, it is supported by `Jupyter` notebooks and has it's own interactive notebooks called `Pluto` which I think are actually far superior. Want multi-threading? Done! 
+`Julia` was created by `MATLAB` and `python` users so there will be a somewhat familiar feel to those making the transition. 
+
+There is also a growing eco-system that allows users start on tasks like solving lots of differential equations or machine learning without much development required by the user.
+
+I'm very impressed by where `Julia` has ended up after 10 years and it's something I seriously consider now every time I am starting a new project as there is still some inertia in shifting completely from one language to a new one. I don't know if i will ever completely switch, but I do know I'm going to be using `Julia` a lot more in the future to reduce some of my computing bottlenecks in some tasks.
+
+Have you seen enough to tempt you into getting to know `Julia` a bit better?
 
 # References
 ---
@@ -426,3 +445,4 @@ Well that's not really been the point of this post, but it is eye catching. 10x 
 [^2]: Eddins, Steve. "timeit makes it into MATLAB". https://blogs.mathworks.com/steve/2013/09/30/timeit-makes-it-into-matlab/?doing_wp_cron=1645382790.6918818950653076171875. Accessed on 13/2/2022
 [^3]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
 [^4]: Numba Quickstart Guide. https://numba.pydata.org/numba-doc/latest/user/5minguide.html. Accessed on 13/2/2022
+[^5]: Julia Joins Petaflop Club. https://www.hpcwire.com/off-the-wire/julia-joins-petaflop-club/. Accessed on 13/2/2022
