@@ -80,6 +80,18 @@ $$ \left| x \right| \_{2} = \left| x \right| = \sqrt{{x_{1}}^{2} + {x_{2}}^{2} +
 
 This is a relatively simple calculation but can have a significant impact on performance if this is being calculated for a large number of vectors, partly because of the repeated use of a square root. 
 
+### Test Environment
+ These are the details of the system on which I will do some test.
+
+| System  Specification  |                                                                     |
+|------------------|---------------------------------------------------------------------------|
+| Operating System | Windows 11                                                                |
+| Processor        | Intel i9-9880H                                                            |
+| Memory           | 64GB                                                                      |
+| MATLAB Version   | R2020a Update 5                                                           |
+| Python Version   | Python 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)] |
+| Julia Version    | Version 1.7.2 (2022-02-06)                                                |
+
 
 ### MATLAB Implementation
 I'll start with the implementation in `MATLAB`, although there is already a `norm` and `vecnorm` function available in `MATLAB`. 
@@ -223,16 +235,13 @@ You will get very similar results running the following code for each size of ar
 vects = np.random.random([100,3])
 
 %timeit native_norms = native_norm(vects)
-183 µs ± 1.76 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each) #i7-2420
-119 µs ± 1.61 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each) #i9-9880H
+119 µs ± 1.61 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
 
 %timeit numpy_norms = np.linalg.norm(vects, axis=1)
-13.6 µs ± 110 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i7-2420
-6.72 µs ± 305 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i9-9880H
+6.72 µs ± 305 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
 
 %timeit numba_norms = numba_norm(vects)
-2.84 µs ± 53.1 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each) #i7-2420
-1.96 µs ± 31.3 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each) #i9-9880H
+1.96 µs ± 31.3 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
 
 ```
 
@@ -242,16 +251,13 @@ A more representative size for my typical use case would be much larger and, as 
 vects = np.random.random([50000,3])
 
 %timeit native_norms = native_norm(vects)
-85.6 ms ± 1.67 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) #i7-2420
-59.5 ms ± 1.53 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) #i9-9880H
+59.5 ms ± 1.53 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
 
 %timeit numpy_norms = np.linalg.norm(vects, axis=1)
-1.2 ms ± 7.37 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i7-2420
-920 µs ± 13.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i9-9880H
+920 µs ± 13.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 
 %timeit numba_norms = numba_norm(vects)
-1.48 ms ± 18.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i7-2420
-841 µs ± 102 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) #i9-9880H
+841 µs ± 102 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 
 ```
 
@@ -344,7 +350,6 @@ Here's another attempt at the one-liner with a subtle change from earlier that d
 `Julia` is now approximately **3-5 times quicker** than `MATLAB` and `python`.
 
 ```julia
-
 function normalize_by_row_v3(arr)
     sqrt.(sum(x->x^2,arr, dims=2))
 end
