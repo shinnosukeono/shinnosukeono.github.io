@@ -444,7 +444,6 @@ I'm very impressed by where `Julia` has ended up after 10 years and it's somethi
 Have you seen enough to tempt you into getting to know `Julia` a bit better?
 
 # References
----
 
 [^1]: Weisstein, Eric W. "Vector Norm." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/VectorNorm.html. Accessed on 13/2/2022
 [^2]: Eddins, Steve. "timeit makes it into MATLAB". https://blogs.mathworks.com/steve/2013/09/30/timeit-makes-it-into-matlab/?doing_wp_cron=1645382790.6918818950653076171875. Accessed on 13/2/2022
