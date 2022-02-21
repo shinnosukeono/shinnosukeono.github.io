@@ -449,4 +449,4 @@ Have you seen enough to tempt you into getting to know `Julia` a bit better?
 [^2]: Eddins, Steve. "timeit makes it into MATLAB". https://blogs.mathworks.com/steve/2013/09/30/timeit-makes-it-into-matlab/?doing_wp_cron=1645382790.6918818950653076171875. Accessed on 13/2/2022
 [^3]: NumPy API Reference. https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html#rac1c834adb66-1. Accessed on 13/2/2022
 [^4]: Numba Quickstart Guide. https://numba.pydata.org/numba-doc/latest/user/5minguide.html. Accessed on 13/2/2022
-[^5]: Julia Joins Petaflop Club. https://www.hpcwire.com/off-the-wire/julia-joins-petaflop-club/. Accessed on 13/2/2022
+[^5]: "Julia Joins Petaflop Club". https://www.hpcwire.com/off-the-wire/julia-joins-petaflop-club/. Accessed on 13/2/2022
