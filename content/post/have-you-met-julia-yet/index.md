@@ -359,7 +359,7 @@ julia> @btime nrm = normalize_by_row_v3($vec_1);
 
 ```
 
-So now you must thinking *"we have not done much yet, maybe we can optimise this function more?"*.
+So now you must be thinking *"we have not done much yet, maybe we can optimise this function more?"*.
 To try and *'scratch that itch'* I've gone thorough the docs, watched a few youtube videos and scoured some of the popular user forums and come up with a few possible options. 
 If it is possible to squeeze more performance, how much better can we do? 
 
@@ -395,10 +395,11 @@ julia>  @btime nrm = normalize_by_row_v4($vec_1);
 
 ```
 
-**Wow!** So we have found another 30% reduction in from our best performing method so far but actually about 4 times quicker than our previous looped example.
+**Wow!** So we have found another 30% reduction in from our best performing method so far but actually about 4x quicker than our previous looped example.
 
-It's possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.
-Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations.
+It's also possible to use the `LoopVectorization` package to enable some extra optimisations during the compilation process.
+Always verify that these optimisations don't affect the results from your calculations as they may be doing something like changing the order of calculations. 
+You have been warned!
 
 ```julia
 using LoopVectorization
@@ -430,7 +431,7 @@ There is no doubting it's fast, it's on the same level as `C`, `C++` and `Fortra
 
 
 ## Summary
-So the one line summary? If you want to make your `python` code ***10x times quicker*** use `Julia`!! 
+One line summary - If you want to make your `python` code ***10x times quicker*** use `Julia`!! 
 
 Well that's not really been the point of this post, but it is eye catching. 10x speedup is a lot.
 
@@ -439,9 +440,11 @@ But there's more to `Julia` than just speed. It has an interactive REPL just lik
 
 There is also a growing eco-system that allows users start on tasks like solving lots of differential equations or machine learning without much development required by the user.
 
-I'm very impressed by where `Julia` has ended up after 10 years and it's something I seriously consider now every time I am starting a new project as there is still some inertia in shifting completely from one language to a new one. I don't know if i will ever completely switch, but I do know I'm going to be using `Julia` a lot more in the future to reduce some of my computing bottlenecks in some tasks.
+I'm very impressed by where `Julia` has ended up after 10 years and it's something I seriously consider now every time I am starting a new project as there is still some inertia in shifting completely from one language to a new one. 
+I don't know if I will ever completely switch, but I do know I'm going to be using `Julia` a lot more in the future to reduce some of my computing bottlenecks in some tasks.
 
 Have you seen enough to tempt you into getting to know `Julia` a bit better?
+
 
 # References
 
