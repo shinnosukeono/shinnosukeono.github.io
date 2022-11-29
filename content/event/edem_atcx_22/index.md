@@ -13,10 +13,7 @@ address:
   country: 
 
 summary: |-
-  First held in 2020, the ATCx DEM is a technology conference dedicated to the Discrete Element Method (DEM) for bulk and granular material simulation.
-
-  Bringing together engineers, researchers and scientists, this event covers the various applications of DEM in all industries handling or processing granular materials including heavy equipment, mining and metals, chemicals, pharmaceuticals, and more.
-
+  Oral Preentation at the ATCx DEM technology conference dedicated to the Discrete Element Method (DEM) for bulk and granular material simulation.
 
 abstract: |-
   Particulate products are widely used in industry, but manufacturing processes such as granulation or milling remain poorly understood. This is primarily because of the complexity of a typical particulate system involving particle–particle and particle–fluid interaction phenomena. Modelling of such particulate systems has become increasingly popular as a powerful means to gain insight into the phenomena that govern the particulate processes. However, it remains a challenge to translate reality into an efficient computational model. 
