@@ -101,7 +101,7 @@ The legacy capability established from this project will be applied to other CPI
 # Project Gallery
 ---
 
-{{< gallery album="mmpp" resize_options="x150">}} 
+{{< gallery album="mmpp" thumbnailResizeOptions="600x400 Lanczos q90">}} 
 
 {{< youtube NkXqJJG5tWg >}}
 

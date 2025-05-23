@@ -127,7 +127,7 @@ The lateral pressure ratio has also been evaluated.
 # Image Gallery
 ---
 
-{{< gallery album="phd" resize_options="x150" >}}
+{{< gallery album="phd" thumbnailResizeOptions="600x400 Lanczos q90">}}
 
 
 

@@ -134,7 +134,7 @@ There was also a two-storey summerhouse down by the lake which was known as the 
 
 Shanbally Castle with its 20 stately bedrooms, extensive drawing rooms, dining room, library, marble fireplaces and mahogany staircase was long and irregular in layout, made of a silver-grey ashlar and built in a *Gothic Revival* style. It had numerous machicolations, towers and battlements. The magnificent building can be seen in the following photos taken circa 1865.
 
-{{< gallery album="shanbally" resize_options="x150">}} 
+{{< gallery album="shanbally" thumbnailResizeOptions="600x400 Lanczos q90">}} 
 
 
 In its heyday, Shanbally Castle was entered under a *porte-cochère* (carriage porch) into the main entrance hall. 
@@ -295,10 +295,7 @@ All of this has gone, a victim of an ignorant mentality. A two-storey summerhous
 ---
 
 
-{{< gallery album="shanbally_plans" resize_options="x150">}} 
-
-
-<!-- {{< gallery album="shanbally_demo" resize_options="x150">}}  -->
+{{< gallery album="shanbally_plans" thumbnailResizeOptions="600x400 Lanczos q90" >}}
 
 
 # References

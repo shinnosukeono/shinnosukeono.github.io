@@ -13,34 +13,34 @@ font_size: m
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: 'Research Associate in particulate solids at the University of Edinburgh.'
-twitter: 'jp_morr'
+local_business_type: ""
+org_name: ""
+description: "Research Associate in particulate solids at the University of Edinburgh."
+twitter: "jp_morr"
 
 # Contact (edit or remove options as required)
 
-email: 
-phone: 
+email:
+phone:
 address:
   street: School of Engineering, The King's Buildings
   city: Edinburgh
   region: Scotland
-  postcode: 'EH9 3FG'
+  postcode: "EH9 3FG"
   country: United Kingdom
   country_code: UK
 coordinates:
-  latitude: '55.92228'
-  longitude: '-3.17277'
+  latitude: "55.92228"
+  longitude: "-3.17277"
 directions: Alexander Graham Bell Building, Thomas Bayes Road.
 office_hours:
-  - 'Monday - Friday:  09:00 to 17:30'
+  - "Monday - Friday:  09:00 to 17:30"
 # appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/jp_morr'
+    link: "https://twitter.com/jp_morr"
   # - icon: skype
   #   icon_pack: fab
   #   name: Skype Me
@@ -63,8 +63,8 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+date_format: "Jan 2, 2006"
+time_format: "3:04 PM"
 address_format: en-gb
 timezone: GMT
 
@@ -83,8 +83,8 @@ math: true
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
-  content_dir: ''
+  repo_url: ""
+  content_dir: ""
   repo_branch: main
   editable:
     page: false
@@ -106,7 +106,7 @@ copyright_license:
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: "This work is licensed under {license}"
 
 abstract_length: 135
 
@@ -130,7 +130,7 @@ breadcrumb:
     book: true
 
 comments:
-  provider: 'disqus'
+  provider: "disqus"
   commentable:
     post: true
     book: false
@@ -138,30 +138,31 @@ comments:
     publication: false
     event: true
   disqus:
-    shortname: 'johnpmorrissey'
+    shortname: "johnpmorrissey"
     show_count: true
   commento:
-    url: ''
+    url: ""
 
 search:
   provider: wowchemy
   algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
+    app_id: ""
+    api_key: ""
+    index_name: ""
     show_logo: false
 
 map:
-  provider: 'mapnik'
-  api_key: ''
+  provider: "mapnik"
+  api_key: ""
   zoom: 16
 
 marketing:
-  google_analytics: 'UA-18805120-1'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
+  analytics:
+    google_analytics: ""
+  google_tag_manager: ""
+  google_site_verification: ""
+  baidu_site_verification: ""
+  baidu_tongji: ""
 
 cms:
   branch: master

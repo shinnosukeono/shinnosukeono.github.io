@@ -74,7 +74,7 @@ DEM simulations can also be affected by the prescribed boundary conditions and a
 # Image Gallery
 ---
 
-{{< gallery album="post_doc" resize_options="x150" >}}
+{{< gallery album="post_doc" thumbnailResizeOptions="600x400 Lanczos q90" >}}
 
 
 

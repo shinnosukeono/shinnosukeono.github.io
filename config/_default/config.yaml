@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: John P. Morrissey # Website name
-baseurl: 'www.johnpmorrissey.com' # Website URL
-copyright: '© 2021 John P. Morrissey' # Footer text, e.g. '© {year} Me'
+title: Shinnosuke Ono # Website name
+baseurl: "https://shinnosukeono.github.io/" # Website URL
+copyright: "© 2025 Shinnosuke Ono" # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -22,8 +22,9 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 
 ############################
 ## ADVANCED
@@ -31,19 +32,20 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  event: "/talk/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, Redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -66,3 +68,24 @@ related:
       weight: 100
     - name: categories
       weight: 70
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+      - "^(dart-)?sass(-embedded)?$"
+      - "^go$"
+      - "^git$"
+      - "^npx$"
+      - "^postcss$"
+      - "^tailwindcss$"
+    osEnv:
+      - "(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO.*|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$"
+  http:
+    methods: ["(?i)GET|POST"]
+    urls: [".*"]
+  funcs:
+    getenv:
+      - "^HUGO_"
+      - "^CI$"
+      - "^WC_"
+noTimes: true
