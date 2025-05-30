@@ -1,40 +1,37 @@
 ---
 # Display name
-title: John P. Morrissey
+title: Shinnosuke Ono
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Research Scientist in Granular Mechanics
+role: Master's Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Edinburgh
-  url: https://www.eng.ed.ac.uk/
+- name: University of Tokyo
+  url: https://www.ms.k.u-tokyo.ac.jp/index.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include particulate mechanics, the Discrete Element Method (DEM) and other numerical simulation tools. I'm also interested in all things data and how to extract meaningful information from it.
+bio: I'm interested in understanding how machines learn through the lens of representations. My research interests include representation learning, multimodal models, language models, and reinforcement learning.
 
 # Interests to show in About widget
 interests:
-- Mechanics of Particulate Solids
-- Computational Methods
-- Numerical Simulation
-- Data Analytics
+- Representation Learning
+- Multimodal Models
+- Language Models
+- Reinforcement Learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: Ph.D. in Civil Engineering
-    institution: University of Edinburgh
-    year: 2013
-  - course: M.Eng. in Civil Engineering
-    institution: University of Edinburgh
-    year: 2009
-  - course: B.Eng. (Ord.) in Civil Engineering
-    institution: Cork Institute of Technology
-    year: 2006
+  - course: M.Sc. in Computer Science
+    institution: University of Tokyo
+    year: 2025-2027
+  - course: B.Sc. in Information Science
+    institution: University of Tokyo
+    year: 2021-2025
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,47 +40,43 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:ono-shinnosuke637@g.ecc.u-tokyo.ac.jp
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/jp_morr
+  link: https://x.com/shinnosukeono
 - icon: github
   icon_pack: fab
-  link: https://github.com/jpmorr
+  link: https://github.com/shinnosukeono/
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/jpmorr/
+  link: https://www.linkedin.com/in/%E6%96%B0%E4%B9%8B%E4%BB%8B-%E5%B0%8F%E9%87%8E-626881286/
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.com/citations?user=8slL76sAAAAJ&hl=en
-- icon: orcid 
-  icon_pack: fab
-  link: https://orcid.org/0000-0002-2389-8146
-- icon: researchgate 
-  icon_pack: fab
-  link: https://www.researchgate.net/profile/John-Morrissey-2
+  link: https://scholar.google.co.jp/citations?hl=ja&user=J58Z50gAAAAJ
+# - icon: orcid 
+#   icon_pack: fab
+#   link: https://orcid.org/0000-0002-2389-8146
+# - icon: researchgate 
+#   icon_pack: fab
+#   link: https://www.researchgate.net/profile/John-Morrissey-2
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+# FIXME: not showing up right now
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "ono-shinnosuke637@g.ecc.u-tokyo.ac.jp"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-J.P. is an experienced research scientist specialising in **particulate mechanics** and the **Discrete Element Method (DEM)**. J.P. completed his Ph.D. at the University of Edinburgh studying in the field of granular mechanics and has over 10 years research experience covering both the experimental and numerical fields.   
+I am a first-year master's student at [the University of Tokyo](https://www.ms.k.u-tokyo.ac.jp/members.html), supervised by Prof. [Masashi Sugiyama](https://scholar.google.co.jp/citations?user=GkYIrlIAAAAJ&hl=en) and Prof. [Takashi Ishida](https://takashiishida.github.io/). Also, I am working as a research assistant at [Matsuo-Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/), the University of Tokyo.
 
-J.P. was the developer of a novel DEM contact model that captures the behaviour of complex cohesive granular solids. 
-This contact model has been implemented in the commerical DEM code **EDEM** (now *Altair EDEM*) as the **Edinburgh Elasto-Plastic Adhesion Model (EEPA)**.
-J.P. was also heavily involved in the development of the **Edinburgh Powder Tester (EPT)** whose technology was later licenced to Freeman Technologies for use in the Freeman UPT. 
+I am interested in understanding how machines learn, through the lens of representations.
 
-Working the the numerical field of *DEM*, *programming*, *data analysis* and *visualisation* are common tasks and *python*, *Julia* and *C++* are often the tools of choice. 
-
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Full_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
