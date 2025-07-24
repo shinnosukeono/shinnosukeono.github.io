@@ -46,10 +46,6 @@ This presentation was created for the Practical English Presentation Class at th
 
 This presentation was built using [Slidev](https://sli.dev/), a slides-making tool for engineers. I love using it for its ease of writing in Markdown and the minimal but beautiful design!
 
-## Access the Presentation
-
-[TODO: Add link to live presentation or embedded PDF]
-
 ---
 
 ## Acknowledgments
