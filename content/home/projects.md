@@ -27,18 +27,6 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: DEM
-    tag: DEM
-  - name: Coupled Models
-    tag: Coupled Models
-  - name: Calibration
-    tag: Calibration
-  - name: Characterisation
-    tag: Characterisation
-  - name: Analytics
-    tag: Data Analytics
-  - name: Other
-    tag: Other
 
 
 design:
