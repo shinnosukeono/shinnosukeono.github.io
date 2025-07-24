@@ -23,7 +23,7 @@ links:
 - icon: github
   icon_pack: fab
   name: View Slides
-  url: https://github.com/shinnosukeono
+  url: https://shinnosukeono.github.io/vla_tutorial/
 url_code: ""
 url_pdf: ""
 url_slides: ""
