@@ -20,7 +20,7 @@ links:
 - icon: github
   icon_pack: fab
   name: View Slides
-  url: https://shinnosukeono.github.io/202510_matsue_lab_visit/
+  url: https://shinnosukeono.github.io/202510_lab_visit/
 url_code: ""
 url_pdf: ""
 url_slides: ""
