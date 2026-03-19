@@ -25,11 +25,11 @@ publishDate: "2021-08-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent; 9 = Reference Manual; 10 = Poster; 11 = Unpublished;
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv Preprint*"
-publication_short: "*arXiv Preprint*"
+publication: "*Proceedings of the 4th International Joint Conference on Natural Language Processing and the 14th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL 2025)*"
+publication_short: "*IJCNLP-AACL 2025*"
 volume: 
 issue: 
 article: 
@@ -53,7 +53,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://arxiv.org/pdf/2505.16661v1
+url_pdf: https://aclanthology.org/2025.ijcnlp-long.72.pdf
 url_code: https://github.com/EQUES-Inc/pharma-LLM-eval
 url_dataset: https://huggingface.co/collections/EQUES/jpharmabench-680a34acfe96870e41d050d8
 url_model: https://huggingface.co/collections/EQUES/jpharmatron-680a330b4dfce3ac43009984
