@@ -6,7 +6,7 @@ title: Shinnosuke Ono
 superuser: true
 
 # Role/position/tagline
-role: Master's Student
+role: "Master's Student in Computer Science at the University of Tokyo"
 
 # Organizations/Affiliations to show in About widget
 organizations:
