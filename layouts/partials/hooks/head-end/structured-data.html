@@ -1,10 +1,22 @@
 {{ if .IsHome }}
+{{ $ogImage := resources.Get "media/og-image.png" }}
+{{ if $ogImage }}
+<meta property="og:image" content="{{ $ogImage.Permalink }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Shinnosuke Ono - CS Master's Student at the University of Tokyo" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="{{ $ogImage.Permalink }}" />
+<meta name="twitter:site" content="@shinnosukeono" />
+<meta name="twitter:creator" content="@shinnosukeono" />
+{{ end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Shinnosuke Ono",
   "url": "https://shinnosukeono.github.io/",
+  "image": "{{ with $ogImage }}{{ .Permalink }}{{ end }}",
   "jobTitle": "Master's Student in Computer Science",
   "affiliation": {
     "@type": "CollegeOrUniversity",
