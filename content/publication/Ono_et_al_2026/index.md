@@ -57,7 +57,7 @@ add_badge: false
 
 # Featured image
 image:
-  caption: ''
+  caption: '**We argue that the reliability of the proxy RM''s estimates differs by completion. Certified sign-preservation radius Δ_j provides this reliability measure.** (a) Proxy and true advantages. Completions 7 and 8 have opposite signs, showing the proxy RM is unreliable there. (b) Δ_j is the smallest perturbation of the RM parameters that flips a completion''s advantage sign. Dashed lines are decision boundaries for the j- and k-th completions. (c) Per-completion Δ_j. Completions 7 and 8 exhibit low Δ, confirming Δ_j identifies unreliable completions. SignCert-PO suppresses completions below Δ = ε. (d) True (solid) and proxy (dashed) reward during RL. Using Δ_j as a re-weighting mechanism, SignCert-PO prevents reward hacking and further improves the true reward.'
   focal_point: ""
   preview_only: false
 
