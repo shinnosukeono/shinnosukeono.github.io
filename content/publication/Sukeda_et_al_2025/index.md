@@ -59,7 +59,7 @@ url_dataset: https://huggingface.co/collections/EQUES/jpharmabench-680a34acfe968
 url_model: https://huggingface.co/collections/EQUES/jpharmatron-680a330b4dfce3ac43009984
 
 # add Almetric adn dimensions badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

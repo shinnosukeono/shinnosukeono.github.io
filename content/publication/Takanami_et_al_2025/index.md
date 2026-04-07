@@ -86,7 +86,7 @@ url_pdf: https://arxiv.org/pdf/2509.25032v1
 url_dataset: https://huggingface.co/datasets/airoa-org/airoa-moma
 
 # add Almetric adn dimensions badges
-add_badge: true
+add_badge: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -53,7 +53,7 @@ featured: false
 url_pdf: https://arxiv.org/pdf/2604.02986
 
 # add Altmetric and Dimensions badges
-add_badge: true
+add_badge: false
 
 # Featured image
 image:
