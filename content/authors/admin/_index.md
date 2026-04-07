@@ -75,7 +75,7 @@ email: "ono-shinnosuke637@g.ecc.u-tokyo.ac.jp"
 highlight_name: true
 ---
 
-I am a first-year master's student at [the University of Tokyo](https://www.ms.k.u-tokyo.ac.jp/members.html), supervised by Prof. [Masashi Sugiyama](https://scholar.google.co.jp/citations?user=GkYIrlIAAAAJ&hl=en) and Prof. [Takashi Ishida](https://takashiishida.github.io/). Also, I am working as a research assistant at [Matsuo-Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/), the University of Tokyo.
+I am a second-year master's student at [the University of Tokyo](https://www.ms.k.u-tokyo.ac.jp/members.html), supervised by Prof. [Masashi Sugiyama](https://scholar.google.co.jp/citations?user=GkYIrlIAAAAJ&hl=en) and Prof. [Takashi Ishida](https://takashiishida.github.io/). Also, I am working as a research assistant at [Matsuo-Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/), the University of Tokyo.
 
 I am interested in understanding how machines learn, through the lens of representations.
 

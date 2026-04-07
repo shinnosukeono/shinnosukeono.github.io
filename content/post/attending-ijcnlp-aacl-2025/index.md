@@ -4,7 +4,7 @@ subtitle: ""
 summary: "I will be attending IJCNLP-AACL 2025 in Mumbai, India in December 2025."
 projects: []
 date: "2025-12-20T00:00:00Z"
-draft: false
+draft: true
 featured: false
 authors:
   - admin

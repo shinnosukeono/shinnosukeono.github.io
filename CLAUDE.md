@@ -5,7 +5,7 @@ This is a personal academic portfolio website for Shinnosuke Ono, built using th
 
 ## Owner Information
 - **Name**: Shinnosuke Ono
-- **Role**: Master's Student (First Year)
+- **Role**: Master's Student (Second Year)
 - **Institution**: University of Tokyo
 - **Department**: Computer Science (supervised by Prof. Masashi Sugiyama and Prof. Takashi Ishida)
 - **Additional Position**: Research Assistant at Matsuo-Iwasawa Lab
