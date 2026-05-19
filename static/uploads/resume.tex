@@ -1,0 +1,162 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[
+  BoldFont       = texgyrepagella-bold.otf,
+  ItalicFont     = texgyrepagella-italic.otf,
+  BoldItalicFont = texgyrepagella-bolditalic.otf,
+]
+\usepackage[margin=20mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% Suppress section numbering
+\setcounter{secnumdepth}{0}
+
+% Colors
+\definecolor{sectioncolor}{HTML}{1A5276}
+
+% Section formatting: colored bar background
+\newcommand{\sectionbox}[1]{%
+  \colorbox{sectioncolor}{\makebox[\dimexpr\textwidth-2\fboxsep\relax][l]{\strut #1}}%
+}
+\titleformat{\section}
+  {\large\bfseries\color{white}}
+  {}{0em}
+  {\sectionbox}
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Compact lists
+\setlist[itemize]{nosep, leftmargin=2em, label=--}
+
+% Helper: left text (wrapping) + right-aligned date on same line
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}Xr@{}}#1 & #2\end{tabularx}%
+}
+
+\begin{document}
+
+% ---- Header ----
+\begin{center}
+	{\LARGE\bfseries Shinnosuke Ono}\\[4pt]
+	Email: \href{mailto:ono-shinnosuke637@g.ecc.u-tokyo.ac.jp}{ono-shinnosuke637@g.ecc.u-tokyo.ac.jp}\\
+	Website: \href{https://shinnosukeono.github.io}{https://shinnosukeono.github.io}
+\end{center}
+\noindent Last Updated: May 2026
+
+% ---- Education ----
+\section{EDUCATION}
+
+\entry{\textbf{Master of Information Science and Technology, University of Tokyo, Japan}}{Apr.\ 2025 -- Present}\\
+Supervisor: Professor Masashi Sugiyama
+
+\medskip
+\entry{\textbf{Visiting Research Student, Nanyang Technological University, Singapore}}{Jul.\ 2026 -- Dec.\ 2026}\\
+Supervisor: Professor Bo An
+
+\medskip
+\noindent\textbf{Bachelor of Information Science, University of Tokyo, Tokyo, Japan}\\
+\entry{Department of Information Science, Faculty of Science}{Sep.\ 2022 -- Mar.\ 2025}\\
+\entry{College of Arts and Sciences}{Apr.\ 2021 -- Aug.\ 2022}
+
+% ---- Publications ----
+\section{PUBLICATIONS}
+
+\noindent\textbf{Refereed Publications}
+\begin{enumerate}[leftmargin=2em]
+	\item \entry{\textbf{Mitigating Reward Hacking in RLHF via Advantage Sign Robustness.}}{EIML@ICML 2026}\\
+	      \textbf{\underline{S.\ Ono}}, J.\ Ackermann, S.\ Nishimori, T.\ Ishida, M.\ Sugiyama.
+	      \href{https://arxiv.org/abs/2604.02986}{https://arxiv.org/abs/2604.02986}.
+	\item \entry{\textbf{A Japanese Language Model and Three New Evaluation Benchmarks for Pharmaceutical NLP.}}{IJCNLP-AACL 2025}\\
+	      \textbf{\underline{S.\ Ono}}*, I.\ Sukeda*, T.\ Fujii, K.\ Buma, S.\ Sasaki.
+	      \href{https://aclanthology.org/2025.ijcnlp-long.72/}{https://aclanthology.org/2025.ijcnlp-long.72/}.
+\end{enumerate}
+
+\noindent\textbf{Preprints}
+\begin{enumerate}[leftmargin=2em]
+	\item \textbf{AIRoA MoMa Dataset: A Large-Scale Hierarchical Dataset for Mobile Manipulation.}\\
+	      R.\ Takanami, P.\ Khrapchenkov, S.\ Morikuni, J.\ Arima, Y.\ Takaba, S.\ Maeda, T.\ Okubo,
+	      G.\ Sano, S.\ Sekioka, A.\ Kadoya, M.\ Kambara, N.\ Nishiura, H.\ Suzuki, T.\ Yoshimoto,
+	      K.\ Sakamoto, \textbf{\underline{S.\ Ono}}, H.\ Yang, D.\ Yashima, A.\ Horo, T.\ Motoda, R.\ Kawada,
+	      H.\ Ito, K.\ Fukuda, A.\ Goto, K.\ Morinaga, Y.\ Ikeda, R.\ Kawada, M.\ Yoshikawa,
+	      N.\ Kosuge, Y.\ Noguchi, K.\ Ota, T.\ Matsushima, Y.\ Iwasawa, Y.\ Matsuo, T.\ Ogata.
+	      \href{https://arxiv.org/abs/2509.25032}{https://arxiv.org/abs/2509.25032}.
+\end{enumerate}
+
+% --- Awards ---
+\section{AWARDS}
+\begin{enumerate}[leftmargin=2em]
+	\item \entry{\textbf{Heiwa Nakajima Foundation Scholarship.}}{Jul.\ 2026 -- Dec.\ 2026}
+\end{enumerate}
+
+% ---- Talks ----
+\section{TALKS / PRESENTATIONS}
+
+\begin{enumerate}[leftmargin=2em]
+	\item \entry{\textbf{Mitigating Reward Hacking in RLHF via Advantage Sign Robustness.}}{Apr.\ 9, 2026}\\
+	      Poster presented at Statistical Safeguarding Workshop 2026.
+	\item \entry{\textbf{JPharmatron \& JPharmaBench: Japanese LLM and Evaluation Benchmarks for Pharmaceutical NLP.}}{Jan.\ 13, 2026}\\
+	      The 25-th LLM-jp seminar.
+	\item \entry{\textbf{How does AI memorize knowledge?}}{Oct.\ 10, 2025}\\
+	      Lab Visit from Matsue-Minami High School.
+\end{enumerate}
+
+% ---- Academic Service ----
+\section{ACADEMIC SERVICES}
+
+\begin{enumerate}[leftmargin=2em]
+	\item \entry{\textbf{Session Chair, Statistical Safeguarding Workshop 2026}}{Apr.\ 9, 2026}
+	\item \entry{\textbf{Research Assistant, Matsuo Laboratory}}{Mar.\ 2025 -- Present}
+	\item \entry{\textbf{Teaching Assistant, Continuous Algorithm}}{Oct.\ 2025 -- Mar.\ 2026}
+\end{enumerate}
+
+% ---- Work Experience ----
+\section{WORK EXPERIENCES}
+
+\entry{\textbf{EQUES Inc., Tokyo, Japan}}{Mar.\ 2024 -- Present}\\
+Lead Engineer
+\begin{itemize}
+	\item Led the development of a large language model (LLM) specialized for pharmaceutical and pharmacy applications
+	\item Established coding standards and best practices for team collaborative development, enhancing the overall technical proficiency of the company
+\end{itemize}
+
+\medskip
+\entry{\textbf{Matsuo Institute Inc., Tokyo, Japan}}{Sep.\ 2023 -- Mar.\ 2025}\\
+Machine Learning Engineer
+\begin{itemize}
+	\item Developed and evaluated 10+ machine learning and deep learning models for power demand forecasting
+	\item Gained expertise in collaborative development practices, including continuous integration (CI) and rigorous code reviews
+\end{itemize}
+
+\medskip
+\entry{\textbf{Guild Labo Ltd., Tokyo, Japan}}{Dec.\ 2022 -- Dec.\ 2025}\\
+Engineer
+\begin{itemize}
+	\item Developed a diffusion-based image generation model for anomaly detection applications
+	\item Built a unified web-based platform for coordinated control of multiple types of robots
+	\item Implemented and evaluated a reproduction of a BERT-based representation learning model for 3D modeling tasks
+\end{itemize}
+
+% ---- Skills ----
+\section{SKILLS}
+
+\noindent\textbf{Language Skills:}
+\begin{itemize}
+	\item Japanese: Native
+	\item English: Equivalent to CEFR C1. TOEFL iBT: 107 (2025).
+	\item Spanish: Equivalent to CEFR B2. Completed Trilingual Program (Spanish) of the University of Tokyo in 2022.
+\end{itemize}
+
+\noindent\textbf{Programming Languages:} Python, PyTorch, DeepSpeed, Megatron, C/C++, CUDA, Shell Script, SQL.
+
+\medskip\noindent\textbf{Tools:} Slurm, Docker, Singularity, AWS (EC2, S3, CloudFormation, Athena, Lambda, Glue, Personalize, and Step Functions), Git/GitHub.
+
+\medskip\noindent\textbf{Research Skills:} Machine Learning, Multimodal Learning, Large Language Models
+
+\end{document}
