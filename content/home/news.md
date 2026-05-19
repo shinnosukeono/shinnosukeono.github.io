@@ -16,6 +16,7 @@ design:
   columns: '2'
 ---
 
+- **May 2026** - Our paper [Mitigating Reward Hacking in RLHF via Advantage Sign Robustness](https://arxiv.org/abs/2604.02986) was accepted to the EIML Workshop at ICML 2026 🎉
 - **Apr 2026** - New preprint: [Mitigating Reward Hacking in RLHF via Advantage Sign Robustness](https://arxiv.org/abs/2604.02986).
 - **Dec 2025** - Attended [IJCNLP-AACL 2025](https://www.ijcnlp-aacl2025.org/) in Mumbai, India. Presented our paper on JPharmatron/JPharmaBench.
 - **May 2025** - Created this webpage!
