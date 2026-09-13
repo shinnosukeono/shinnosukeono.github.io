@@ -1,14 +1,13 @@
-# IDEs
-.idea/
-
-# Hugo
-/resources/
-public/
-jsconfig.json
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+assets/libs/
 node_modules/
-my_library.bib.sav
-my_library.bib.bak
-assets/media/icons/brands/University_of_Edinburgh-Logo_2.png
-assets/media/icons/brands/mhl_logo.png
-
-**/.DS_Store
+vendor
+.idea

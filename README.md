@@ -1,49 +1,42 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+# shinnosukeono.github.io
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-themes/main/academic.png)](https://wowchemy.com/hugo-themes/)
+Personal academic site, built with [al-folio](https://github.com/alshedivat/al-folio)
+(Jekyll). Deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to
+`master`.
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Editing
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+| what                      | where                                      |
+| ------------------------- | ------------------------------------------ |
+| bio, home page            | `_pages/about.md`                          |
+| publications              | `_bibliography/papers.bib`                 |
+| venue badges              | `_data/venues.yml`                         |
+| news items                | `_news/*.md` (one file each, `inline: true`) |
+| research and talks        | `_projects/*.md` (`category: research` or `talks`) |
+| CV page                   | `_data/cv.yml`                             |
+| CV PDF                    | `uploads/resume.pdf`                    |
+| site metadata, socials    | `_config.yml`                              |
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+The CV PDF is built from `~/univ/00_projects/202604_us_phd_app/_共通/resume/resume.tex`.
+`_data/cv.yml` duplicates it, so update both.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+A paper appears on the home page only if its BibTeX entry has `selected={true}`.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+## Local preview
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+The upstream Docker image is built from `ruby:latest`, which currently breaks. This repo
+pins `ruby:3.3` in the `Dockerfile`:
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli) 
-- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+```bash
+docker build -t alfolio-local .
+docker run --rm -p 8080:8080 -v "$PWD":/srv/jekyll -w /srv/jekyll alfolio-local \
+  bundle exec jekyll serve --host 0.0.0.0 --port 8080
+```
 
-## We ask you, humbly, to support this open source movement
+## Upstream
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+`git remote` `alfolio` points at the template. To pull in upstream changes:
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
-
-## Demo image credits
-
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
-
-## Latest news
-<!--START_SECTION:news-->
-* [Hugo vs Quarto: Which One is Better for 2023?](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;hugo-vs-quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;whats-new-in-v5.2&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;whats-new-in-v5.1&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;version-5.0-february-2021&#x2F;)
-<!--END_SECTION:news-->
+```bash
+git fetch alfolio master && git merge alfolio/master
+```

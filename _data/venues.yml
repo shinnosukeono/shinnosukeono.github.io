@@ -1,0 +1,10 @@
+"ICML-W":
+  url: https://sites.google.com/view/eiml2026
+  color: "#0077B8"
+
+"AACL":
+  url: https://aclanthology.org/venues/ijcnlp/
+  color: "#8B1A1A"
+
+"preprint":
+  color: "#6c757d"
