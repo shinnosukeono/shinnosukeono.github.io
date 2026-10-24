@@ -45,7 +45,7 @@ with, and to help our society adapt to them.** I am working on foundation models
 - **Reward hacking in RLHF**: True human preferences are hard to specify via rule-based
   rewards, so we need learned reward models (RMs). RMs are vulnerable to reward hacking,
   where language models exploit imperfect RMs during RL.
-  [EIML@ICML2026](https://arxiv.org/abs/2604.02986) quantifies this vulnerability via
+  [TMLR2026](https://openreview.net/forum?id=yu3lbJi5sh) quantifies this vulnerability via
   *adversarial robustness* and proposes a practical, lightweight algorithm to mitigate
   reward hacking.
 - **Application**: [IJCNLP-AACL2025](https://aclanthology.org/2025.ijcnlp-long.72/) develops

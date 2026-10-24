@@ -1,21 +1,21 @@
 ---
 ---
 
-@inproceedings{ono2026signcert,
-  abbr         = {ICML-W},
+@article{ono2026signcert,
+  abbr         = {TMLR},
   title        = {Mitigating Reward Hacking in {RLHF} via Advantage Sign Robustness},
   author       = {Ono, Shinnosuke and Ackermann, Johannes and Nishimori, Soichiro and Ishida, Takashi and Sugiyama, Masashi},
-  booktitle    = {2nd Workshop on Epistemic Intelligence in Machine Learning (EIML) at ICML},
+  journal      = {Transactions on Machine Learning Research},
   year         = {2026},
-  month        = apr,
+  month        = oct,
   doi          = {10.48550/arXiv.2604.02986},
   arxiv        = {2604.02986},
+  html         = {https://openreview.net/forum?id=yu3lbJi5sh},
   pdf          = {https://arxiv.org/pdf/2604.02986},
   preview      = {pub_signcert.png},
   selected     = {true},
   bibtex_show  = {true},
-  additional_info = {full version under review},
-  abstract     = {Reward models used in reinforcement learning from human feedback are vulnerable to reward hacking: as the policy maximizes a learned proxy reward, true quality plateaus or degrades. We assume that reward hacking is often caused by flipped advantage signs: instead of reducing the likelihood of a bad response, a flipped sign causes the update to increase it. By considering an adversarial perturbation in the reward model parameter space, we derive a certified sign-preservation radius, the smallest perturbation that can flip the advantage sign during policy optimization. We propose Sign-Certified Policy Optimization (SignCert-PO), which down-weights non-robust completions in the policy gradient update. Unlike prior approaches that require multiple reward models or access to the reward model training data, SignCert-PO is lightweight and operates purely at the policy optimization stage, using only the reward model parameters and on-policy completions. On TL;DR summarization and AlpacaFarm, SignCert-PO consistently achieves a better win rate than baselines and reduces reward hacking.}
+  abstract     = {Reward models (RMs) used in reinforcement learning from human feedback (RLHF) are vulnerable to reward hacking: as the policy maximizes a learned proxy reward, true quality plateaus or degrades. We make the assumption that reward hacking is often caused by flipped advantage signs: instead of reducing the likelihood of a bad response, a flipped sign causes the update to increase it. By considering an adversarial perturbation in the RM parameter space, we can derive a certified sign-preservation radius, which is the smallest perturbation that can flip the advantage sign during policy optimization. Based on this formulation, we propose Sign-Certified Policy Optimization (SignCert-PO), down-weighting non-robust completions in the policy gradient update. Unlike prior approaches that require multiple RMs or access to the RM training data, SignCert-PO is lightweight and operates purely at the policy optimization stage using only the RM parameters and on-policy completions. On TL;DR summarization and AlpacaFarm benchmarks, SignCert-PO achieves a better win rate than baselines in most cases and reduces reward hacking.}
 }
 
 @inproceedings{ono2025japanese,
